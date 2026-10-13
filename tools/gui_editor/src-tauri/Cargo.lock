@@ -45,7 +45,7 @@ dependencies = [
 name = "anno-gui-editor"
 version = "0.1.0"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.23.1",
  "png 0.17.16",
  "roxmltree",
  "serde",
