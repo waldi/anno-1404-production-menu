@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "gog": {
+    "edition": "Anno 1404 Gold Edition (GOG), Venice",
+    "gameExecutable": "Addon.exe",
+    "gameVersion": "2.01.5010",
+    "gameSha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+    "architecture": "x86",
+    "nativePanelAvailable": true,
+    "status": "experimental",
+    "requiredFiles": [
+      "d3d9.dll",
+      "AnnoRECompanion.exe",
+      "production_dialog_v5.dlg",
+      "production_button.dlg"
+    ]
+  },
+  "history-edition": {
+    "edition": "Anno 1404 History Edition (Ubisoft), Venice",
+    "gameExecutable": "Anno1404Addon.exe",
+    "gameVersion": "4.0.4253.0",
+    "gameSha256": "53cc20b9ec1ede15c8a708d52bc2d053c25f7c6c12b59e6becc73c46e79c5142",
+    "architecture": "x64",
+    "nativePanelAvailable": true,
+    "status": "experimental",
+    "requiredFiles": [
+      "d3d9.dll",
+      "AnnoRECompanion.exe",
+      "production_dialog_v5.dlg",
+      "production_button.dlg",
+      "ANNORE_HISTORY_NATIVE.flag"
+    ]
+  }
+}

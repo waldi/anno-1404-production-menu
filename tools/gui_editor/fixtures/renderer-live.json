@@ -1,0 +1,15 @@
+{
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "schema": 1,
+  "captured_utc": "2026-10-09T21:49:58.3762542Z",
+  "renderer": {
+    "Facade": 125906248,
+    "Backend": 111055344,
+    "BackendVtable": 17960640,
+    "Direct3D": 111064664,
+    "Direct3DVtable": 17959220,
+    "CreateFontFunction": 0,
+    "Mode": 3
+  },
+  "scope": "Bounded query/read access to selected renderer pointers; no renderer methods or handles used."
+}

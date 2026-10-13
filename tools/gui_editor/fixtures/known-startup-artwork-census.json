@@ -1,0 +1,648 @@
+{
+  "scope": "GUI background texture and base IconFileMap whitelist across default English startup archives. Actual bytes/hashes verified on disposable archive copies; loose files and later custom mounts excluded.",
+  "assets": [
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/icons/gui_icon_map_anno4_sorted.abm",
+      "bytes": 131084,
+      "sha256": "35b466d871398626c93b2fb80e86401b5f5331eae93586c4a8fc1bcd53174461"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/icons/gui_item_map_1_anno4.abm",
+      "bytes": 131084,
+      "sha256": "9789cf85d5533b84892c7a3efd3fbd9bd6395665d9bc87e8b0e4a09a3b65dc04"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/icons/gui_military.abm",
+      "bytes": 2060,
+      "sha256": "af90e0af4f93b2deb35c8135a63f02b28f07f19ab9a700d9104f6703cc170b78"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/icons/gui_icon_map_anno4_sorted_0.dds",
+      "bytes": 1048704,
+      "sha256": "8411b262d2722ecaa72db5dcd52cc4e542bde8661d8a19147d4163171886f28f"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/icons/gui_item_map_1_anno4_0.dds",
+      "bytes": 1048704,
+      "sha256": "ed424f1991a8d5b8f04a089d2a3c971787dd1c05e1de80453970058953a077d3"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/icons/gui_military_0.dds",
+      "bytes": 16512,
+      "sha256": "fb962db66741ff7df696f621dbbfd225da24e79387802ff814c44a4c49517fe2"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_01.abm",
+      "bytes": 131084,
+      "sha256": "afb87c2ff6395e8c483c367a3107129bcd49de91eae3f05b6d306bcd22d8a92d"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_02.abm",
+      "bytes": 131084,
+      "sha256": "36a29537e9bfd062067e45d86193e96f88494a3b2dba3ec213ab370fe2e30430"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03.abm",
+      "bytes": 131084,
+      "sha256": "a411418d72030f4a1fd997eea6c2f3204be18d80854b7e2fe1272694ed5e25cd"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_05.abm",
+      "bytes": 524300,
+      "sha256": "d6617c1a1f0760c02f7ccdeda39457f8434e90255864a576971bd9b7afd341dc"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_01.abm",
+      "bytes": 163852,
+      "sha256": "52ba3e3d827085fb3143bd1a1285e332cca5cebb76cfd59c5e8e991cfef41a59"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_01_0.dds",
+      "bytes": 4194432,
+      "sha256": "bdef0ca0998276bf41c965187ac92144af7dfa80a1fcc7994952efdf77efe869"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_02_0.dds",
+      "bytes": 1048704,
+      "sha256": "bc5421def8e19ba1185d82a79c777e919bc6aeace6b9c668471abdfe75e2b507"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03_0.dds",
+      "bytes": 1048704,
+      "sha256": "37c5861772df4e666a51cdfa6736352fe2cfbde5a6c8f8d3bfb8cea67e98f818"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_05_0.dds",
+      "bytes": 4194432,
+      "sha256": "9563a58a4997bebf5fd377ea67f1c513ab976353467f45698fc13aec339c90ec"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_bonus_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "a2b8abfc6018086db5a43be085e20ca30d41fdd2e40a036a74205d3f1d6b480f"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_campaign_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "29bcaf0189cb19977ea6fd30de23ef5ac845bb33b3cf1ffdde8d757c77832395"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_campaign_02_0.dds",
+      "bytes": 262272,
+      "sha256": "3f341c35c2d1004226d74659ffb3811157fa49b9bdd6d3b9faf603e8916f7d43"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_credits_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "3766aaed53e86dde08d92d1faa7dbdef21bbbbb535e3a75ad7bdc08280002509"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_credits_02_0.dds",
+      "bytes": 262272,
+      "sha256": "1ca2be9c23c64714d45fdd0f705151924ca7efeae531dde69bb21899cf76938e"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_load_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "690ccd706cf5bbc77accacfb99a1a67ea42e617fec2da381015afdd7871c2b07"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_medals_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "89440c522e64afa3f4ae15b5a8bf3b5da6848a4f55125993d7dd1e394d9c529d"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_option_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "c2d7163d149c2950aaa4a5d2f94c85530332d2b804313056e7d26faccb05fc9c"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_option_02_0.dds",
+      "bytes": 1310848,
+      "sha256": "4a2b811036336f9dc092201657cc9e85d82759b6623c46991b0183d3d7f67021"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_option_03_0.dds",
+      "bytes": 1310848,
+      "sha256": "805d85f9400d2cafb09be658d2709b13e86ff5aebc031720485cba2a41846c18"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_option_04_0.dds",
+      "bytes": 1310848,
+      "sha256": "f0d15420e9d9b5b69cd9d5e602ecb3dc1d8b040116a17e6b677d444ab75584ec"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_option_05_0.dds",
+      "bytes": 1310848,
+      "sha256": "d5e762864ad56a0ae3f2890a47232ec8f2125a44b6aabcfbf00feec93fffe982"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_preset_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "f06022dffe1b6d13bb0b72c8789db5abb0fb1ac8cf710a606dee80b0e5068948"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_profil_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "1921f620639fed7d3286c0eb4b280f1e735fb30ecf3eb0e55e2a8405f45ac8fa"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_profil_02_0.dds",
+      "bytes": 1048704,
+      "sha256": "77f72a8764db3ee82c42758b9c1372b836928d992d2e4623378ad6ae8c122841"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_score_01_0.dds",
+      "bytes": 1048704,
+      "sha256": "7b659af5d744af62a530c675105ce76634b1a4779b68118bacb6b70c53b1333b"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_titel_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "fb1588e78f4bf355de4dcc4eae9e53181b387a183b1c0aad24f537acb49dae87"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_wizard_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "9b4af364b75385dc88541a0b5aa1a2b2d8e62f50d7216f03ec535b475ee02825"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_wizard_02_0.dds",
+      "bytes": 1310848,
+      "sha256": "23990c53fb5a57e877025c50bfb32ae024b3495629a83bc2272f4ae6f88abd91"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_wizard_03_0.dds",
+      "bytes": 1310848,
+      "sha256": "938a48cb930123f3112b9b4733b021bf8497f3075bca5ab1d67422769e35a2e2"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_wizard_04_0.dds",
+      "bytes": 1310848,
+      "sha256": "05eb28b20799881904ada36a3f64d3409387f3ea2c8cb8f76ed58285d3e41c43"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_wizard_05_0.dds",
+      "bytes": 1310848,
+      "sha256": "088563ed0c190f4e75440b36d5afe7815dd9105e7a7d143ac29b648ef773d28a"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_bg_wizard_06_0.dds",
+      "bytes": 1310848,
+      "sha256": "d9b3a8c7c28883cc9fa18d3ca40acfadb8a67e948dea7c92d26481439a1a0660"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_01_0.dds",
+      "bytes": 5243008,
+      "sha256": "b64d4cc76c6661d0d645b13e223b079c951e44395e470e5d1e51f6f23c879eff"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_02_0.dds",
+      "bytes": 4194432,
+      "sha256": "311aed81bd17109aa1833f8b8bfc1c2d680f744a3ad5a50bc7a3a4559adee6ea"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_03_0.dds",
+      "bytes": 1048704,
+      "sha256": "759354331d1dfb98915aa3aabc5ec6090fdadb3e42f00b920750f6356188e5bd"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_04_0.dds",
+      "bytes": 1048704,
+      "sha256": "a36b06bfb616d7776a5db498d71d1d1383ef1f3e17bca7a28f74415f64d8b197"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_05_0.dds",
+      "bytes": 1048704,
+      "sha256": "936224723f59381183f6a0c0dfb751f6808860bed88a5d1b98bc9f3ac050171d"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_06_0.dds",
+      "bytes": 1048704,
+      "sha256": "f89bb173d6df2437f10095dae864f59fa3adf3695bac924f6bdf2dec69a5d2d4"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_07_0.dds",
+      "bytes": 4194432,
+      "sha256": "4bf6626d9666ca3f76fcaa3d9b74f3dbcb808c7e704100f2e27e9f0eed7fe768"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_08_0.dds",
+      "bytes": 1048704,
+      "sha256": "71779eb25a37205b0e3a1f1daf82ff8d1ae7eb797f81287ad2684fce4904469d"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_09_0.dds",
+      "bytes": 4194432,
+      "sha256": "ac19af51f8d2c7f41eb8c6c554ef8b1c91993293fc7b22b26e7a84c987a3285b"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_10_0.dds",
+      "bytes": 2097280,
+      "sha256": "a2840d8d346a06926e16c94b4d47d9bb3a45041bb3b72809afa9a4ee6bba5970"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_a_0.dds",
+      "bytes": 1048704,
+      "sha256": "cf6844b991b613851757c57b70d835958cdf9006cb412079c2c8787b018411d1"
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_b_0.dds",
+      "bytes": 1048704,
+      "sha256": "f4a7c0dea4cf33f9881b7d94e109ee8135ac5cc9b2d95cedc6a25a96e6cf0f86"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/textures/anno_logo_0.dds",
+      "bytes": 131200,
+      "sha256": "c08b14678bba19a25016afd3dea8040f8388d71a2f88361936e70981cdd3566e"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/icons/gui_item_map_1_anno4.abm",
+      "bytes": 131084,
+      "sha256": "c6ff13115245c89488e4dd07621ee5fff1618336b3b4508cce3f2b85f26f6352"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/icons/gui_item_map_1_anno4_0.dds",
+      "bytes": 1048704,
+      "sha256": "42d12271227f111130602b17115aedfd273955b0a2d050e4e7d826b0f42974bb"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_01.abm",
+      "bytes": 131084,
+      "sha256": "f13a31ba44e39c7ce985fe779ce7223be147d026a964530b1a5ad778a00506ec"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03.abm",
+      "bytes": 131084,
+      "sha256": "71bcafa33e3bc103790ce967db7eacb32a379c7f2cce1e65836a8174c19b866f"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_01.abm",
+      "bytes": 163852,
+      "sha256": "f7a53c7edcb2692548b08964c11ed0e95ef988fc7b567b76a1d238bfbeaf507e"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_01_0.dds",
+      "bytes": 4194432,
+      "sha256": "750d9dc626bc350cc0bf7b51e1db40dd0334c0f5ad11cd524e07c1d3e0cc7d63"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03_0.dds",
+      "bytes": 1048704,
+      "sha256": "37d6a4d1adad2d1d5eab4172a4d926b4ed3573db386113510f507492a6a86e14"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_01_0.dds",
+      "bytes": 5243008,
+      "sha256": "bca5cf5276dcd12cb067b3008429d0d0d787d9292a5452c0d97fc70cf3496430"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/main_gui_map_07_0.dds",
+      "bytes": 4194432,
+      "sha256": "0f8ddf8a8c26cd1dc4a4212d6575219813d674a20ab17a2d1a6461f27fd49cda"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/icons/gui_icon_map_anno4_sorted.abm",
+      "bytes": 131084,
+      "sha256": "35b466d871398626c93b2fb80e86401b5f5331eae93586c4a8fc1bcd53174461"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/icons/gui_item_map_1_anno4.abm",
+      "bytes": 131084,
+      "sha256": "70570c7888ac6cf53a93c7d5a62f02e57ceb418766984dd2ea0b09775460a52c"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/icons/gui_icon_map_anno4_sorted_0.dds",
+      "bytes": 1048704,
+      "sha256": "43d4fd61a745729afc81aea17e42ca6aca819dc87a607cd37144217036ef295b"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/icons/gui_item_map_1_anno4_0.dds",
+      "bytes": 1048704,
+      "sha256": "1390b606554ebdf3bd290ad8a0b4ea594a6dea2cf0878aeb58ad92ed697e4c27"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_01.abm",
+      "bytes": 131084,
+      "sha256": "f87f99ddb7ddca176f948e4574a7b4c69fcbd077a4d04158d946c7de049e89fc"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03.abm",
+      "bytes": 131084,
+      "sha256": "620eee632de9a5c458f009e460375444a4b8241ccce569c842dce2955af9d385"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_01_0.dds",
+      "bytes": 4194432,
+      "sha256": "3f9806fa99801fcb5e740c69e050e35ac2093c2566750a4d22941ee685f7f424"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03_0.dds",
+      "bytes": 1048704,
+      "sha256": "b9fe701e24923286e326db45316263ee862b406059386f10a111de91579af588"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/ingame_gui_map_05.abm",
+      "bytes": 524300,
+      "sha256": "f3557a17ad9deadcb612d742137b8754539013a15fa62cacfa3189003a513a4a"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/beta_0.dds",
+      "bytes": 262272,
+      "sha256": "630d2bea52684b31ee7ce6ea6690ff5912f07187c2f83a3fe0001f8c21c63071"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/ingame_gui_map_05_0.dds",
+      "bytes": 4194432,
+      "sha256": "85a61e244cc71054543fc46d1ca36f9feb423afc9884d1877ff76e6e07e8e126"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/ingame_gui_map_06_0.dds",
+      "bytes": 1048704,
+      "sha256": "7a8c6d3fbaf04b2b29cf141e1234185a174336c0fc6d04db44f364bea8a628bf"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/ingame_gui_map_09_0.dds",
+      "bytes": 1048704,
+      "sha256": "2b75277002d6d055a10a18d44260249496a5247f21acf14548965b6fba13aa94"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_lanbrowser_0.dds",
+      "bytes": 1310848,
+      "sha256": "c376b62a3330553cde0f3f4ad25ae38716629e7cf430f3f4dd49c095066b957d"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_lobby_0.dds",
+      "bytes": 1310848,
+      "sha256": "1498a799d479bffed1aa0838ad7100e35c2f7f2ab0f7ced04d8f6d65225ca0aa"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_netbrowser_0.dds",
+      "bytes": 1310848,
+      "sha256": "57772fa7ebd6533bf8c60dbed7d696f8c7076689017d84bd580170e8bff62cde"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_option_03_0.dds",
+      "bytes": 1310848,
+      "sha256": "8e0d9f033113ca65c88434069d946b3dde9ccd8c47674d2251682adb4d885565"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_preset_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "75c96a54e1fc7f9d1fe995d447a86a11e0655b307d50624dbad8e8ee0c91e47a"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_preset_02_0.dds",
+      "bytes": 1310848,
+      "sha256": "c62b8696065f43f7ab5332f18587d825d2b8df3b69b5aa03c8d8ba0f731e423a"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_preset_03_0.dds",
+      "bytes": 1310848,
+      "sha256": "6a523830a2af5a6ce4096e1472160a32a013b6aac4f26da4cdabd0b1de5dba0e"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_preset_04_0.dds",
+      "bytes": 1310848,
+      "sha256": "4b54245c94f28815fcc410c30316599eef2fc25f2d361322ecdc811b04812755"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_profil_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "1aa8b443f283a7db5311216fb215077abf2da0dcd1548a8d755cf964a4d81cd3"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_wizard_04_0.dds",
+      "bytes": 1310848,
+      "sha256": "76cdd9fc61930b3972aa57e41d2ff29986dc3edd078dbbc79d87d48c6e638332"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_wizard_05_0.dds",
+      "bytes": 1310848,
+      "sha256": "a84ec70fbc0f0cc5d722a16efcb85e678493064642e8b9d07b8f85caadb6719a"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_02_0.dds",
+      "bytes": 4194432,
+      "sha256": "1c021eb59dec00523108c153d498bb919d83145e123c1303db93a36d99dbf272"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_03_0.dds",
+      "bytes": 4194432,
+      "sha256": "15c6878db88fdbcbb5f4fcdc8dccfc6265b18bcdd43e4aa6ef0ab6ef6257b3f0"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_07_0.dds",
+      "bytes": 4194432,
+      "sha256": "55f23ad91f797996db2442165dc04a1e26209dea88892d16f93e944d0fe09ce9"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_08_0.dds",
+      "bytes": 1048704,
+      "sha256": "bdca389b2f4ca354e8460437e7e4073c3d740cba45965cfbd87642ff9c6da3d9"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_11_0.dds",
+      "bytes": 4194432,
+      "sha256": "a9fd2afe710f2881fe57fb6b306f48842758694ff1d889e9a30db2e75ee59ec4"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_12_0.dds",
+      "bytes": 4194432,
+      "sha256": "b9fee933fcd5e9b8e532d00f934de8ff64bcbdf233efc06fe0d8aeffa11fd3e3"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_14_0.dds",
+      "bytes": 524416,
+      "sha256": "9dfc9a663860cdc3c324172086481407528b18f094c5f80f67131160cd8d8465"
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "addondata/loca/eng/textures/anno_logo_0.dds",
+      "bytes": 65664,
+      "sha256": "da1abb00bb0a6b8b10db8838f1dada5d8e6397994dd2cdaec9466c5aed2ae4be"
+    }
+  ],
+  "reports": [
+    {
+      "archive": "maindata/data0.rda",
+      "reader_summary": "Done. 261 files. 1 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "maindata/data1.rda",
+      "reader_summary": "Done. 2744 files. 4 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "reader_summary": "Done. 12651 files. 14 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "maindata/data3.rda",
+      "reader_summary": "Done. 1613 files. 10 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "maindata/data4.rda",
+      "reader_summary": "Done. 1195 files. 2 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "maindata/data5.rda",
+      "reader_summary": "Done. 139 files. 5 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "reader_summary": "Done. 13228 files. 6 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "reader_summary": "Done. 4098 files. 52 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "reader_summary": "Done. 1054 files. 59 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "addon/data0.rda",
+      "reader_summary": "Done. 288 files. 1 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "addon/data1.rda",
+      "reader_summary": "Done. 4483 files. 5 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "addon/data2.rda",
+      "reader_summary": "Done. 1279 files. 14 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "addon/data3.rda",
+      "reader_summary": "Done. 810 files. 11 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "addon/data4.rda",
+      "reader_summary": "Done. 38 files. 2 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "addon/data5.rda",
+      "reader_summary": "Done. 5 files. 5 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "reader_summary": "Done. 1163 files. 4 blocks read, 0 encrypted blocks skipped (0 files)."
+    },
+    {
+      "archive": "addon/patch0.rda",
+      "reader_summary": "Done. 102 files. 26 blocks read, 0 encrypted blocks skipped (0 files)."
+    }
+  ],
+  "archives": [
+    "maindata/Data0.rda",
+    "maindata/Data1.rda",
+    "maindata/Data2.rda",
+    "maindata/Data3.rda",
+    "maindata/Data4.rda",
+    "maindata/Data5.rda",
+    "maindata/eng0.rda",
+    "maindata/patch0.rda",
+    "maindata/patch1.rda",
+    "addon/Data0.rda",
+    "addon/Data1.rda",
+    "addon/Data2.rda",
+    "addon/Data3.rda",
+    "addon/Data4.rda",
+    "addon/Data5.rda",
+    "addon/eng0.rda",
+    "addon/patch0.rda"
+  ],
+  "schema": 1,
+  "checked_utc": "2026-10-09T19:35:27.289405Z"
+}

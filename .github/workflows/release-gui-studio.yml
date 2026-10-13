@@ -1,0 +1,65 @@
+name: Release gui-studio
+on:
+  push:
+    tags: ['gui-studio-v*']
+permissions:
+  contents: read
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Validate tag and license
+        shell: pwsh
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          $version = (Get-Content tools/release-versions.json -Raw | ConvertFrom-Json).'gui-studio'
+          if ($env:RELEASE_TAG -cne "gui-studio-v$version") { throw 'Version/tag mismatch' }
+          if (-not (Test-Path LICENSE)) { throw 'License required' }
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+          cache-dependency-path: tools/gui_editor/package-lock.json
+      - name: Install pinned Rust
+        shell: pwsh
+        run: rustup toolchain install 1.99.0 --profile minimal
+      - name: Test and package
+        shell: pwsh
+        run: ./tools/ci.ps1 -Product research; ./tools/ci.ps1 -Product gui-studio
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: release-assets
+          path: |
+            dist/gui-studio/Anno-GUI-Studio-*.zip
+            dist/gui-studio/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
+  publish:
+    needs: build
+    runs-on: windows-2022
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: release-assets
+          path: dist/release-assets
+      - name: Publish tested assets as a prerelease
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+          RELEASE_REPOSITORY: ${{ github.repository }}
+        run: ./tools/publish-release.ps1 -Product gui-studio -Tag $env:RELEASE_TAG -Repository $env:RELEASE_REPOSITORY -AssetDirectory dist/release-assets

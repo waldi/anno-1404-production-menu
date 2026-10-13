@@ -1,0 +1,71 @@
+{
+  "variants": [
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03.abm",
+      "bytes": 131084,
+      "sha256": "a411418d72030f4a1fd997eea6c2f3204be18d80854b7e2fe1272694ed5e25cd",
+      "dimensions": null,
+      "format": null
+    },
+    {
+      "archive": "maindata/data2.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03_0.dds",
+      "bytes": 1048704,
+      "sha256": "37c5861772df4e666a51cdfa6736352fe2cfbde5a6c8f8d3bfb8cea67e98f818",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "DXT5"
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03.abm",
+      "bytes": 131084,
+      "sha256": "71bcafa33e3bc103790ce967db7eacb32a379c7f2cce1e65836a8174c19b866f",
+      "dimensions": null,
+      "format": null
+    },
+    {
+      "archive": "maindata/patch0.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03_0.dds",
+      "bytes": 1048704,
+      "sha256": "37d6a4d1adad2d1d5eab4172a4d926b4ed3573db386113510f507492a6a86e14",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "DXT5"
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03.abm",
+      "bytes": 131084,
+      "sha256": "620eee632de9a5c458f009e460375444a4b8241ccce569c842dce2955af9d385",
+      "dimensions": null,
+      "format": null
+    },
+    {
+      "archive": "maindata/patch1.rda",
+      "logical": "data/graphics/ui/textures/ingame_gui_map_03_0.dds",
+      "bytes": 1048704,
+      "sha256": "b9fe701e24923286e326db45316263ee862b406059386f10a111de91579af588",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "DXT5"
+    }
+  ],
+  "checked_utc": "2026-10-09T19:16:12.2959159Z",
+  "schema": 1,
+  "scope": "Selected archive inventory only; matching hashes prove bytes in those archives, not effective archive precedence or GPU content",
+  "archives": [
+    "maindata/Data2.rda",
+    "maindata/patch0.rda",
+    "maindata/patch1.rda",
+    "maindata/patch2.rda",
+    "addon/patch0.rda"
+  ]
+}

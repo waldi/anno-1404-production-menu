@@ -1,0 +1,1418 @@
+{
+  "edition_build_packaging": {
+    "date": "2026-10-13",
+    "confidence": "x86/x64 build and deterministic packaging tests confirmed; native panels remain experimental; History live interaction evidence recorded in edition-compatibility.md",
+    "entrypoint": "tools/build-release.ps1",
+    "output_folders": [
+      "dist/production-calculator/gog",
+      "dist/production-calculator/history-edition"
+    ],
+    "gog": "Experimental native panel: x86 d3d9.dll and companion, production_dialog_v5.dlg and production_button.dlg; exact binary SHA256 guard before version-specific reads/hooks",
+    "history": "x64 native panel plus companion, dialogs and activation flag; edition profile enables experimental packaging following recorded live interaction checks",
+    "release_gate": "RequireHistorySupport/CreateArchives reject disabled History native support. Packaging validates profiles, PE architecture, payload allowlists and SHA256 manifests.",
+    "evidence": [
+      "tools/build-release.ps1 -Test completed; existing deterministic presentation and transport tests passed as x86 and x64",
+      "Fingerprint identity/rejection tests passed as x86 and x64",
+      "Installed GOG and History executable hashes recognized correctly by compiled identity test",
+      "Staged GOG companion rejected live History PID39848 with exit4 before GUI transport/offset reads",
+      "GOG PE machine0x14C verified and all staged manifest payload hashes matched",
+      "RequireHistorySupport returned an explicit unsupported-release error"
+    ],
+    "limits": [
+      "Broader native gameplay and lifecycle regression remains open",
+      "CI implementation is present; hosted GitHub execution not yet verified"
+    ]
+  },
+  "history_island_population_live": {
+    "date": "2026-10-12",
+    "confidence": "confirmed static reflection and live self-verification across all11 tier rows and8 players; UI correspondence and atomicity unverified",
+    "binary": "Anno1404Addon.exe 4.0.4253.0",
+    "world_pointer_global_rva": "0x2097040",
+    "world_vtable_rva": "0x19432D0",
+    "world_island_map_offset": "0xECC0",
+    "world_global_population_offset": "0xEA04",
+    "island_vtable_rva": "0x1901D68",
+    "island_id_offset": "0x67F8",
+    "island_population_offset": "0x5470",
+    "population_tier_stride": "0x20",
+    "population_scalar_bytes": 4,
+    "island_city_names_offset": "0x6148",
+    "island_city_name_stride": "0x30",
+    "wide_string": {
+      "length_offset": "0x10",
+      "capacity_offset": "0x18",
+      "inline_capacity": 7,
+      "heap_pointer_offset": "0x00"
+    },
+    "tree": {
+      "sentinel_pointer_offset": "0x00",
+      "count_offset": "0x08",
+      "root_in_sentinel": "0x08",
+      "left": "0x00",
+      "right": "0x10",
+      "nil_byte": "0x19",
+      "key_int32": "0x20",
+      "value_pointer": "0x28"
+    },
+    "evidence": [
+      "Ghidra reflection140517A20 /1401C8EA0 and wide-string serializer140874A50",
+      "Ghidra comments recorded before this consumer record and program saved",
+      "docs/history-world-probe.json:19 island entries, all reflected IDs matched tree keys, all88 tier/player sums matched global values",
+      "Player0 names Pfaffenhausen(id4),Munich(id5),Aschgabad(id16); other player names decoded too",
+      "Candidate singletonRVA207BAB0 did not have this island tree; not substituted for verified world singleton"
+    ],
+    "limits": [
+      "No UI comparison",
+      "Read-only snapshot remains non-atomic",
+      "Production-to-island/player assignment and warehouse contents still need verification"
+    ]
+  },
+  "history_native_gui_port_leads": {
+    "date": "2026-10-12",
+    "confidence": "native hook/proxy, companion, registry, GUI transport, XML widget creation and text calls live confirmed; full display and lifecycle UNVERIFIED",
+    "dispatcher_rva": "0x631B60",
+    "dispatcher_abi": "selfRCX, event MSVC stringRDX, argsR8, default byteR9; no dummyEDX parameter",
+    "dispatcher_prologue_18_hex": "488bc4448848204c89401855565741544155",
+    "widget": {
+      "type_int32": "0x118",
+      "path_char65": "0x11C",
+      "access_char65": "0x15D",
+      "template_index": "0x1A0"
+    },
+    "registry_inline_singleton_rva": "0x207B310",
+    "registry_templates_begin_end": [
+      "0x168",
+      "0x170"
+    ],
+    "gui_manager_global_rva": "0x2097088",
+    "gui_manager_xml_context_offset": "0x5A8",
+    "progressbar_value_max": [
+      "0x7A8",
+      "0x7AC"
+    ],
+    "evidence": [
+      "Ghidra OnRender wrapper1406329B0 calls dispatcher140631B60",
+      "Ghidra read_memory confirms exact18 dispatcher prologue bytes",
+      "Ghidra GUI definition reader14062B770, registry getter1400654F0, context use14064EA30 and progressbar reader140678E00",
+      "Ghidra comments persisted before this record",
+      "Approved Ubisoft live test PID21576: d3d9 proxy loaded and launched companion, registry7825 entries traversed, GUI thread21952, UI acknowledgments result7 meaning missing custom dialog/button/updates",
+      "Approved Ubisoft live test PID21576: bridge launched companion; 7825 registry entries traversed; GUI acknowledgments result7 indicated missing custom dialog/button",
+      "PID43004 native cache inspection isolated leading-comment nesting in game XML file parser",
+      "PID39424 comment-free native tree construction created725 custom widgets,8550 registered tree entries, dialog/button text requests succeeded",
+      "UI batch failed only on missing RESOURCE_SCROLL/CARD1; shared asset first card had CARD2 path and ANNORE_SCROLL_CARD1 access; corrected source asset awaiting installed retest"
+    ],
+    "limits": [
+      "Full display, layout, icons and interactive filters/lifecycle not yet validated",
+      "Final corrected native asset and empty-document constructor await installed live test"
+    ]
+  },
+  "history_production_live_probe": {
+    "date": "2026-10-12",
+    "confidence": "confirmed static reflection and live reciprocal property-owner links; UI meanings and active-world membership not independently verified",
+    "binary": "Anno1404Addon.exe 4.0.4253.0",
+    "pid_observed": 39848,
+    "module_base_observed": "0x7FF68B610000",
+    "production_reflection_rva": "0x212520",
+    "production_fields": {
+      "owner_pointer": "0x08",
+      "production_time_int32": "0x10",
+      "goods_int32": "0x14",
+      "productivity_int32": "0x18",
+      "stopped_byte": "0x1C"
+    },
+    "farm": {
+      "obfuscated_rtti": "BZS",
+      "vtable_rva": "0x1902440",
+      "owner_backreference_observed": "0x98"
+    },
+    "factory": {
+      "obfuscated_rtti": "BZR",
+      "vtable_rva": "0x1902358",
+      "owner_backreference_observed": "0xA0"
+    },
+    "evidence": [
+      "Ghidra140212520 reflection statically identifies changed production scalar offsets and widths",
+      "Ghidra1401703E0 constructor identifies farm vtable and1401F17B0 reflects farm fields",
+      "Ghidra1401EFE40 identifies factory vtable and1401EFF40 reflects factory fields",
+      "Read-only scan1:54 farm and16 factory candidates, all readable owners,12 stopped flags",
+      "Read-only scan2:55 farm and16 factory candidates, all71 reciprocal owner links, all stopped0; productivity includes0,50,77,87,90,92,93,100",
+      "Observed owner vtable module RVA19011A0 for all scan2 candidates",
+      "Ghidra comments at140212520,141902440,141903900 recorded before this consumer record; save_program succeeded",
+      "tools/research/history_probe.py uses explicit 64-bit Windows API signatures and READ|QUERY process permissions; SHA256 guard restricts version-specific reads; final capture docs/history-live-probe.json"
+    ],
+    "limitations": [
+      "Non-atomic exploratory scans can include stale pooled objects",
+      "Reciprocal links do not establish current island/player membership",
+      "No UI value comparison",
+      "No population/warehouse/recipe paths or actual delivery validation",
+      "Changed counts/flags between scans have no attributed cause",
+      "Probe is not a supported production calculator backend"
+    ]
+  },
+  "edition_compatibility": {
+    "date": "2026-10-12",
+    "confidence": "confirmed binary architecture and current-code incompatibility; History layouts and live behavior unverified",
+    "gog": {
+      "edition": "Gold Edition / Venice, not History Edition",
+      "binary": "Addon.exe",
+      "file_version": "2.01.5010",
+      "sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+      "pointer_bytes": 4,
+      "preferred_image_base": "0x400000",
+      "aslr": false
+    },
+    "ubisoft_history": {
+      "binary": "Anno1404Addon.exe",
+      "file_version": "4.0.4253.0",
+      "sha256": "53cc20b9ec1ede15c8a708d52bc2d053c25f7c6c12b59e6becc73c46e79c5142",
+      "pointer_bytes": 8,
+      "preferred_image_base": "0x140000000",
+      "aslr": true,
+      "dll_characteristics": "0x8160",
+      "supported_by_current_code": false,
+      "live_validation": "Partial read-only validation performed after History was started: PID39848, relocated module base0x7FF68B610000, production field reads and reciprocal building-property links. See history_production_live_probe. Full calculator compatibility remains unverified."
+    },
+    "evidence": [
+      "Local PE headers and Windows file versions read from both installed addon executables",
+      "Ghidra list_open_programs and get_metadata independently confirm 32-bit vs 64-bit architecture and preferred bases",
+      "Ghidra plate comments set at History140000000 and141903900 before initial record; initial save blocked by analysis, later save_program succeeded during live checks",
+      "Ghidra read_memory1419038E0 confirms production reflection strings; search_strings and get_xrefs_to141903900 returned no results during analysis",
+      "tools/research/annomem.py defaults to Addon.exe and reads pointers with u32; tools/research/annoprod.py calls Mem() and uses GOG addresses/layouts",
+      "tools/production-menu/AnnoRECompanion.cpp uses fixed GOG globals/vtables, u32 pointer chains and 0x7FFF0000 scan ceiling",
+      "tools/production-menu/build.ps1 compiles companion and proxy DLL with vcvars32; annobridge.cpp checks Addon.exe/base and uses GOG-specific x86 calls/hooks"
+    ],
+    "release_strategy": "One distribution with a 64-bit external companion and separate verified Gold32/History64 reader profiles; native in-game UI additionally requires distinct x86/x64 bridge DLL artifacts. Fingerprint binaries before reading version-specific layouts, resolve globals/functions by module base plus RVA, and reject unsupported builds.",
+    "unverified": [
+      "History remaining object/warehouse/recipe layouts and current-island paths",
+      "History population UI correspondence, warehouse contents, production settlement assignment and current-island live correlation",
+      "History recipes, demand constants and unlock parity",
+      "History remaining native GUI functions, native ABI calls, live hook signatures and proxy-loading behavior"
+    ]
+  },
+  "gui_island_info_retained_pass_model": {
+    "date": "2026-10-11",
+    "confidence": "static controller order implemented; synthetic first/steady/clamp tests passed; captured full-tree integration unverified in current sandbox",
+    "evidence": [
+      "Ghidra plate0048C2D0 places positioning at the UPDATE_INFOBAR_ISLAND_INFO action before source FITSIZETOCHILDREN",
+      "Ghidra plate00D6FCC0 confirms pre/children/post/mode relayout ordering",
+      "tools/gui_editor/src-tauri/src/layout.rs explicit_update_passes_preserve_geometry_and_run_controller_before_fit test",
+      "cargo check --release --lib and --bin gui-audit passed; 14 layout/text-layout tests passed",
+      "Rust historical fixture integration test exists but target process access returned Windows error5 from the sandbox"
+    ],
+    "inputs": "Optional scenario supplies an explicit1..32 pass count, matching full viewport and external wares right edge. Each pass begins from preceding geometry. Pass trace compares every raw widget extent; unchanged geometry is reported, not treated as proof of native timing.",
+    "scope": "Only borderless fixed-edge INFOBAR_ISLAND_INFO controller positioning is modeled. The external wares edge is supplied independently. Historical capture's external right edge497 is known to lie left of the settled candidate604; this confirms no settled clamp in that observation. Fertility/resource slot updates, transitions, animation, native update count and repeated capture parity remain unresolved.",
+    "user_interface": "The Tauri properties panel exposes pass count and controller inputs, imports/exports them as scenario JSON, and shows per-pass root rectangles and stabilization state. Source XML and originals remain untouched. TypeScript noEmit passed; packaged rebuild was blocked by automatic execution quota, not source diagnostics."
+  },
+  "gui_fit_action_case_comparison": {
+    "date": "2026-10-10",
+    "confidence": "confirmed static comparator and historical original-source raw-list witness",
+    "evidence": [
+      "Ghidra005FEB30 delegates keyword and anchor comparison to00B08440",
+      "00B08440 folds ASCII A-Z and CP1252 C4/D6/DC before byte/length comparison; plates corrected before implementation",
+      "Original infobar_island_info.dlg uses Horizontal; independent fixture predicts FERTILITIES_LIST raw [2,0,86,41] exactly"
+    ],
+    "correction": "Earlier005FEB30 documentation called keyword comparisons exact. They are case-insensitive. Preview now accepts mixed-case horizontal/vertical/vertical2 and right without changing source XML.",
+    "scope": "Fixes fertility-list raw height; ancestor/controller absolute positioning remains unverified. Does not generalize unknown action arguments or execute arbitrary verbs."
+  },
+  "gui_island_info_runtime_position": {
+    "date": "2026-10-10",
+    "confidence": "confirmed static controller; historical unclamped arithmetic witness; lifecycle and clamp live validation open",
+    "evidence": [
+      "Ghidra plate 0048C2D0 recorded before consumer changes",
+      "Original infobar_island_info.dlg OnRender orders UPDATE_INFOBAR_ISLAND_INFO before FITSIZETOCHILDREN HORIZONTAL",
+      "Historical text-island-first capture: frame width232, parent width1440, relative X604; wares absolute right497 does not clamp"
+    ],
+    "rule": "0048C2D0 resolves listener+5C frame and its parent, measures unscaled client width (fitting if nonpositive), centers against parent client midpoint, then shifts right by max(0, wares absolute right - centered absolute candidate). Sets extent using old client top/bottom and measured client width. Signed integer halves truncate toward zero.",
+    "lifecycle": "Position runs before source root horizontal fit and can therefore use previous-frame width. Source width489 and historical settled width232 are different. A post-fit recenter without explicit lifecycle modeling would approximate the first update.",
+    "content": "0048B380 and0048B8B0 update existing numbered fertility/resource slots, icon GUIDs, visibility and resource count labels. These source slots are not newly generated widgets. Independent resource selection, icon mapping and formatted count inputs still require separate validation.",
+    "limits": [
+      "No live clamp-branch witness",
+      "No first-frame/show-transition witness",
+      "Bordered root behavior unverified",
+      "centralinterfacetop sequence provides vertical translation only",
+      "Whole island-panel geometry and pixels remain unverified"
+    ]
+  },
+  "gui_text_owner_resize": {
+    "date": "2026-10-10",
+    "confidence": "confirmed static ordering and narrow historical relative-label witness; constrained history and complete dialog parity unverified",
+    "evidence": [
+      "Ghidra plates D5D770, DC69B0 and DC4F20 recorded before consumers",
+      "D76180 callers 4A5320/4A55E0 refresh dirty text before D77820 renders and relayouts the tree",
+      "tools/gui_editor/fixtures/text-owner-first-island-live.json",
+      "text-inline-live and text-inline-heldout fixtures: 34 and 33 supported processed bounds match independently"
+    ],
+    "processed_bounds": "DC69B0 accumulates max appended-line far edges into processed text +20/+24; DC4F20 returns those fields via D43E80. DB0670 appends prior CR lines, including empty lines; final drain skips zero-width line via DC2C50. Bounds cannot generally be reconstructed from glyph parts alone.",
+    "resize": "D8B680 clamps measured client width/height to at least one, D5D770 adds active background client borders and preserves both near edges or both far edges. Anchor is TextData flags bit1, corresponding to bottom vertical alignment. Dirty-text refresh precedes widget pre/child/post layout, box arrangement and parent fit.",
+    "implementation": "Source GUID/font/color plus explicit scenario determine LABEL intrinsic sizes before layout. Constrained resize requires text_refresh widget inputs with pre-refresh client_width and fit_wrapped_width; wrap keeps pre-clamp width when fit=false, or uses measured width when fit=true. Caption measurement retains supplied width after geometry changes. Initial owner uses authored near position/height with supplied client width. Geometry, captions, icons, progress and comparison share language/scenario inputs. Missing history or resources are diagnosed; originals are untouched.",
+    "witness": "Original ISLAND_NAME authored width96, original GUID198142 and Headlines font with explicit independent First Island string produce client90x22 and raw relative [11,9,101,31], exactly matching historical capture. Captured coordinates are outputs only.",
+    "constrained_witness": "Original load_text_frame TEXT source width296 and background borders8+8 independently give client width280. Explicit keep-wrapped-width scenario produces processed259x34 and outer relative[36,30,332,80], matching historical cached parts/bounds and offscreen raw rectangle. This is not an absolute/pixel or refresh-history provenance witness. Fit=true produces client259x34 while preserving cached parts; that branch is static/synthetic only.",
+    "width_clamp": "Confirmed static: LABEL definition initializer D7BB90 sets PARENTWINDOWMAXWIDTH to INT_MAX, XML DC2390 reads optional override, DC1AA0 -> D8B1F0 copies it to TextData+8. Capture now records ParentMaxWidth and processed +20/+24 bounds read-only; script parse/C# compile passed, fresh live data pending.",
+    "remaining": "Automatic refresh history/provenance, non-LABEL resize lifecycles, arbitrary runtime substitutions, generated content, runtime ancestor positioning and full dialog pixel fidelity remain unverified. Synthetic border/anchor/box-fit tests do not substitute for live whole-dialog evidence."
+  },
+  "gui_current_city_name_callback": {
+    "date": "2026-10-10",
+    "confidence": "confirmed static dispatch/resolution; fresh corrected scenario capture pending",
+    "evidence": [
+      "RTTI CTextTagProcessor vtable 010DD148 -> callback005154A0; full callback decompile fails, branch inspected from disassembly",
+      "Ghidra plates/comments recorded at005153D0,005183D0,0075C7B0; partial CGameEngine fields90/E4/E8/EC recorded and read back before capture changes",
+      "capture-text-scenario.ps1 PowerShell AST and embedded C# compile passed"
+    ],
+    "registration": "005153D0 registers 378 tags (0x17A) from pointer table0127D4E8, index as ID. CURRENT_CITY_NAME pointer0127D628 is ID0x50. Jump table00528308 entry00528448 selects005183D0.",
+    "resolution": "005150F0 reads game-engine+E8 last nonzero island;005509B0 looks it up using engine+90 GOP map;0075C7B0 starts with local-player engine+EC settlement UTF16 name. Empty local name falls back to named slot0..7 with greatest positive island+2CC0 score, then named slot0..29 with greatest positive0075C2E0 vector-entry count, then localization GUID140038. Strict greater comparison retains earlier slot on ties. Score meaning at2CC0 remains unverified.",
+    "insertion": "00DAF5C0 inserts resolved UTF16 at the tokenizer scan position, so subsequent scanning includes it. Prefix/suffix boundaries and supplied markup require exact streaming behavior, not independent word concatenation.",
+    "capture": "Schema3 uses g_pGameEngine pointer012D92E8, sticky island+E8, local player+EC, GOP+90; collects30 settlement strings,8 primary scores and30 secondary counts from24 begin/end pointer differences per player. Ghidra partial CIsland fields and vector-range contracts recorded. Cursor mirrors and direct local Name are diagnostic only. Pointer/island/player/GOP and string headers are reread for changes. No GUI cached text, writes or game calls. Snapshot remains non-atomic.",
+    "implementation": "city_name.rs implements strict-greater fallback selection, including ties and invalid local player; fallbackGUID140038 resolves uniquely from original language sources with provenance. Schema3 import and explicit current_city_name scenario accepted by Tauri/CLI. text_layout.rs inserts the scenario at the scan cursor, retaining plain prefixes and rescanning supplied markup, suffixes and semicolon tags with bounds. OriginalGUID198142 plus explicit independent First Island string reproduces captured parts, sizes, offsets, line bounds and colors. These are local parts, not owner geometry or live fallback validation.",
+    "limits": "Elevated capture found no Addon process; schema3 has no fresh live witness. Older cursor-mirror scenario is not a general callback resolver. Historical opaque-pixel regression remains valid for its supplied string. Unbounded INFOBAR LABEL resizing is now supported with a historical relative-rectangle witness; see gui_text_owner_resize. Explicit pre-refresh width/mode now support constrained LABEL scenarios. Automatic history and runtime ancestor positioning remain unresolved. Other callback tags and complete source-to-screenshot parity remain open."
+  },
+  "gui_button_source_captions": {
+    "date": "2026-10-10",
+    "confidence": "confirmed static state/color rules and standalone checks; live button caption metadata/pixels unverified",
+    "evidence": [
+      "Ghidra D3D650 plate recorded before implementation; D3D8D0 constructor, D40140 definition loader, D3E2C0 visual state, D3FBA0 render, DC1E90/DC1A90 color parser inspected",
+      "captions.rs original exit_game_menu.dlg regression checks source colors, explicit enable and retained-state rejection"
+    ],
+    "rules": "BUTTON_TEXT_ENABLE gates captions. TEXTCOLOR_ENABLE clears or sets explicit color independently of authored TEXTSETTING color. Enabled normal uses TEXTSETTING/TEXTCOLOR; hover uses MOUSEOVERTEXTCOLOR; checked or pressed (even outside hover) uses PRESSEDBUTTONTEXTCOLOR; disabled chain or force-disabled uses DISABLEDTEXTCOLOR. Colors OR FF000000. Forced checked-hover returns without refreshing color and requires history. Text flag2000 follows enabled ancestry, not force-disabled.",
+    "defaults": "D3D650 initializes disabled text color FFB0B0B0 but leaves hover/pressed color fields uninitialized. Prototype requires the selected color from resolved source and rejects missing enable defaults or forced retained-color history.",
+    "limits": "Standalone source GUID/native glyph caption preview now covers LABEL and explicitly enabled BUTTON using existing scenario inputs. Owner resize, inline icon pixels, runtime substitutions, overlay composition and full button caption screenshot parity remain open. No game calls or original asset edits."
+  },
+  "_meta": {
+    "purpose": "Machine-readable record of recovered pointer paths and offsets, for runtime tools that must not depend on Ghidra being open.",
+    "authority": "The GHIDRA PROJECT is authoritative for struct layout and function behaviour. Offsets are mirrored here for consumers; if the two ever disagree, Ghidra wins and this file is stale.",
+    "ghidra_query": "mcp__ghidra__get_struct_layout(struct_name='CIsland') / decompile_function / get_comment(type='plate')",
+    "field_names": "Ghidra applies Hungarian prefixes automatically, so names here differ by prefix (population -> aPopulation).",
+    "confidence_values": "confirmed = verified against live memory or asserted by the game's own code; unverified = plausible inference, treat as a lead."
+  },
+  "target": {
+    "game": "Anno 1404 Gold Edition (GOG)",
+    "binary": "Addon.exe",
+    "note": "Venice/addon binary. Anno4.exe is the base-game binary and does NOT share these addresses.",
+    "image_base": "0x400000",
+    "aslr": false,
+    "aslr_note": "DllCharacteristics=0x0000, no DYNAMICBASE. Static addresses are valid verbatim at runtime; Ghidra's default load base matches 1:1.",
+    "rtti": "present, 1568 type descriptors with real class names",
+    "stl": "STLport (see STLPORT_ section) - container layouts are STLport's, not MSVC's"
+  },
+  "globals": [
+    {
+      "name": "CGOPManager singleton",
+      "addresses": [
+        "0x012d5a90",
+        "0x012d92d8"
+      ],
+      "type": "CGOPManager*",
+      "confidence": "confirmed",
+      "verified_by": [
+        "destructor at 0x00e2ccf0 sets CGOPManager::vftable, clears DAT_012d5a90, chains to CPlayerAllianceInterface::vftable",
+        "live read: both globals held 0x155f9c68 simultaneously"
+      ],
+      "note": "Two separate globals cache the same pointer. The community calculator uses 0x12d5a90; decompiled game code uses 0x12d92d8."
+    },
+    {
+      "name": "CGameEngine singleton (was: player list holder)",
+      "address": "0x012d92e8",
+      "confidence": "partly verified",
+      "note": "RTTI of its vtable 0x010e1924 = CGameEngine. Indexed by FUN_005807f0(playerIdx, this); +0x168/+0x16c look like a vector of player pointers. Known fields from UpdateIslandUnderCursor 0x005808f0: +0x90 CGOPManager* (live == g_pGOPManager), +0xE4 current island id under cursor (0 = none), +0xE8 last non-zero island (sticky), +0xEC local player index, +0x2A4 -> cursor pick (+0x40/+0x44/+0x48 world pos floats), +0x5C -> viewport (+0xB90/+0xB94 w/h).",
+      "type": "CGameEngine*"
+    }
+  ],
+  "global_population": {
+    "path": "[0x012d5a90] + 0x7c78",
+    "layout": "int32[12][8]",
+    "row_stride": "0x20",
+    "col_stride": "4",
+    "dimensions": "row = tier, column = player index (0-7)",
+    "confidence": "confirmed",
+    "verified_by": [
+      "quest checker FUN_007cf330 indexes it as base + 0x7cd8 + player*4 guarded by (player < 8)",
+      "row 8 (+0x7d78) matches the community calculator's Peasants offset exactly",
+      "live values tracked a running game"
+    ],
+    "rows": {
+      "0": "total population (all tiers)",
+      "3": "Beggars (calculator's 0x7cd8)",
+      "5": "Nomads (0x7d18)",
+      "6": "Envoys (0x7d38)",
+      "8": "Peasants (0x7d78)",
+      "9": "Citizens (0x7d98)",
+      "10": "Patricians (0x7db8)",
+      "11": "Noblemen (0x7dd8)",
+      "1_2_4_7": "unidentified; FUN_007cf330 sums row3+row2 and row6+row4, so 2 and 4 are companions of Beggars and Envoys"
+    },
+    "correction": "The 0x20 spacing between the calculator's tier offsets is NOT a 32-byte per-tier record. It is one row of 8 player slots. The calculator reads column 0 only; adding player*4 yields every opponent's population from the offsets it already has."
+  },
+  "CIsland": {
+    "vftable": "0x010ffd00",
+    "vftable_derivation": "type descriptor '.?AVCIsland@@' name at 0x012a5a50 -> TypeDescriptor 0x012a5a48 -> COL 0x01145280 -> vtable[-1] at 0x010ffcfc",
+    "constructor": "0x00756940 (renamed CIsland_Construct)",
+    "approx_size": "0x5070",
+    "virtual_count": 2,
+    "enumeration": {
+      "method": "PREFERRED: walk the std::map at CGOPManager + 0x7F5C (see island_registry). Instant, yields ids, no false positives.",
+      "fallback": "scan committed readable memory for 4-byte-aligned dwords == 0x010ffd00 above 0x01400000, THEN validate [base+8]==base+8 && [base+0xC]==base+8",
+      "observed": "19 islands; both methods agree exactly",
+      "confidence": "confirmed"
+    },
+    "fields": {
+      "0x0000": "vtable pointer",
+      "0x0008": "self-referential list sentinel (validation invariant)",
+      "0x21D0": "int32 = 200 (ctor param_1[0x874])",
+      "0x21D4": "int32 = 200 (ctor param_1[0x875])",
+      "0x2AA0": "int32[11][8] per-tier/per-player state enum (0..5); written by CIsland_SetTierPlayerState, which bounds-checks (slot < 8 && tier < 0xb) -- this is the direct source of the [11][8] shape.",
+      "0x2CE0": "int32[11][8] POPULATION per tier per player -- CONFIRMED",
+      "0x2EB8": "int32[11][8] unidentified; peasant row summed to 564 vs population 188",
+      "0x3018": "int32[11][8] satisfaction -- CONFIRMED 0..100. CIsland_SetTierPlayerState computes a value, clamps it with `if (100 < v) v = 100`, and stores it here. Ctor seeds 50.",
+      "0x3178": "int32[11][8] unidentified, plausibly houses/buildings per tier",
+      "0x32D8": "int32[11][8] unidentified, small counts",
+      "0x2C00": "int32[6][8]",
+      "0x3F78": "30 pointers to per-player sub-objects of size 0x7f0 (ctor FUN_007c7830)",
+      "0x3FF0": "int32 island id (ctor param_2). Observed 0..19 with 9 absent.",
+      "0x4FF4": "per-player std::vector<int>, stride 0xc, 8 slots; init FUN_00763540",
+      "0x27E0": "byte[704] - array of linked-list heads, 8 bytes per [tier][player] (11*8). Confirmed from CIsland_SetTierPlayerState: this + (slot + tier*8)*8 + 0x27E0. Exactly fills the 0x27E0-0x2AA0 gap.",
+      "0x3FF4": "int nWidth  - island bounding box width in map tiles. Set by SetIslandBounds (0x0075b5b0).",
+      "0x3FF8": "int nHeight - always equal to nWidth on all 19 live islands (square-bounded).",
+      "0x3FFC": "int nPosX - island origin, map tile x. Sole writer is SetIslandBounds.",
+      "0x4000": "int nPosY - island origin, map tile y.",
+      "0x4004": "pointer to 0x120-byte topology/grid object, ctor FUN_0073ee90(obj, island, x, y, w, h)",
+      "0x4008": "pointer to 0x24-byte bounds-rect object, ctor FUN_004034e0(obj, x, y, w, h)",
+      "0x39B8": "CIslandSettlement[30] -- per-player settlement name records, 0x30 each. Name is wchar_t[16] UTF-16LE NUL-terminated at record+0; record+0x20/+0x24 are two pointers, +0x28..0x2F zero. Ctor allocates via _eh_vector_constructor_iterator_(this + 0xe6e, 0x30, 0x1e)."
+    }
+  },
+  "per_island_population": {
+    "path": "CIsland + 0x2CE0 + tier*0x20 + player*4",
+    "layout": "int32[11][8]",
+    "row_mapping": "island row r == global row r+1 (the global has an extra total row at index 0)",
+    "tier_rows": {
+      "2": "Beggars",
+      "4": "Nomads",
+      "5": "Envoys",
+      "7": "Peasants",
+      "8": "Citizens",
+      "9": "Patricians",
+      "10": "Noblemen"
+    },
+    "confidence": "confirmed",
+    "verified_by": [
+      "summing row 7 across all 19 islands equals the global Peasants row exactly, for player 0 and player 1 independently",
+      "the match held across separate runs while the live value drifted 7 -> 6, so it tracks a changing game rather than matching a constant",
+      "all other candidate arrays failed the same test",
+      "CIsland_SetTierPlayerState bounds-checks (uint)slot < 8 && (uint)tier < 0xb and indexes this + (slot + 0xaa8 + tier*8)*4, i.e. 0x2AA0 + tier*0x20 + slot*4 -- the [11][8] shape is asserted by the game's own code, not inferred from memset sizes alone."
+    ],
+    "method_note": "Ten sibling int32[11][8] arrays are zero-filled by the ctor; identifying which one is population required the live cross-check against the global, not static analysis."
+  },
+  "open_questions": [
+    "Semantics of island +0x2EB8 (peasant row = 564 where population = 188) and +0x3178.",
+    "Island id 9 is absent from the registry on this map; unclear whether ids are dense per map or sparse.",
+    "Whether island ids are stable across save/load.",
+    "Contents of the 0x120-byte topology object at CIsland+0x4004 (likely the tile grid -> island shape, not just bounding box).",
+    "CPropertyShipProduction vtable was not resolved, so shipyards are missing from tools/research/annoprod.py.",
+    "CPropertyDataWareProduction +0x18 (observed 0 or 256) and +0x1C.",
+    "Whether m_demandHistory samples are ordered newest-first; tools/research/annoprod.py assumes the head is the latest sample.",
+    "Whether the 4.00 s consumption tick is real time or scales with the game speed setting (untested -- measured at one speed only).",
+    "Per-tier consumption divisors beyond Peasant/SaltFish and Peasant/Cider; the test save had peasants only. The community calculator's table is the best available source and its two testable rows were exact.",
+    "Potential (as opposed to current) consumption per good needs a per-tier per-good rate table. The game's summedDemandMap is ruled out; the community calculator's divisor matrix (21 goods x 7 tiers, 2 rows confirmed exactly) is the best available source until the RDA balancing XML is unpacked or each tier is measured in isolation.",
+    "Whether an island carries a region/climate field (Occident vs Orient), which an island-grouped UI sidebar would want.",
+    "Splitting current productivity into base vs item/modifier contributions (CPropertyDataItemContainer at container +0x58 is the lead).",
+    "CPropertyDataWarehouse (container +0x8C) was dumped but no per-good cap was identified in its first 0x40 bytes; the per-good cap remains open.",
+    "GUI: does a loose file under <install>/addondata/config/gui/ override the addon RDA, as data/graphics/ui/mousepointer does for maindata? Gates all custom-menu work. See docs/gui-system.md.",
+    "GUI: record layout of the 0x54-byte handler entries in the per-element event map at element+0xC0. -- RESOLVED 2026-09-20 -> gui_actions",
+    "GUI: element type enum values 0, 4, 11, 14 and 16-19 are absent from the switch at 0x00DB8B20 although the token block at 0x010A6304 names more types -- where are they handled?",
+    "GUI: what populates a GUI model (models/*.xml + the GUIModelConditions grammar), and is any live game value already exposed as one? If population or stock is, a native menu could show it with no injected code at all.",
+    "GUI: does /game/help dump the full console command catalogue at runtime? The list recovered from the string table at 0x010FD880-0x010FE800 may be incomplete.",
+    "GUI: does CFileChangeManager hot-reload GUI definitions, or only other asset classes?",
+    "GUI: anno.cdf binary format (compiled widget graph, 18.6 MB, raw pointers + element names in the clear). Only needed if /compilegui turns out not to work.",
+    "DATA: patch0/1/2.rda (4110/1111/450 files) are unextracted and OVERRIDE the base archives; maindata/patch1.rda ships a newer data/config/gui/anno.cdf (Jan 2010). Establish the real load order before trusting any extracted file as current.",
+    "DATA: reconcile addondata/config/game/assets.xml (980 assets, 71 templates) against the 1126 object types recovered from memory -- see docs/production.md.",
+    "DATA: maindata/Data0.rda holds 288 AI scripts in CSL, the engine's own scripting language (CCSLExecutor / CCSLModule / CCSLFunction). Unexplored: is the CSL VM reachable for anything other than AI?",
+    "TRIGGER ENGINE: data/config/ablauf/ (base tree) is the documented quest/trigger DSL -- 165 actions and 86 conditions as `ID=NAME=description with <TYPED=params>`, plus keys.txt, matchguids.txt, resources.txt, player.txt. Condition 71 reads per-player, per-tier, PER-ISLAND resident count; 62 reads goods per island; 75/76 satisfaction. This is an independent, documented description of quantities this project recovered from memory -- worth reconciling against docs/production.md and the CIsland layout.",
+    "TRIGGER ENGINE: the DSL has variables with arithmetic (200, 203, 1000, 1142, 1162) but no action that prints a variable -- 1030 GUI:DISPLAY TEXT takes a static TextID. Confirm there is really no text-substitution path before ruling out a data-only numeric readout.",
+    "DATA: patch0/1/2.rda are still unextracted and override the base archives; maindata/patch1.rda ships a newer data/config/gui/anno.cdf (Jan 2010). The extracted base tree may therefore be stale.",
+    "DATA: the extractor produced 2744 files from maindata/Data1.rda where the block chain counts 2746. Two entries unaccounted for -- probably directory records, but unverified.",
+    "Where the CSL script that drives the economy tick lives. It holds the per-capita consumption rates, which are therefore NOT in the C++ object model - see consumption.tick_driver. STRONG LEAD: an earlier pass already recorded that maindata/Data0.rda holds 288 CSL scripts for the same engine scripting language (CCSLExecutor), so start there.",
+    "Whether the 4000 ms tick interval is wall-clock or scales with the in-game speed setting. The constant is in ms and matched wall-clock exactly at the speed in use; changing game speed and re-measuring would settle it.",
+    "Script API hash 0xa469fa computes demand as (x * y * (balancing/1000)) / 6000 - the meaning of x, y and which balancing field is used is not yet decoded.",
+    "GUI: GuiEventHandler_ExecuteAction (0x00D5FC10) implements the ~200 data-defined action verbs and must resolve an ACCESSID to an element (definitions carry `<SETVISIBLE>TARGET; toggle</SETVISIBLE>`). Analysing it yields the find-element-by-name API. -- RESOLVED 2026-09-20 -> gui_actions (613 verbs, listener groups; element lookup by ACCESSID happens inside the listeners)",
+    "GUI: what is TextSetting[3] AUTOUPDATE? Possibly a periodic re-resolve of the text, which would matter for any value that changes.",
+    "TEXT ENGINE: what supplies [CONTEXT_STRING] / [CONTEXT_INTEGER] to CTextTagProcessor? These generic caller-supplied substitution tags remain unresolved. Registration table base0127D4E8 and count378 are now confirmed by005153D0; see gui_current_city_name_callback for the first recovered dispatch branch.",
+    "TEXT ENGINE: does a substitution tag resolve for a label rendered OUTSIDE the flow it was authored for? Context-sensitive tags (SEL_HANDLE_*, SEL_WAREHOUSE_*) clearly depend on a selection; CURRENT_GAME_PLAY_TIME may not. Testable by pointing a custom label at GUID 40111200.",
+    "TEXT ENGINE: are addondata/config/texteditor/*.xml read at runtime, or compiled into data/loca/<lang> (cf. txt/localisation.xml)? Decides whether NEW text GUIDs need a build step. Reusing existing GUIDs is unaffected.",
+    "GUI: the LIVE TextSetting at CGUIWndLabel+0x8C8 (copied from the definition form at +0x734 by FUN_00DC1AA0) may carry runtime-only fields. The game's own numeric labels ship an EMPTY <TEXTSETTING/> and are filled entirely by C++, so this struct is where a real numeric/among-text label path would be.",
+    "GUI: exact digit formatting behind the slider's SLIDER_PERCENTAGE_TEXT flag (element+0x2A0 bit 1). If it is CURRENTVALUE/RESOLUTION as a percentage, RESOLUTION=100 displays the raw value -- which would make a slider a general-purpose numeric readout.",
+    "GUI: /compilegui WORKS (confirmed 2026-09-17) -- writes a full 18.6 MB anno.cdf. But it reads sources from the RDA, NOT from loose files: 967 .dlg/.tpl staged loose with an edited infobar.dlg produced an anno.cdf with no trace of the added ANNORE_* elements. The undocumented /rda switch (0x010D6BF0) did not change this.",
+    "GUI: how do you get modified GUI sources into the compile? Candidates: (a) repack an override archive -- patches layer over base archives and RDAExplorer can write RDA, (b) some file-system switch or config making CFileDirect win over CFileDatabase, (c) a path outside the archives that the compiler also scans. THIS IS THE BLOCKER for a custom native panel.",
+    "DATA: does loose-file override work AT ALL for paths that also exist in an RDA? The mousepointer files in data/graphics/ui/ may simply be absent from the archives rather than overriding them -- the earlier assumption that loose wins is now doubtful.",
+    "GUI RUNTIME FACTORY (found 2026-09-17): GuiRuntime_CreateElement (0x00DB72C0) creates a native widget of a given type as a child of a named parent, in one call -- allocation, construction, parenting and relayout included. This makes a custom native panel possible with NO data modding. See docs/gui-system.md.",
+    "GUI RUNTIME CREATION IS CONFIRMED WORKING END TO END (2026-09-17): an injected DLL called GuiRuntime_CreateElement(9,'INFOBAR','ANNORE_BAR'), applied template 91 with GuiTemplate_Apply, set the extent, and the bar rendered in-game tracking a value fed from an external process. See tools/production-menu.",
+    "GUI: element EXTENT at +0x2A4 is a CRect {left,top,right,bottom}, CONFIRMED against a visible widget -- not {x,y,width,height}. A runtime-created element has it zeroed.",
+    "GUI: a runtime-created + template-skinned PROGRESSBAR renders as a plain coloured rectangle, not the game's bar art. Determine what else the definition path supplies -- the BACKGROUND path at element+0x199 is the first suspect, then BARCOLOR at +0x6F8.",
+    "GUI: what are element +0x2B4..+0x2C0? A visible bar reads (-1, 0, -1, 300) and a fresh one (0, 0, -1, 400); looks like a second rect plus a limit, possibly min/max size or clipping.",
+    "GUI NESTING IS NOT POSSIBLE YET (tested 2026-09-17): GuiRuntime_CreateElement with a runtime-created element as the parent returns 0xC 'parent not found'. The factory resolves parents through the map at registry+0x254, which our elements never enter -- GuiWnd_Construct only self-registers into the ACCESSID map at +0x1AC, and only when ACCESSID is non-empty. FIND WHAT POPULATES +0x254; until then every created element must be a child of a game-defined one, positioned absolutely.",
+    "GUI: GuiTemplate_Apply (0x00DB6740) is skin-only -- CONFIRMED it leaves EXTENT (+0x2A4) zeroed. Every runtime-created element needs its CRect written explicitly.",
+    "GUI: the house demand row is three elements, template indices on this build: LABEL panel = 92, PROGRESSBAR bar = 91, BUTTON icon = 90 (consecutive). Indices are per-build; read them off a live widget's +0x14C rather than hardcoding.",
+    "GUI: CGUIWndButton ICONGUID is at +0xA38 (vs the LABEL's +0x878). Writing it raw may leave a stale texture -- GuiWndButton_ReadDefinitionNode's live branch calls the setter FUN_00D3EA60(this, guid) instead. Verify which is needed.",
+    "ANNOBRIDGE BUG (fixed in v5): the poke bound was 0xF00, larger than every widget allocation (PROGRESSBAR 0x6FC ... COMBOBOX 0xBF0). Writing the BUTTON ICONGUID offset 0xA38 to a LABEL (0x924) overran the allocation by 276 bytes and corrupted the heap; the game died later with ACCESS_VIOLATION in ntdll.dll (c0000005 @ +0x42a88). All reads/writes are now clamped per element type.",
+    "GUI: does creating a BUTTON (type 2) at runtime actually crash, or was the observed crash purely the annobridge heap bug? Untested since v5. Buttons need per-state layouts (see layoutnames.txt) and take part in hit-testing, so an unskinned one is still suspect.",
+    "GUI RENDERING (2026-09-18, docs/gui-rendering.md): the widget toolkit never touches D3D. Every widget draws through an abstract GUIRenderer interface (g_pGUIRenderer 0x012D5410 -> CGUIRenderer3DEngine singleton 0x013049DC, vftable 0x010E6A5C, 30 slots) which records commands into a per-frame buffer on the GUI thread; the render thread executes them. Named slots: idx16 DrawQuadI(int LTRB[4], texId, colorARGB, uv[8], mode, alphaMode 0x100), idx15 DrawQuadF, idx17 DrawQuad3D, idx18 DrawText(float LTRB[4], stlp_wstring*, fontHandle, colorARGB, clip[4], scale[2], offset[2]), idx3 LoadTextureW(path)->id, idx5 GetTextureSize, idx6 CreateFont(LOGFONTW*,extra*), idx27/28 PushClip/PopClip.",
+    "GUI RENDERING: per-widget virtuals on CGUIWnd (vtable indices verified across Label/ProgressBar/Frame/Desktop): idx22 (+0x58) OnCreate, idx32 (+0x80) RenderTree(CRect) = GuiWnd_RenderTree 0x00D658D0, idx33 (+0x84) Render(CRect) content, idx34 (+0x88) RenderBackground, idx37 (+0x94) type ReadDefinitionNode, idx41 (+0xA4) AddChild, idx43 (+0xAC) SetVisible(bool,1,0), idx47 (+0xBC) SetBackground(stlp_string*). Frame entry: GuiManager_Render 0x00D77820 <- MainControl_RenderGUI 0x004A9050 <- CRenderGUIJob thread (RenderGUIJob_ThreadProc 0x004EA380) or inline from GameApp_MainLoop 0x00458480; g_pGuiManager+0x440 = rendering thread id.",
+    "TEXT (RESOLVED, corrects docs/gui-system.md): labels are NOT limited to GUIDs. TextSetting (label+0x8C8, button+0xA70, editfield+0x86C) -> TextData(+4) mode 0 none / 1 GUID / 2 wchar_t* / 3 owned wchar_t* / 4 stlp_wstring. GuiWndLabel_SetTextW (0x00D7BC40, thiscall: stlp_wstring*, char notify) sets arbitrary text; the game itself does this for '%d' page numbers in 0x004E2040. Build the wstring with FUN_00B074C0(wstr*, const wchar_t*) and free with FUN_00B06AE0. [CONTEXT_STRING] tag research is therefore unnecessary for the companion tool.",
+    "TEXT: text -> glyphs path is TextSetting_Render 0x00D8B420 -> TextEngine_RenderText 0x00D49360 (g_pTextEngine 0x012D3038, CTextEngine, ctor 0x00D48D30) -> ProcessedText_Render 0x00DC6280 -> TextLine_Render 0x00DC2F40 -> TextPart_Render 0x00DC3EA0 -> FontContainer_DrawText 0x00D87E70 -> g_pGUIRenderer idx18. Fonts: CFontContainer objects from <Font> nodes in data/loca/<lang>/localisation_addon.xml (inside addon/<lang>0.rda, NOT yet extracted), registered by name in CTextEngine+0x10; TextEngine_GetFontByName 0x00D46310. Renderer font handle at CFontContainer+0x38 after FontContainer_EnsureCreated(font,0) 0x00D879E0. OPEN: extract the loca RDA and list the font names.",
+    "GUI RUNTIME (explains the plain-rectangle symptom, UNVERIFIED live): GuiWndProgressBar_Render 0x00DB9EF0 draws the real PB_Bar/PB_Overlay/PB_Background art only when the background object at +0x580 exists; otherwise a flat BARCOLOR (+0x6F8) fill. +0x580 is built by GuiWnd_SetBackground 0x00D62410 (vtable +0xBC) from the BACKGROUND name at +0x199, which the definition loader only calls in live mode and the type OnCreate (vtable +0x58; PB 0x00DB9E10) calls with +0x199. After GuiTemplate_Apply call OnCreate, or SetBackground with a name copied from a live widget's +0x199.",
+    "GUI RUNTIME (explains 'parent not found' when nesting, UNVERIFIED live): registry+0x254 is keyed by FULL PATH from GuiWnd_GetFullPathId 0x00D64610 ('PARENT/CHILD', root-level = bare PATHID) and rebuilt by GuiRegistry_RebuildPathMap 0x00D53BF0 at the end of GuiRuntime_CreateElement. Pass 'INFOBAR/ANNORE_PANEL' as the parent name for a runtime-created parent.",
+    "GUI RENDERING OPEN: exact semantics of GUIRenderer slots 19-26 (idx24 cmd 5 with two points is probably DrawLine, cf. class CGUILine; idx25 cmd 6 updates a render-target region), of the 'mode' argument of DrawQuad (0 normal, 1 and 3 other blend states, 2 = set render state param), and of IconManager_DrawIcon 0x00DB3320 (iconGuid, flags, overlayGuid, float rect*, clip*, scale*, ..., disabled, color, colorFlag, float). Also: does the OnRender named event (annobridge's hook) fire inside the command-recording window of GuiWnd_RenderTree? Test by drawing a quad from the hook.",
+    "GUI LIVE-VERIFIED (2026-09-18, annobridge v6, main menu): runtime LABEL/BUTTON/PROGRESSBAR created under MAIN_MENU, addressed by full path 'MAIN_MENU/NAME' through GuiRegistry_FindElementByName, sized via +0x2A4, skinned via GuiTemplate_Apply, given REAL menu button art via GuiWnd_SetBackground (vtable +0xBC) with a .bkg path copied from a live button, and given arbitrary captions via GuiWndLabel_SetTextW / TextSetting_SetTextW. Screenshots confirmed all three on screen.",
+    "GUI LIVE (2026-09-18): GuiRegistry_FindElementByName is __thiscall with TWO stack args (RET 8) -- pass (name, 0). Calling with one arg crashed the game (ESP corrupted). Ghidra prototype fixed.",
+    "GUI LIVE (2026-09-18): the dispatcher hook is re-entered by GuiRuntime_CreateElement (relayout events) and by OnCreate (fires 'OnCreate'). Any DLL that calls game GUI functions from the hook needs a busy flag; without it v5/v6 created the same widget ~200 times and OnCreate recursed to a stack overflow.",
+    "GUI: GuiWnd +0x58A is a 'background missing/placeholder' flag: GuiWnd_RenderTree draws a black box with a grey fill when it is set. +0x588 = background object present.",
+    "TEXT LIVE-VERIFIED (2026-09-18): inline tags work through GuiWndLabel_SetTextW -- '[FONT Tooltip][CENTER]Tags: [COLOR ffff8000]colour[DEFAULTCOLOR] ok' rendered in the Tooltip font with orange 'colour'. Font, alignment, colour and inline icons need no extra game call. The font NAME lives at TextData+0xC8 (params block +0x50, string +0x78) and is resolved by TextEngine_LayoutText 0x00D48F80 via TextEngine_GetFontByName 0x00D46310, which takes its stlp_string BY VALUE (RET 0x20) -- calling it with a pointer crashed the game (v6 crash #3). Tag list on the plate comment of 0x00D48F80.",
+    "GUI RESOLVED (2026-09-18): the grey 'placeholder' bar was NOT a texture/context problem. annobridge passed .bkg paths through a 64-byte field; 86-90 char paths lost their extension, GuiWnd_SetBackground took the no-load branch (+0x58A=1). Copied names (0x104 buffer) worked. In-game, a runtime LABEL under INFOBAR with the copied standardbeigebrassbackground.bkg rendered 'Population: 1234 on First Island' over the map. Field widened; PB re-test with the full path pending. RE-TESTED 2026-09-18 with the 260-byte field: housemenuprogressgreen.bkg draws the olive PB_Bar gradient (that layout's PB_Background is an empty 1x1 icon 1023 -- the frame in the house menu is the parent's art), tiny_progressbar.bkg draws a framed silver bar with PB_Overlay. Progress-bar art is solved.",
+    "SAVEGAME LOADING (2026-09-18, static, from Ghidra): MainControl_LoadSavegameFile 0x004b0320 (__stdcall, RET 8: args = CMainControl* g_pMainControl 0x012d92cc, stlp_wstring* fullPath) is the single entry point behind both GUI load lists (FUN_0089a770 in-game, FUN_00548240 main menu) and the /quickload console command (ConsoleCmd_QuickLoad 0x004afb80). It checks the file exists, opens it as a zip, version-checks game2.xml/game.xml, then POSTS message {0x10000043, len, wchar_t[] as dwords} to the CMainControl queue at +0x1c4 under the critical section at +0x230. The load itself runs later on the main loop, so the call is asynchronous and the queue push is thread-safe. Savegames: Documents/ANNO 1404 Venice/Savegames/*.sww. UNVERIFIED live: whether it works from the main menu and in-game both (GUI callers suggest yes), and whether the wstring must be the STLport 0x30-byte object annobridge already constructs (ADDR_WSTR_CTOR 0x00B074C0).",
+    "CONSOLE (2026-09-18, static): CConsole instance = g_pMainControl+0x1a8. FUN_0072d260(console, stlp_string* file) loads a script file line by line; FUN_0072d490 pops one line and executes it via CConsole::ExecuteLine 0x0072c950 (console in EDI -- awkward to call from a DLL). Root CConsoleTemplate = console+0x114; FUN_0072f200(template, result, cmd) executes '/ns/cmd(args)'; Console_ProcessQueuedCommands 0x0072f280 drains template+0x5c. '/quickload(1)' skips the SAFETY_CHECK_DIALOG confirmation; '/quickload' loads the newest quicksave_* by mtime. Command-line switches (CMyCmd::ParseParam 0x004d8...): /level NAME sets GameCreateParameters(0x12dcb18)+0x84 -- consumed by level init (FUN_0058edf0), i.e. a LEVEL, not a savegame; no command-line switch loads a .sww.",
+    "GUI LIVE-VERIFIED IN-GAME (2026-09-18): (1) child extents (+0x2A4) are RELATIVE to the parent and children are CLIPPED to the parent's extent -- INFOBAR is (0,3)-(1365,195), anything below y=195 disappears; SYSTEMMESSAGES (FRAME, (0,0)-(1280,1024), live in-game) is a usable full-screen parent, TEMP_FRAME/MOUSE_BLOCKER_FRAME/FADE_SCREEN never dispatched. (2) GuiRuntime_CreateElement resolves the parent by FULL PATH: parent 'SYSTEMMESSAGES/ANNORE_PANEL' (a runtime BOXLAYOUT) accepted a runtime LABEL child. (3) A runtime BOXLAYOUT with GuiWnd_SetBackground ('@GLOBAL_INFO_BACKGROUND' copied, or explicit general_frames/bigmessagebackgroundgold.bkg) draws the full dialog frame. (4) Font switch by writing TextData+0xC8 and clearing flag 0x10 works ('Mainmenu Subheader' -> dark serif, 'Tooltip' -> white shadowed). (5) TextSetting_SetHAlign: 1 = RIGHT, 2 = CENTRE, 0 = left (seen on screen). SetVAlign 4/8 move text down; middle-vs-bottom UNVERIFIED. All in Ghidra plate comments on GuiRuntime_CreateElement 0x00DB72C0, TextSetting_SetHAlign 0x00D8B220, TextSetting_SetVAlign 0x00D8B270.",
+    "GUI INPUT LIVE-VERIFIED (2026-09-18): GuiWnd_HandleInputEvent 0x00D61D80 (CGUIWnd vtable +0xEC) is the mouse hit test: recursive, children first-to-last, first non-zero return wins; point test against the ABSOLUTE rect at +0x8C..+0x98; GuiWnd_IsInputTransparent 0x004F0060 = flag 0x20000000 or alpha<0.001; +0xA0 = hovered (set by the input code, read by vtable +0xE4 GuiWnd_IsHovered 0x00455B50); hover element global g_pHoverElement 0x012D32CC. A runtime BUTTON under SYSTEMMESSAGES received real OnMouseEnter/OnLeftButtonDown/OnLeftClick/OnLeftButtonUp with no registration. annobridge v7 reacts to OnLeftClick and toggles a runtime dialog via SetVisible (+0xAC): verified, 4 clicks -> visible 1-0-1-0.",
+    "GUI PITFALL (2026-09-18): GuiTemplate_Apply 0x00DB6740 overwrites the target's PATHID (+0xC8) and ACCESSID (+0x109) with the template's names (ANNORE_BTN -> INGAME_MENUBUTTONS_TEMPLATE, ANNORE_BAR -> HOUSE_DEMAND_FULFILMENT_TEMPLATE). The registry full-path map is not updated, so path lookups keep working while name matching fails. annobridge saves/restores both strings around the call.",
+    "STLPORT STRING LAYOUT (2026-09-18, verified live via the event-name hook and the game's own code in GuiRuntime_CreateElement): narrow stlp_string is 0x20 bytes: +0x00 union{char buf[16]; char* heap}, +0x10 finish, +0x14 end_of_storage; text is inline AT THE OBJECT while end_of_storage == obj+0x10 (<=15 chars), else behind the pointer at +0. Reading +0 as a pointer for 'OnLeftClick' gave garbage.",
+    "SAVEGAME LOADING LIVE-VERIFIED (2026-09-18): MainControl_LoadSavegameFile(g_pMainControl, stlp_wstring* path) is __stdcall RET 8 (bytes c2 08 00 at 0x004B065E) and works when called from the GUI hook in the main menu; the loading screen appears and GuiElement_DispatchNamedEvent(START_MISSION, 'OnLeftClick', {0,0,elem,0}, 1) starts the game. Calling it while the intro movie is still playing (main menu tree is already live then) leaves the loaded game with no world cursor and no map dragging; wait ~120 s after launch. tools/production-menu/dev/restart.py implements the sequence.",
+    "GUI: does XmlDoc_LoadFile (0x0042ACF0, CEngineFile) open a loose file whose path is NOT in the RDA? Would allow declaring dialogs as real .dlg files on disk.",
+    "GUI: arbitrary tooltip text -- annobridge v8.4 --tooltip re-runs ToolTipManager_SetText (+ LayoutStandard in mode 2, which crashed once); test mode 1, else hook the TOOLTIP_FRAME OnRender or add a private GUID block to the text engine (list at g_pTextEngine+4, lookup FUN_00DC7340).",
+    "GUI: START_SEQUENCE fade with two targets (tracks map to targets positionally) still to be run; tier2.dlg is prepared.",
+    "GUI: screen stack / which root survives menu changes (topic 20)."
+  ],
+  "tools": {
+    "tools/research/annomem.py": "read-only live memory inspector; handle opened PROCESS_VM_READ|PROCESS_QUERY_INFORMATION only. Subcommands: info, read, ptr, struct, array, scan, islands, diff.",
+    "tools/research/findpop.py": "one-off correlation harness that identified +0x2CE0 by summing every candidate array across islands and matching against the global table.",
+    "annoprod.py": "Production overview: buildings per settlement with product, productivity, paused state, inputs, plus warehouse stock and demand coverage. --measure SECONDS adds a measured nominal/delivered/consumed balance. python tools/research/annoprod.py --stock [--measure 60] [--each] [-p SLOT]",
+    "debugging": "Live debugging works and is safe if done right. Gotcha that cost two game sessions: under WOW64 a 32-bit process delivers debug exceptions to a 64-bit debugger as STATUS_WX86_BREAKPOINT (0x4000001F) and STATUS_WX86_SINGLE_STEP (0x4000001E), NOT EXCEPTION_BREAKPOINT/EXCEPTION_SINGLE_STEP. Match only the 64-bit codes and your own trap falls through as unhandled and Windows kills the game. Also use Wow64Get/SetThreadContext, not the plain versions, and call DebugSetProcessKillOnExit(FALSE) so the game survives if the script dies. Hardware breakpoints (debug registers) are preferable to INT3: no memory write, and a DATA write-breakpoint on a live structure field finds the writer directly when the call graph does not.",
+    "tools/research/annogui.py": "read-only dump of GUI tables from the live game: verbs, templates, structs, xmldocs"
+  },
+  "ghidra": {
+    "project": "Addon.exe, saved",
+    "types": {
+      "CIsland": "struct, 0x5074 bytes, 23 fields; aPopulation at +0x2CE0, aSatisfaction at +0x3018, aTierPlayerState at +0x2AA0, nIslandId at +0x3FF0; nPosX/nPosY/nWidth/nHeight and pTopology/pBoundsRect now typed; aSettlements CIslandSettlement[30] at +0x39B8",
+      "CGOPManager": "struct, aPopulation int[12][8] at +0x7c78; aIslandMap at +0x7f5c",
+      "CIslandSettlement": "struct, 0x30 bytes: wszName wchar_t[16], pListHead, pListTail, reserved"
+    },
+    "globals": {
+      "0x012d5a90": "g_pGOPManager (CGOPManager *), plate-commented",
+      "0x012d92d8": "g_pGOPManagerAlias (CGOPManager *), plate-commented",
+      "0x012d92e8": "g_pPlayerListHolder (void *), marked UNVERIFIED"
+    },
+    "functions": {
+      "0x00756940": "CIsland::CIsland_Construct(CIsland *this, int islandId) - full plate comment",
+      "0x0075d500": "CIsland::CIsland_SetTierPlayerState(CIsland *, int slot, int tier, int state)",
+      "0x00763540": "CIsland::CIslandInitPerPlayerIndexVector",
+      "0x007c7830": "CIslandPlayerDataConstruct",
+      "0x007cf330": "QuestEvaluateConditions - plate comment recording the layout evidence",
+      "0x00e2ccf0": "CGOPManagerDestruct - plate comment",
+      "0x00757100": "left unnamed on purpose; plate comment notes it also writes CIsland::vftable and that 0x00757124 is the scan false-positive source",
+      "0x0075b5b0": "SetIslandBounds - sole writer of nPosX/nPosY/nWidth/nHeight; plate comment",
+      "0x00DA14F0": "GuiElement_CreateFromXmlNode - plate comment",
+      "0x00DBA940": "GuiElement_InstantiateXmlSubtree - plate comment",
+      "0x00429E50": "XmlDoc_ConstructByName - plate comment (doc layout)",
+      "0x0042CD80": "XmlNode_Construct - plate comment (CXMLExtNode layout)",
+      "0x00428670": "XmlDocContext_Construct - plate comment",
+      "0x00D6F3C0": "GuiWnd_UpdateScrollbars - plate comment (+0x2B8 bits, slider fields)",
+      "0x00D6FCC0": "GuiWnd_RelayoutTree - plate comment (layout pass)",
+      "0x00D78C90": "GuiManager_DispatchAction - plate comment (record layout)",
+      "0x00D6DE00": "GuiWnd_ApplyTemplateByIndex - plate comment",
+      "0x00D6E000": "GuiWnd_AddChild - plate comment (fires OnCreate)",
+      "0x00D8DC60": "GuiWndBoxLayout_PlaceChild - plate comment",
+      "0x00D6DB10": "GuiWnd_RegisterInRegistry - plate comment",
+      "0x00D6C910": "GuiWnd_OnMouseWheelDown - plate comment (native wheel scrolling)",
+      "0x00D627E0": "GuiWnd_SetVisible - plate comment (int visible)",
+      "0x00D61D80": "GuiWnd_HandleInputEvent - plate corrected (event types 3 move, 0xA-0xC double clicks, 0xD/0xE wheel)",
+      "0x00D8A870": "ToolTipManager_SetText",
+      "0x00D8AC30": "ToolTipManager_Update - plate",
+      "0x00D894E0": "ToolTipManager_Show - plate",
+      "0x00D8C340": "GuiWndFrame_GetOrCreateModalBackground - plate",
+      "0x00D8C7D0": "GuiWndFrame_SetVisible - plate",
+      "0x00D6D4B0": "GuiWnd_SortChildrenByZOrder - plate",
+      "0x00D9C400": "SequencePlayer_Start - plate",
+      "0x005FCB50": "MainListener_ExecuteAction - plate"
+    },
+    "note": "Naming convention enforcement auto-applies Hungarian prefixes to struct fields (population -> aPopulation). Function renames only warn; global renames are rejected outright unless the type matches the prefix."
+  },
+  "island_registry": {
+    "path": "[0x012d5a90] + 0x7F5C",
+    "type": "STLport rb-tree, std::map<int islandId, CIsland*>",
+    "layout": {
+      "+0x00": "header/color",
+      "+0x04": "root node",
+      "+0x08": "leftmost",
+      "+0x0C": "rightmost",
+      "+0x10": "node count"
+    },
+    "node_layout": {
+      "+0x08": "left",
+      "+0x0C": "right",
+      "+0x10": "key (islandId)",
+      "+0x14": "value (CIsland*)"
+    },
+    "confidence": "confirmed",
+    "verified_by": [
+      "QuestEvaluateConditions traverses it at g_pGOPManagerAlias + 0x7f5c / +0x7f60",
+      "live walk returned 19 entries whose ids match each island's own +0x3FF0 field",
+      "identical instance set to the independent vtable scan"
+    ]
+  },
+  "island_geometry": {
+    "path": "CIsland + 0x3FFC (x), +0x4000 (y), +0x3FF4 (w), +0x3FF8 (h)",
+    "units": "map tiles",
+    "confidence": "confirmed",
+    "verified_by": [
+      "SetIslandBounds (0x0075b5b0) is the sole writer and takes them as params",
+      "live values across 19 islands are plausible and distinct"
+    ],
+    "caveat": "Island id 0 is a 1152x1152 pseudo-island at (0,0) -- the whole map, not a landmass. Filter it out of any UI."
+  },
+  "island_names": {
+    "answer": "FOUND. Names are PER-PLAYER SETTLEMENT names, not a single island name.",
+    "path": "CIsland + 0x39B8 + playerSlot * 0x30",
+    "encoding": "UTF-16LE, NUL-terminated, max 15 chars + NUL in a 32-byte buffer",
+    "confidence": "confirmed",
+    "verified_by": [
+      "live: island 4 slot 0 = 'Second Island', island 5 slot 0 = 'First Island' -- matched against what the user read off the running game",
+      "live: island 14 slot 1 = 'Odesville' (AI opponent), so the field is indexed by player slot",
+      "CIsland ctor allocates 30 records of 0x30 at this offset, matching the 30 slots of aPlayerData (+0x3F78)"
+    ],
+    "parsing_caveat": "Unused slots are NOT zeroed -- only NUL-terminated at index 0. Always stop at the first NUL; decoding the full 32 bytes yields garbage.",
+    "history": "An earlier revision of this file recorded a 'confirmed negative' saying island names did not exist. That was WRONG. See methodology.md - the search only looked for POINTERS to strings and never for text stored inline.",
+    "settlement_record": "CIslandSettlement is an STLport short-string, not a raw wchar_t[16]: +0x00 inline buffer, +0x20 finish pointer, +0x24 end-of-storage pointer, so (finish - base)/2 gives the length directly. This RESOLVES the old open question about +0x20/+0x24 -- they are not a list head/tail pair. A name longer than 15 characters would move the buffer to the heap and leave a pointer at +0x00; not observed, and the NUL-scan in tools/research/annomem.py would break on it."
+  },
+  "current_island": {
+    "answer": "FOUND. The infobar island name comes from a 'current island' id that the game keeps in a static global.",
+    "path": "int32 at 0x012D54F8 (g_iCurrentIslandId); identical to [0x012d92e8] + 0xE4 (CGameEngine)",
+    "semantics": "island id under the mouse cursor; if the cursor is over water, the first island hit when probing 8 points around the camera target at +-40% of the viewport; 0 when none or when STRATEGYMAPDIALOG is open. [0x012d92e8]+0xE8 keeps the last non-zero id (sticky). 0x012D54F4 mirrors the local player index.",
+    "writer": "UpdateIslandUnderCursor 0x005808f0 (sole writer of both globals; called on demand from 13 sites incl. RefreshCursorPickAndIslandUnderCursor 0x00579880)",
+    "consumer": "InfobarIslandInfo_OnUpdateIslandInfo 0x0048b280 = CInfobarIslandInfoListener vtable(0x010cd73c)+0x20, event UPDATE_INFOBAR_ISLAND_INFO id 0x1300003; it reads [0x012d92e8]+0xE4, resolves the CIsland via GOPManager_GetIslandById 0x00e158b0 and hides the panel for id<=0 or island->+0x58 == 4",
+    "to_island": "CIsland* = value of the id in the CGOPManager+0x7F5C map (tools/research/annomem.py find_islands); name = CIsland+0x39B8 + localPlayer*0x30 as in island_names",
+    "confidence": "confirmed (static), live change-test pending",
+    "verified_by": [
+      "static: the UPDATE_INFOBAR_ISLAND_INFO handler reads exactly this field and only this field to pick the island",
+      "static: 0x012D54F8 has a single xref in the whole binary, the write in UpdateIslandUnderCursor",
+      "live 2026-09-20: [0x012d92e8]+0xE4 == +0xE8 == [0x012D54F8] == 4, and island 4 slot 0 = 'Second Island' (a real island of the running save)",
+      "NOT yet observed: the value changing while the mouse moves between islands (nobody was at the keyboard during the 85 s poll). Run `python tools/research/annomem.py current --watch` and hover islands to close this."
+    ],
+    "tool": "python tools/research/annomem.py current [--watch] [-v]"
+  },
+  "enums": {
+    "_note": "char* name tables in the image. No ASLR, so these addresses are absolute at runtime.",
+    "ware_names": {
+      "address": "0x0127B820",
+      "type": "char *[68]",
+      "note": "index == ware id; 6 BuildMaterialCount and 28 FinalGoodsCount are sentinels",
+      "confidence": "confirmed",
+      "verified_by": [
+        "read live",
+        "recipes decoded with it match known Anno 1404 chains"
+      ],
+      "categories": {
+        "_note": "The 68-entry ware enum contains its own group sentinels, so the good-category filter row of an Anno-1800-style screen needs no external table.",
+        "0": "NoProduct (sentinel)",
+        "1-5": "construction materials: Wood, Tools, Stone, Glass, Mosaic",
+        "6": "BuildMaterialCount (sentinel)",
+        "7-27": "consumer/final goods, 21 of them -- exactly the 21 the community calculator models",
+        "28": "FinalGoodsCount (sentinel)",
+        "29-67": "raw and intermediate goods (Salt..Water), plus Dummy at 30",
+        "confidence": "confirmed",
+        "verified_by": [
+          "read all 68 names live; sentinels land at 6 and 28"
+        ]
+      }
+    },
+    "population_level_names": {
+      "address": "0x0127B930",
+      "type": "char *[11]",
+      "values": [
+        "Outlaw",
+        "Beggar_on_street",
+        "Beggar_in_hospice",
+        "Ruin_of_ambassador",
+        "Nomad",
+        "Ambassador",
+        "Ruin_of_peasant",
+        "Peasant",
+        "Citizen",
+        "Patrician",
+        "Nobleman"
+      ],
+      "note": "index == tier index of the per-island population array",
+      "confidence": "confirmed",
+      "verified_by": [
+        "the 7 tiers already identified empirically land on the matching names"
+      ]
+    },
+    "need_category_names": {
+      "address": "0x0127B060",
+      "type": "char *[13]",
+      "values": [
+        "NoCategory",
+        "Food",
+        "Drink",
+        "Clothes",
+        "Property",
+        "OrientDrink",
+        "OrientProperty",
+        "Company",
+        "Faith",
+        "Amusement",
+        "Security",
+        "OrientFaith",
+        "OrientAmusement"
+      ],
+      "confidence": "confirmed",
+      "verified_by": [
+        "13 * 0x1C fills CPropertyResidenceBuilding +0x18..+0x184 exactly"
+      ]
+    }
+  },
+  "island_warehouses": {
+    "path": "CIsland + 0x3F78 + playerSlot*4 -> CWarehouse *",
+    "note": "The Kontor. Pre-populated for every slot including third-party traders (slots 8..18). m_storage <= 999 means the player has no Kontor on that island.",
+    "confidence": "confirmed",
+    "verified_by": [
+      "8 of 570 live CWarehouse instances have m_storage > 999 and they are exactly the settled island/player pairs",
+      "each was located inside its own CIsland at the slot-indexed offset"
+    ]
+  },
+  "CWarehouse": {
+    "vftable": "0x011035B4",
+    "fields": {
+      "m_TendencyBorder": "0x338",
+      "m_storage": "0x33C",
+      "m_productsMap": "0x35C  std::map<wareId,int> -- warehouse STOCK, 1000 == 1 t",
+      "summedDemandMap": "0x374  std::map<wareId,int>, rebuilt from m_demandHistory on load",
+      "m_demandHistory": "0x3B0  STLportListHead[68], 40 rolling samples per ware",
+      "m_GoodsBlockedPerLevelMap": "0x750",
+      "m_DemandsPerLevel": "0x768  STLportListHead[11] -- BUILD MATERIAL demand per level, not food",
+      "m_PlayerID": "0x7C0",
+      "m_KontorModuleStarted": "0x7C4",
+      "pIsland": "0x04  CIsland *",
+      "aFlowAccumulator": "0x08  __int64[68], (delta << 12), LOCAL PLAYER ONLY -- source of the Kontor trend arrows",
+      "m_TendencyTick": "0x228 int[68], per-ware timestamp on the 100 ms game clock, steps of 40 == 4.00 s, LOCAL PLAYER ONLY",
+      "nWarehouseExtensions": "0x354 feeds GetGoodCapacity",
+      "scriptAddedWaresMap": "0x38C std::map<ware,int>, written by the scriptable add-wares API",
+      "aQuestItems": "0x3A4/0x3A8/0x3AC vector of {wareId, questId, count}",
+      "demandInboxMap": "0x38C std::map<wareId,int> -- accumulated demand for the current tick, drained by CWarehouseApplyAccumulatedDemand. NOT the stock map."
+    },
+    "stlport_map_header": "+0x04 root, +0x08 leftmost, +0x0C rightmost, +0x10 count; node +0x08/+0x0C children, +0x10 key, +0x14 value; header size 0x18",
+    "stlport_list_head": "{pNext, pPrev}, 8 bytes; the head itself is the sentinel",
+    "confidence": "confirmed",
+    "verified_by": [
+      "field names come from the reflect function at 0x007C7E70",
+      "m_DemandsPerLevel walked live reproduces Anno 1404 house upgrade costs (Peasant: Wood+Tools; Citizen: +Stone; Patrician: +Glass)",
+      "0x768 + 11*8 lands exactly on m_PlayerID"
+    ],
+    "summedDemandMap_ruled_out": "+0x374 reads exactly 4000 for every actively demanded good on every settlement, at populations of 32, 64 and 188. It therefore does NOT scale with population and cannot supply the 'potential consumption' figure an Anno-1800-style bar needs. Likely a fixed per-mille scale. Ruled out empirically, not by inference.",
+    "functions": {
+      "CWarehouseChangeGoods": "0x007C8170 (this, wareId, delta, bNotify, questId) -- THE choke point. wareId > 0x43 is the quest-item path. A result < 1 ERASES the map entry, so 'absent' must be read as zero.",
+      "CWarehouseGetGoodCapacity": "0x007C8780 -- per-good cap = m_storage + extensions*1000, clamped [0, 999999]",
+      "CWarehouseNotifyGoodAvailable": "0x007C9080 -- GUI notification",
+      "CWarehouseReflectFields": "0x007C7E70 -- field map",
+      "CWarehouseConsumeGood": "0x007C8A30 (this, wareId, amount) -- the resident consumption store; erases the entry when stock < amount and returns mean coverage",
+      "CWarehouseApplyAccumulatedDemand": "0x007C89F0 -- drains the +0x38C demand map into ConsumeGood; the 4 s tick body",
+      "CWarehouseAccumulateDemand": "0x007C8940 (this, wareId, amount) -- map38C[ware] += amount; the demand inbox",
+      "GetEconomyBalancingBlock": "0x00B37F20 -> DAT_012b3340 + 0x29E4; [+0x00] tick ms (4000), [+0x0C] demand-history ring length (40)"
+    },
+    "capacity_note": "m_storage alone is NOT the per-good cap. Three settlements all reported m_storage == 20999 while stock pinned at 20.999 t, 40.000 t and 40.999 t; 40999 == 20999 + 20*1000 fits GetGoodCapacity exactly. This RESOLVES the old open question about differing caps."
+  },
+  "building_object": {
+    "note": "Runtime game object for a placed building. Offsets proved by StatisticsDetailPopulateBuildingRows (0x00652C80), the game's own production list UI.",
+    "fields": {
+      "posX": "0x04",
+      "posY": "0x08",
+      "pResidenceProperty": "0x4C",
+      "pProductionPropertyA": "0x54",
+      "pProductionPropertyB": "0x58",
+      "pMaintenanceProperty": "0x5C",
+      "pProductionProblem": "0x70",
+      "playerSlot": "0xC0",
+      "pDataContainer": "0xC4",
+      "pGuidVariation": "0xC8",
+      "pIsland": "0xD4"
+    },
+    "enumeration": "scan for CPropertyBuilding::vftable 0x0110018C, take +0x04 as the owner, then require owner->pIsland to be an already-enumerated island and owner->playerSlot < 8",
+    "confidence": "confirmed",
+    "verified_by": [
+      "+0xD4 is indexed by the game as island + 0x2CE0 + level*0x20 + slot*4, the population array this project had already confirmed",
+      "69 buildings recovered live, grouping cleanly into the 3 settled settlements"
+    ],
+    "maintenance": {
+      "path": "gameObject + 0x5C -> CPropertyMaintenanceCost",
+      "static": "container + 0x5C -> CPropertyDataMaintenanceCost",
+      "value": "CPropertyMaintenanceCost + 0x08, 64-bit little-endian fixed point; >> 12 gives whole coins per minute of upkeep",
+      "measured": {
+        "FishermanHut": 5,
+        "CiderFarm": 15,
+        "Chapel": 15,
+        "Marketplace": 10,
+        "Markethouse01": 10,
+        "Warehouse01": 10,
+        "LumberHut": 0,
+        "PeasantHouse": 0
+      },
+      "note": "The >> 12 scaling is the game's own: StatisticsDetailPopulateBuildingRows (0x00652C80) displays this property's 64-bit value shifted right by 12. Every built type yielded an exact whole number, which is the check that the shift is right. This is what an Anno-1800-style Profit column needs; note Anno 1404 has no per-good income (residents pay tax, not per good), so the honest column is upkeep, not profit.",
+      "confidence": "confirmed",
+      "verified_by": [
+        "8 building types all produced whole-coin values",
+        "shift matches the game's own statistics screen"
+      ]
+    }
+  },
+  "production": {
+    "runtime_property": {
+      "classes": {
+        "CPropertyProduction": "0x01101C3C",
+        "CPropertyFactory": "0x0110052C",
+        "CPropertyFarm": "0x01100814",
+        "CPropertyShipProduction": "unresolved"
+      },
+      "fields": {
+        "pOwnerObject": "0x04",
+        "m_ProductionTime": "0x08",
+        "m_Goods": "0x0C",
+        "m_Productivity": "0x10",
+        "m_ProductionStopped": "0x14 (byte)",
+        "m_ReservedGoods": "0x18",
+        "m_ProductionFeedbackIsRunning": "0x1C (byte)",
+        "m_IsProducing": "0x1D (byte)",
+        "m_LastProduction": "0x20",
+        "m_Capacity": "0x24",
+        "m_RawGoods1": "0x28 (CPropertyFactory)",
+        "m_RawGoods2": "0x2C (CPropertyFactory)"
+      },
+      "instance_size": {
+        "CPropertyFarm": "0x64 (measured: pool-allocated contiguously)"
+      },
+      "note": "m_Productivity and m_ProductionStopped are independent -- a paused building keeps its productivity value, so a consumer MUST read both.",
+      "confidence": "confirmed",
+      "verified_by": [
+        "reflect function 0x0079D8B0 names every field",
+        "live read of FishermanHut/LumberHut/CiderFarm",
+        "8 AI lumber huts read m_ProductionStopped == 1 with a nearly full wood store"
+      ]
+    },
+    "static_data": {
+      "container": "gameObject + 0xC4 -> CPropertyDataContainer, 0x12C bytes, fixed slot per property type, shared by all instances of a type; 1126 loaded",
+      "slots": {
+        "CPropertyDataFactory": "0x08",
+        "CPropertyDataFarm": "0x0C",
+        "CPropertyDataResidenceBuilding": "0x20",
+        "CPropertyDataWareProduction": "0x34",
+        "CPropertyDataStandard": "0x74"
+      },
+      "CPropertyDataWareProduction": {
+        "nCycleMs": "0x08",
+        "nProductWareId": "0x0C",
+        "nOutputCapacity": "0x10",
+        "nAmountPerCycle": "0x14"
+      },
+      "CPropertyDataFactory": {
+        "nInput1WareId": "0x08",
+        "nInput1Capacity": "0x0C",
+        "nInput1PerCycle": "0x10",
+        "nInput2WareId": "0x14",
+        "nInput2Capacity": "0x18",
+        "nInput2PerCycle": "0x1C"
+      },
+      "CPropertyDataStandard": {
+        "szTypeName": "0x08 (inline NUL-terminated char[])",
+        "nGuid": "0x28"
+      },
+      "CPropertyDataResidenceBuilding": {
+        "nMinResidents": "0x08",
+        "nMaxResidents": "0x0C",
+        "nPreviousLevelGuid": "0x10"
+      },
+      "confidence": "confirmed",
+      "verified_by": [
+        "decoded recipes match known Anno 1404 chains: Flour->Bread, Herbs+Wheat->Beer, IronOre+Coal->Iron, Clay+Quartz->Mosaic, SugarCane->Sugar, Wood->Paper",
+        "PeasantHouse guid 33010 with 1..8 residents and downgrade target 33000 ResidenceRuin"
+      ],
+      "slot_map": {
+        "_note": "Every slot of CPropertyDataContainer that is non-null on at least one built type, with the class name resolved by RTTI off the pointee's vtable. This is the authoritative slot->meaning map; the Ghidra CPropertyDataContainer struct fields should be renamed from this. Slots absent here were simply null on every type built in the test save, NOT proved empty.",
+        "0x004": "CPropertyDataBuilding",
+        "0x00C": "CPropertyDataFarm",
+        "0x010": "CPropertyDataFarmfield",
+        "0x01C": "CPropertyDataPublicBuilding",
+        "0x020": "CPropertyDataResidenceBuilding",
+        "0x034": "CPropertyDataWareProduction",
+        "0x038": "CPropertyDataBuildCost",
+        "0x03C": "CPropertyDataContextMenu",
+        "0x044": "CPropertyDataFeedbackEventEmitter",
+        "0x050": "CPropertyDataHitpoints",
+        "0x054": "CPropertyDataInfluence",
+        "0x058": "CPropertyDataItemContainer",
+        "0x05C": "CPropertyDataMaintenanceCost",
+        "0x074": "CPropertyDataStandard",
+        "0x080": "CPropertyDataTradingPrice",
+        "0x088": "CPropertyDataUpgradable",
+        "0x08C": "CPropertyDataWarehouse",
+        "0x09C": "CPropertyDataBoidSpawner",
+        "0x0A8": "CPropertyDataFeedbackUnitSpawner",
+        "0x0B0": "CPropertyDataUnitSpawner",
+        "0x0CC": "CPropertyDataBlocking",
+        "0x0D0": "CPropertyDataDanger",
+        "0x0D4": "CPropertyDataInfoLayer",
+        "0x0D8": "CPropertyDataKIModule",
+        "0x0DC": "CPropertyDataMesh",
+        "0x0F0": "CPropertyDataObject",
+        "0x0F8": "CPropertyDataResource",
+        "0x0FC": "CPropertyDataSelection",
+        "0x118": "CTemplateDefinition",
+        "confidence": "confirmed",
+        "verified_by": [
+          "RTTI-resolved every 4-byte slot of the container of all 12 building types built in the test save (69 buildings)"
+        ]
+      },
+      "note_DC_FACTORY": "tools/research/annoprod.py reads +0x08 as CPropertyDataFactory (input goods). +0x08 was null on every type in the test save, so it did not appear in slot_map; the recipe reads were verified separately against known chains."
+    },
+    "rate_formula": "tons per game-minute = (nAmountPerCycle/1000) * (60000/nCycleMs) * (m_Productivity/100), and 0 if m_ProductionStopped",
+    "nominal_vs_actual": "Productivity does not imply throughput. A producer at 100 %, unpaused, whose warehouse is at its cap delivers nothing: m_Goods pins at capacity and the warehouse only drains. Observed live: FishermanHut nominal 2.000 t/min, delivered 0.000, consumed 0.335, net -0.335. Any consumer that reports only nominal output will call such a settlement healthy while its stock falls. The mechanism is now known: CWarehouseGetGoodCapacity clamps the stock, so once a good is at cap the producer's m_Goods pins at m_Capacity and nothing is delivered, with no flag anywhere saying so."
+  },
+  "residence_needs": {
+    "answer": "The game SIMULATES needs; it does not apply a static per-population formula.",
+    "path": "building + 0x4C -> CPropertyResidenceBuilding + 0x18 -> CDemandQuote[13], one per need category",
+    "CDemandQuote": {
+      "size": "0x1C",
+      "fields": [
+        "categoryID",
+        "critical",
+        "downgradeQuote",
+        "minQuote",
+        "upgradeQuote",
+        "quote",
+        "fulfillment"
+      ]
+    },
+    "other_fields": {
+      "m_ResidentCount": "0x08",
+      "m_TaxMorale": "0x10",
+      "m_CriticalMissing": "0x14",
+      "m_EstateValue": "0x188",
+      "m_UpgradeStatus": "0x18C",
+      "m_Level": "0x1B0",
+      "m_PayTaxes": "0x1C8"
+    },
+    "per_settlement": "CWarehouse m_demandHistory[ware] is the settlement-level view: 40 rolling samples per ware, non-zero only for goods the settlement actually demands. Samples read 100 on settlements of 32, 64 and 188 peasants, so the value is a coverage PERCENTAGE, not an absolute amount.",
+    "confidence": "confirmed",
+    "verified_by": [
+      "reflect functions 0x0079ED80 and 0x0079E6D0 name every field",
+      "13 * 0x1C fills +0x18..+0x184 exactly"
+    ],
+    "gap": "The static per-good consumption RATE constants were still not located in memory, but they are no longer needed -- see the 'consumption' section, which measures them directly and confirms the community calculator's divisors exactly. Searched and ruled out: every CPropertyData* container slot (all 1126 containers, each offset resolved by RTTI), CPropertyDataBalancing (2 live instances, both empty), and the name table at 0x0127D410 where ResidentsWareConsumption turned out to be an achievement counter. The remaining route is unpacking the RDA balancing XML.",
+    "per_settlement_coverage_still_saturated": "m_demandHistory samples read 100 for every demanded good on all three settlements, so the sample ORDER is still untested and coverage has never been observed below 100. Deriving potential consumption as measured/(coverage/100) is therefore an untested idea, not a method."
+  },
+  "consumption": {
+    "companion_demand_estimates_2026_10_09": {
+      "confidence": "unverified",
+      "implementation": "tools/production-menu/demand_rates.h: all 21 resident goods using the repository NeedsCalculator.cs divisors, all 11 live population rows, and player-wide population thresholds. Only peasant SaltFish/Cider consumption rates are live-confirmed; other divisors and global threshold semantics remain estimates (thresholds in the original calculator use global population). Need bans, retained unlocks after population loss, scenario modifiers, and item consumption modifiers are not modelled.",
+      "output_rate_evidence": "docs/live-production-rates.json, read-only live dump of loaded CPropertyDataWareProduction on 2026-10-09 using tools/research/check_production_rates.py. Meat in NeedsCalculator maps to the final SaltMeat good (ButcherShop 2.5 t/min), not the raw Meat good (Cattlefarm 1.25 t/min).",
+      "factory_demand": "Active factories add input demand from CPropertyDataFactory at container+0x08 using the known recipe quantities, output cycle and runtime productivity. Paused factories contribute zero. This is potential input throughput, not measured warehouse drawdown.",
+      "scope": "Resident and factory demand only; construction, trade and shipyard spending are excluded. Goods with no resident or factory demand show zero within this scope. Selected settlements sum independently computed resident demand; unlocked-demand rows appear even without a local producer."
+    },
+    "mechanism": "Goods are deducted from CWarehouse m_productsMap (+0x35C) via CWarehouseChangeGoods (0x007C8170), the single choke point for every stock change. Consumption arrives as ONE negative delta per settlement per tick. The tick is 4.00 s, measured on a 100 ms game clock; producer deliveries are positive deltas at unrelated moments, so sampling at 0.25 s separates the two without pausing anything.",
+    "per_tick_amount": "floor(sum over tiers of population[tier] * rate[tier][good] * 4/60), truncated to whole kg at the settlement level",
+    "measured": {
+      "SaltFish_peasant": {
+        "kg_per_head_per_tick": 0.6667,
+        "t_per_min_per_head": 0.01,
+        "equivalent": "one FishermanHut (1000 per 30000 ms = 2 t/min) per 200 peasants"
+      },
+      "Cider_peasant": {
+        "kg_per_head_per_tick": 0.29412,
+        "t_per_min_per_head": 0.004412,
+        "equivalent": "one CiderFarm (1000 per 40000 ms = 1.5 t/min) per 340 peasants"
+      }
+    },
+    "observations": "32 peasants -> -21 kg/tick, 64 -> -42, 188 -> -125 (SaltFish); 188 -> -55 (Cider). Exactly one step size per good per settlement, linear in population, gaps 4.00 s.",
+    "calculator_cross_check": "These reproduce the community calculator's divisors exactly (Fish = Peasants/200, Most = Peasants/340). The calculator's table is the real balancing expressed as inhabitants-per-building, not an approximation. Only these two rows were tested -- the save had peasants only.",
+    "formula": "consumed(good) t/min = sum over tiers of population[tier] / divisor[tier][good] * output_rate(canonical building)",
+    "confidence": "confirmed",
+    "verified_by": [
+      "0.25 s sampling across 3 settlements and 2 goods; step size and 4.00 s period identical every time",
+      "linear scaling across populations of 32, 64 and 188",
+      "solved-back per-head rates land exactly on the two independent community-calculator divisors"
+    ],
+    "caveat": "The 4.00 s tick was measured in wall-clock seconds at the game speed then in use. Whether it is real time or scales with the speed setting was NOT tested.",
+    "tick_driver": {
+      "answer": "SOLVED. The 4 s step is a two-phase economy tick driven from the game's CSL SCRIPT layer, not from C++.",
+      "phase_1_accumulate": "CWarehouseAccumulateDemand (0x007C8940): map38C[ware] += amount, into the std::map at CWarehouse+0x38C. Called only from DispatchScriptApiByNameHash, script API hash 0xa469fa, which computes the amount as (x * y * (balancing/1000)) / 6000 under guards level < 0xB and ware < 0x44.",
+      "phase_2_apply": "CWarehouseApplyAccumulatedDemand (0x007C89F0): walks that map and calls CWarehouseConsumeGood for each entry. Also called only from DispatchScriptApiByNameHash.",
+      "the_store": "CWarehouseConsumeGood (0x007C8A30), store at 0x007C8AFC/0x007C8B02 with ESI=wareId, EDI=old, ECX=new. If stock >= amount: map[ware] = stock - amount. If stock < amount: the entry is ERASED and coverage = stock*100/amount.",
+      "interval": "GetEconomyBalancingBlock() = DAT_012b3340 + 0x29E4; [+0x00] = 4000 MILLISECONDS. PROVEN by patching it to 2000 in the live process -- the period halved to exactly 2.00 s on all three settlements at once, and restoring 4000 returned it to 4.01 s.",
+      "ring_length": "GetEconomyBalancingBlock()[+0x0C] = 40, read by CWarehouseConsumeGood as the m_demandHistory ring length. Matches the 40 samples per ware observed live.",
+      "coverage_confirmed": "CWarehouseConsumeGood computes coverage as 100 when demand is met, else stock*100/amount, and pushes it into m_demandHistory[ware]. This CONFIRMS the samples are a percentage, not tons.",
+      "why_central": "Demand is summed into map38C during the interval and applied in one pass, so the truncation to whole kg happens at settlement level -- by apply time the per-house detail is already one number.",
+      "why_rates_were_never_found": "The per-capita consumption rates are not in the C++ object model at all. The engine exposes only add-demand / apply-demand primitives; the script decides how much and how often. That is why every CPropertyData* slot was a dead end.",
+      "confidence": "confirmed",
+      "verified_by": [
+        "hardware DATA write-breakpoint on a live m_productsMap node caught the store 11/12 times at 0x007C8B02, with register deltas matching the measured per-settlement steps exactly (-125/-55/-42/-21)",
+        "execute breakpoint on CWarehouseChangeGoods for 45 s caught only POSITIVE deltas, proving consumption does not use that path",
+        "both tick entry points have exactly one caller, DispatchScriptApiByNameHash, and every captured stack carried a frame at 0x0067F3AB inside it",
+        "patching the interval constant halved the measured period and restoring it restored the period"
+      ]
+    }
+  },
+  "gui_xml_runtime": {
+    "answer": "The .dlg/.tpl XML grammar is alive at runtime: templates are parsed from the RDA lazily into a DOM at *(g_pGuiManager+0x42C), and the game has factories that build live elements from XML nodes.",
+    "context": "0x012D334C -> +0x42C CConfigDocContext (0x104; ctor XmlDocContext_Construct 0x00428670; root node at +4, children = documents keyed by normalised absolute path)",
+    "doc": "CConfigDocTemplate<CRDString>: +4 root, +8 current node (tag lookups relative), +0x14 ctx. XmlDoc_ConstructByName 0x00429E50 (open/parse/cache), XmlDoc_ConstructEmpty 0x00484EC0, XmlDoc_Destruct 0x0042CEC0, XmlDoc_LoadFile 0x0042ACF0 (path via CEngineFile, RDA-aware), XmlDoc_ParseTextFile 0x0042BC70",
+    "node": "CXMLExtNode<CRDString> 0x5C: +0 vftable, +4 isComment, +8/+0xC child list (list node {node*,next}), +0x14 parent, +0x18 pool (=ctx+0xC0), +0x1C name stlp_string, +0x3C value stlp_string. XmlNode_Construct 0x0042CD80, XmlNode_InitWithName 0x0042C160, XmlNode_AppendChild 0x0042C0D0, XmlNode_FindChildByName 0x0042AC80, XmlDoc_FindNodeByPath 0x0042B070, XmlDoc_GetChildText 0x00485020",
+    "factories": {
+      "GuiElement_CreateFromXmlNode": "0x00DA14F0 (doc, node) -> element via <Type>_ConstructFromXml + ReadDefinitionNode(doc, bLive=0)",
+      "GuiElement_InstantiateXmlSubtree": "0x00DBA940 (parentElem, doc, structIdx) builds all siblings from doc+8 recursively; AddChild fires OnCreate",
+      "GuiWnd_AddChild": "0x00D6E000 calls child OnCreate (vtable+0x58) after linking"
+    },
+    "template": "CGUITemplate {char path[0x104]; char accessId[0x41]; char templateRefId[0x41]}; vector GuiRegistry+0x1DC/+0x1E0 (881), name->index map +0x1E8. GuiTemplate_Apply 0x00DB6740 = ReadDefinitionNode(templateDoc, bLive=0) on the element: copies every tag, no children, no background object. Prefer GuiWnd_ApplyTemplateByIndex 0x00D6DE00 (saves/restores names, rebuilds background).",
+    "struct_templates": "vector GuiRegistry+0x218/+0x21C, map +0x224; only EMPTYSTRUCTTEMPLATE ships",
+    "confidence": "confirmed live 2026-09-26 (annobridge v8 --xml: scroll box with rows, scrollbar, skinned button and a working SETVISIBLE handler from one .dlg fragment)",
+    "verified_by": [
+      "decompilation of the functions above",
+      "tools/research/annogui.py xmldocs: 54 .tpl documents in the live context, names are absolute paths, loose dir does not exist -> parsed from RDA",
+      "tools/research/annogui.py templates: 881 CGUITemplate, vector and map agree",
+      "live 2026-09-26: tools/production-menu/examples/scrollbox.dlg -> 134 nodes, 12 elements; full-path lookup, declared SETVISIBLE handler and +0xB0 scrolling all worked after registration"
+    ],
+    "tool": "tools/research/annogui.py",
+    "registration": "GuiWnd_RegisterInRegistry 0x00D6DB10 (__fastcall ecx=elem) must be called for every XML-built element: all-elements list registry+0x26C (source of the full-path map), ACCESSID map +0x1AC, GROUP map. The XML constructors skip it; the .cdf loader calls it."
+  },
+  "gui_scrolling": {
+    "production_dialog_shell_2026_10_12": {
+      "confidence": "confirmed static Escape flag and live close/backdrop behavior; cap is our implementation choice based on trading-menu reference dimensions",
+      "source": "strategymap.dlg uses FULLSCREEN_MENU_TEMPLATE (1280x1024 reference), fullscreenblurbackground.bkg and fill layout modes. No explicit max-size XML tag was identified. Our centered panel caps at 1280x1024 GUI units, inside a fullscreen frame and backdrop LABEL, with fixed headers and a scrolling grid.",
+      "escape": "BUTTON_CHECKESCAPE in GuiWndButton_ReadDefinitionNode (00D40140, string xref 00D40282) sets button+2A0 bit10000. Handler 00D3E930 checks visibility and invokes native button activation. Ghidra plate recorded first; real Escape input closed Production twice, without opening Pause; backdrop hides with its parent.",
+      "live_install": "Existing bridge rejects background changes and generic field pokes on FRAME type11. Applying native FRAME_TEMPLATE index78 through the existing supported skin API cleared the old opaque background; restarting only the companion restored geometry. Separate LABELs provide the native dark backdrop and beige capped panel. New XML installs start with an empty frame background."
+    },
+    "production_grid_2026_10_12": {
+      "confidence": "confirmed live viewport creation, resource updates and programmatic scrolling; fresh wheel/drag test not performed",
+      "implementation": "Production dialog RESOURCE_SCROLL LABEL, SCROLLBAR_VERT=2 with SCROLLBAR_VERT_TEMPLATE, 68 resource slots in a two-column grid. Unused slots are hidden and reduced to valid 1x1 extents; bridge rejects zero-area extent updates. Pager controls are hidden. Companion streams larger presentations in acknowledged batches of at most 192 updates.",
+      "evidence": "GUI bridge instantiated the viewport and registered descendants; live RESOURCE_SCROLL scrollbar pointer was non-null; widget update batches returned result=0. Temporarily reducing viewport height to 200 and setting target Y=80 produced current Y=80. Diagnostic overrides were cleared and full viewport restored. Native wheel/drag support remains supported by the existing 2026-09-26 live scrollbox test."
+    },
+    "answer": "Scroll offset lives on the container: +0xA4/+0xA8 current x/y, +0xAC/+0xB0 target x/y (300 ms sine ease). Write +0xB0 to scroll programmatically; the game copies it into the slider.",
+    "flags_2B8": {
+      "0x01": "horizontal bar",
+      "0x02": "horizontal auto-hide",
+      "0x04": "vertical bar",
+      "0x08": "vertical auto-hide",
+      "0x10/0x20": "reset scroll on GuiWnd_ResetScrollPosition",
+      "tag_values": "SCROLLBAR_VERT 1->0x04 2->0x0C 3->0x24 4->0x2C; SCROLLBAR_HORZ 1->0x01 2->0x03 3->0x11 4->0x13"
+    },
+    "scrollbars": "+0x6C0 horizontal / +0x6C4 vertical SLIDER children (ACCESSID ___HORZ/___VERT_SCROLLBAR<n>), created by GuiWnd_UpdateScrollbars 0x00D6F3C0 from GuiWnd_RelayoutTree 0x00D6FCC0 when +0x2B8 != 0; skinned with template index +0x150/+0x154 (SCROLLBAR_*_TEMPLATE_REF_ID; template 573 SCROLLBAR_VERT_TEMPLATE, 267 MAIN_MENU_SCROLLBAR_VERT_TEMPLATE on this build); -1 gives a zero-width invisible bar",
+    "slider": "+0x6F8 value, +0x6FC range = content-client(+1), +0x714 step (STEPSIZE_* +0x3AC/+0x3B0), +0x718 page = client size (+0x3B4/+0x3B8)",
+    "wheel": "NATIVE: GuiWnd_OnMouseWheelUp/Down 0x00D6C760/0x00D6C910 (vtable +0x4C/+0x50, input types 0xE/0xD) walk up +0x88 to the first ancestor whose vertical scrollbar ACCESSID resolves in the registry, step that slider (GuiWndSlider_StepBack/StepForward, +/- STEPSIZE +0x714) and GuiWnd_SetScrollY; the named event OnMouseWheelUp/Down is dispatched only when no ancestor scrolls. Raw slider value pokes still do not propagate.",
+    "functions": {
+      "GuiWnd_SetScrollX/Y": "0x00D5B830 / 0x00D5B8E0",
+      "GuiWnd_TickScrollAnimation": "0x00D5B9D0",
+      "GuiWnd_UpdateScrollbars": "0x00D6F3C0",
+      "GuiWnd_ForwardInputToScrollbars": "0x00D5D5A0",
+      "GuiWnd_RenderScrollbars": "0x00D5AB10",
+      "GuiWndSlider_SetValue/SetRange": "0x00DA2F70 / 0x00DA30A0",
+      "GuiWnd_OnMouseWheelUp/Down": "0x00D6C760 / 0x00D6C910"
+    },
+    "confidence": "confirmed",
+    "verified_by": [
+      "live 2026-09-20: runtime BOXLAYOUT + 12 rows, +0xB0=60/80 moved rows and slider value; template 573 + OnCreate rendered the game's arrowed scrollbar (screenshots)",
+      "live 2026-09-26: real mouse via mouse.py -- wheel, arrows, track and knob drag all moved the XML-built scroll box; event trace shows OnChangeValue on ___VERT_SCROLLBAR1 and no wheel-named events"
+    ],
+    "mouse_input": "confirmed live 2026-09-26 on a runtime scrollbar: knob drag (GuiWndSlider_OnMouseMoveDrag 0x00DA3F90, input type 3), arrows and track paging (GuiWndSlider_OnLeftButtonDown 0x00DA3750), wheel over the content. The game reads the OS cursor but only while foreground (tools/production-menu/dev/mouse.py taps ALT + SetForegroundWindow).",
+    "pitfall_setvisible": "GuiWnd_SetVisible 0x00D627E0 (vtable +0xAC) takes int visible stored verbatim at +0x9C and compared == 1; passing a char leaves garbage in the upper bytes and the element stops rendering (annobridge < v8.2)."
+  },
+  "gui_layout": {
+    "answer": "Layout is a per-frame pass GuiWnd_RelayoutTree 0x00D6FCC0 (from GuiManager_Render): LAYOUTMODEH/V, vtable+0x78, children, vtable+0x7C (OnRender event; BOXLAYOUT arranges children first), content union, scrollbars. Absolute rect +0x8C is written by RenderTree (GuiWnd_GetAbsRect) only for elements intersecting the clip.",
+    "boxlayout": "GuiWndBoxLayout_PlaceChild 0x00D8DC60 keeps child WIDTH/HEIGHT, overwrites LEFT/TOP: LINE_ORDER +0x6F0 (0 vertical), LINECOLUMNCOUNT +0x6F4, XSPACE/YSPACE +0x6F8/+0x6FC, LEFT_TO_RIGHT/TOP_TO_BOTTOM +0x700/+0x701, BOXLAYOUT_BEHAVIOUR +0x702; vftable 0x010A616C, overrides slots 22 OnCreate, 31 (+0x7C), 37 (+0x94), 52 (+0xD0 FitSizeToChildren)",
+    "fields": {
+      "+0x2A4": "EXTENT CRect (relative)",
+      "+0x2B4": "ZORDER",
+      "+0x2B8": "scrollbar flags",
+      "+0x2BC": "TOOLTIP",
+      "+0x570/+0x574": "LAYOUTMODEH/V (1 fill 2 near 3 centre 4 far)",
+      "+4": "layout generation stamp vs DAT_012D3350",
+      "+0x2A0 flags": "SCALECENTER 0x80000, BACKGROUND_TEST_ALPHA 0x100000, HIDDEN 0x400000, CLIPPINGDISABLED 0x800000, BLINKFIRST 0x4000000, MARKED 0x8000000, DISABLE 0x10000000, TRANSPARENT 0x20000000, RENDERTORT 0x40000000, AUTODOWN 0x80000000"
+    },
+    "functions": {
+      "GuiWnd_SetExtent": "0x00D5B150",
+      "GuiWnd_GetAbsRect": "0x00D606D0",
+      "GuiWnd_GetClientRect": "0x00D5E110",
+      "GuiWnd_FitSizeToChildren": "0x00D5F980 (vtable+0xD0)",
+      "GuiWnd_ApplyLayoutMode": "0x00D62D80",
+      "GuiWnd_RecomputeAlignment": "0x00D5E830"
+    },
+    "confidence": "confirmed (static); row stacking and stale-rect behaviour confirmed live 2026-09-20"
+  },
+  "gui_actions": {
+    "answer": "613 <EVENTHANDLER> verbs live, dispatched by id = group<<20|sub to listener objects at g_pGuiManager+0xBC (CMainListener group 1 = generic UI verbs). Full table: docs/gui-actions.md.",
+    "record_0x54": {
+      "+0x00": "int id (GuiManager_GetActionId 0x00D75560, map mgr+0x8C)",
+      "+0x04": "stlp_string verb",
+      "+0x24": "stlp_string value",
+      "+0x44": "vector<stlp_string> args (split at ';')",
+      "+0x50": "u8 queued (map mgr+0xA4)"
+    },
+    "list_0x2C": "GuiEventHandlerList: +0 event name, +0x20/+0x24/+0x28 vector of records; map at element+0xC0 keyed by event name",
+    "functions": {
+      "GuiEventHandler_ParseHandlerNode": "0x00DC2A90",
+      "GuiActionRecord_Construct": "0x00D7BAA0",
+      "GuiEventHandlerList_AddRecord": "0x00496890",
+      "GuiManager_DispatchAction": "0x00D78C90",
+      "GuiEventHandler_ExecuteAction": "0x00D5FC10 (element listeners +0x578 first)"
+    },
+    "confidence": "confirmed",
+    "verified_by": [
+      "decompilation",
+      "live map dump tools/research/annogui.py verbs 2026-09-20",
+      "live 2026-09-26: <EVENTHANDLER><SETVISIBLE>X; toggle</SETVISIBLE><EVENT>OnLeftClick</EVENT> declared in XML toggled a registered LABEL on dispatched clicks"
+    ]
+  },
+  "gui_tier2": {
+    "tooltips": {
+      "block": "element +0x2BC (0x50): +0 TEXT guid, +8 REFWINDOW[0x41], +0x4C ALIGNMENT; read by FUN_00DC2730",
+      "manager": "DAT_01304660 (0x130): +0x60 current element, +0x64 show tick, +0x68 hide tick, +0x70 request {+0 pending, +4 guid, +8 alignment, +0xC..0x18 anchor rect, +0x1C extra}, +0x12C element, +0x38 map label->wstring, +0x18 card name",
+      "functions": {
+        "ToolTipManager_Get": "0x0048C750",
+        "ToolTipManager_ShowForElement": "0x00D8A420",
+        "ToolTipManager_Show": "0x00D894E0",
+        "ToolTipManager_Hide": "0x00D88470",
+        "ToolTipManager_Update": "0x00D8AC30",
+        "ToolTipManager_ApplyRequest": "0x00D8ABB0",
+        "ToolTipManager_SetText": "0x00D8A870 (mgr, wchar_t*)",
+        "ToolTipManager_LayoutStandard": "0x00D89810 (mgr, request*)"
+      },
+      "delays": "DAT_0128BE10 show, DAT_0128BE0C hide (TooltipShowDelay/HideDelay settings)",
+      "confidence": "native tooltip confirmed live; arbitrary override unsafe: mode 2 previously crashed, mode 1 logged success at 16:16:57 on 2026-09-26 then Addon exited before screenshot; exact cause UNVERIFIED",
+      "verified_by": [
+        "Live mode-1 test with newer DLL installed by restart.py; annobridge.log recorded replacement; Addon absent at capture",
+        "Ghidra plate 0x00D8A870"
+      ]
+    },
+    "modal_frames": {
+      "flags": "FRAME_MODAL 0x200, FRAME_POPUP 0x800 in +0x2A0 (GuiWndFrame_ReadDefinitionNode 0x00D8C9C0)",
+      "wrapper": "CGUIWndModalBackground (ctor 0x00DEA980, type 14, 0x6F0 bytes, vtable 0x010A82AC, ZORDER 0x7FFFFFFE, fills parent) stored at frame +0x7B0; GuiWndFrame_GetOrCreateModalBackground 0x00D8C340, GuiWndFrame_WrapInModalBackground 0x00D8C470 (swaps frame->wrapper in the parent list), GuiWndFrame_SetModal 0x00D8C5E0, GuiWndFrame_SetVisible 0x00D8C7D0 (frame vtable +0xAC, shows/hides the wrapper too)",
+      "xml": "the XML factory attaches the bare frame; annobridge v8.3+ wraps after registration (deferred; wrapping inside the walk hung the GUI thread) and re-applies visibility through +0xAC (v8.4.1)",
+      "confidence": "confirmed live 2026-09-26 (show, click blocked, close)"
+    },
+    "zorder": {
+      "answer": "+0x2B4; GuiWnd_SetZOrder 0x00D6DDC0 -> GuiWnd_SortChildrenByZOrder 0x00D6D4B0 (list::sort ascending); render in list order, hit test walks backwards",
+      "confidence": "confirmed live 2026-09-26"
+    },
+    "icons": {
+      "answer": "<ICONGUID> + <ICONSTRETCH>1 on LABEL (+0x878 guid) draws IconManager icons; inline [ICONGUID n] works; [ICONGUID n w h] did not render",
+      "confidence": "confirmed live 2026-09-26"
+    },
+    "production_dialog_layout": {
+      "confidence": "confirmed",
+      "verification_scope": "Live verified 2026-10-08 at 1440x1080: fullscreen margins, opaque native panel, ware icons, blue demand/green potential bars, zero-output track and numeric rates. Product paging and multiselect physical interaction are implemented; further live page/low-resolution checks pending.",
+      "frame_edge_alignment": "CGUIWndFrame +0x6F0/+0x6F4/+0x6F8/+0x6FC: four ALIGNMENT_* edge tags must be 1 for direct coordinates; default 0 adds screen-center offset. Confirmed 0x00D8C6D0 and 0x00D8C9C0; live 1440x1080 default adds (80,28).",
+      "set_extent": "0x00D5B150, ECX=this, four 32-bit stack arguments left/top/right/bottom; invalidates layout generation +4.",
+      "parent_offset": "0x88 (GuiWnd_GetAbsRect 0x00D606D0)",
+      "viewport_source": "SYSTEMMESSAGES parent relative CRect at +0x2A4; use width/height for production dialog geometry.",
+      "visibility_offset": "0x9C, int32 == 1; GuiWnd_SetVisible 0x00D627E0 stores visibility before named OnShow/OnHide notifications.",
+      "open_selection_source": "0x012D54F8 island id and 0x012D54F4 player captured on observed hidden-to-visible transition.",
+      "verified_by": [
+        "Ghidra plate GuiWnd_SetExtent 0x00D5B150, 2026-10-07",
+        "Ghidra decompilation GuiWnd_GetAbsRect 0x00D606D0 and GuiWnd_SetVisible 0x00D627E0"
+      ],
+      "data_model": "V4 snapshots sum nominal building rate amount/cycle/productivity per ware/island; paused producers contribute zero. Verified peasant demand: SaltFish 0.01 t/min per peasant; Cider 1.5/340 t/min. Demand for other tiers and goods remains explicitly Unknown.",
+      "paired_bars": "Native PROGRESSBAR type9, current/max offsets 0x6F0/0x6F4. Each row normalizes both metrics to max(demand,potential), maxvalue10000. Bar tile height36. separate native track preserves zero fill.",
+      "icon_guids": {
+        "SaltFish": 607,
+        "Cider": 8084
+      },
+      "v4_protocol": "AnnoREUiV4; UI_CAPACITY 192; UiUpdate size356. UI_BAR and UI_ICON are preflighted and applied on GUI thread. Product list pages to keep every ware accessible."
+    },
+    "button_checked_state": {
+      "confidence": "confirmed",
+      "verification_scope": "Static behavior confirmed in Ghidra; LIVE VERIFIED 2026-10-07 checked settlement uses gold artwork and unchecked settlement uses brown artwork.",
+      "checked_byte_offset": "0xA60",
+      "visual_refresh": "0x00D3E2C0 (GuiWndButton_UpdateVisualState, this in ECX, no stack arguments)",
+      "toggle_flag": {
+        "offset": "0x2A0",
+        "mask": "0x80",
+        "xml": "TOGGLEBUTTON"
+      },
+      "native_setter": "0x00D3F6B0 (this, char checked, char useGroup); requires toggle flag, dispatches checked/unchecked callbacks and can uncheck group peers.",
+      "consumer": "annobridge sets the checked byte and invokes visual refresh on the GUI thread; leaves automatic toggling disabled so companion selection remains authoritative.",
+      "skin": "MAINMENU_BUTTON_TEMPLATE uses button_regular.bkg, which defines Checked, Checked+MouseOver, Checked+MouseButtonDown and Checked+Disabled layouts.",
+      "button_geometry": "Extracted template uses height48; button_regular.bkg has three 16px tile rows. Height34/40 clips bottom artwork. Production uses height48 and wraps settlements into columns when needed.",
+      "caption_alignment": "LIVE VERIFIED 2026-10-07: call 0x00D8B220 with1 and 0x00D8B270 with4 to center both axes. Historical setter names have reversed axes: first1 middle/2 bottom; second4 center/8 right. TextSetting_Render 0x00D8B420 confirms bit1 vertical half-height adjustment, bit2 full-height. Explicit setters applied after button text updates.",
+      "verified_by": [
+        "Ghidra plate comments and decompilation at 0x00D3E2C0 and 0x00D3F6B0, 2026-10-07",
+        "GuiWndButton_ReadDefinitionNode 0x00D40140 parses TOGGLEBUTTON into flag 0x80",
+        "Extracted mainmenu_button_template.tpl and button_regular.bkg"
+      ]
+    },
+    "button_icon_sizing": {
+      "answer": "GuiWndButton_ReadDefinitionNode 0x00D40140 parses ICONGUID at +0xA38, ICONSPACE at +0xA44..+0xA50, ICONSTRETCH at +0xA54, and ICONSCALE at +0xA58. Button renderer 0x00D3FBA0 uses ICONSTRETCH=1 with the full button client rect; ICONSPACE width/height do not shrink that destination. ICONSCALE exists but is a transform adjustment, not a direct pixel-size setter. A child LABEL with its own 28x28 EXTENT, IConguid 34000 and ICONSTRETCH=1 was live-verified as the reliable small marketplace icon solution.",
+      "confidence": "confirmed static and live 2026-09-30",
+      "verified_by": [
+        "Ghidra decompilation of 0x00D40140 and 0x00D3FBA0",
+        "tools/production-menu/examples/production_button.dlg live result"
+      ]
+    },
+    "alpha_sequences": {
+      "alpha": "<ALPHA> -> +0x3BC float -> effective +0x20 (GuiWnd_GetEffAlpha 0x00D5AD20)",
+      "sequences": "SequencePlayer_Start 0x00D9C400 (player g_pGuiManager+0x300; cache +0x18 by path; SequencePlayer_LoadSequence 0x00D99630 parses <sequence>); per-element instance vector +0x6D0; tracks map to targets positionally; FADEIN/FADEOUT verbs (0x100005/6) are stubs",
+      "confidence": "EVENT_REACTION_SEQUENCE scale confirmed live; two-target FADE_OUT live check observed effective alpha 1 baseline, 0 at 0.1s, then 1 at 0.3/0.6/1.0s. Sustained fade not verified; reset cause UNVERIFIED",
+      "verified_by": [
+        "2026-09-26 real mouse click at client 817,617; bridge inspection of ANNORE_T2_FADER +0x20, advancing inspect hits 213/225/243/267"
+      ]
+    },
+    "text": {
+      "alignment_vertical": "TEXTSETTING ALIGNMENT_VERTICAL 0/1/2 = top/middle/bottom (live); ALIGNMENT_HORIZONTAL 0/1/2 stored as 0/4/8",
+      "fonts": "21 registered (tools/research/annogui.py fonts, map at g_pTextEngine+0x10)",
+      "autoupdate": "TextSetting definition field [3]; consumer untraced"
+    }
+  },
+  "gui_button_progress_preview": {
+    "date": "2026-10-09",
+    "confidence": "button selection confirmed static and against visible cached states; progress fill/layer rules confirmed static with standalone tests; full pixel fidelity unverified",
+    "evidence": [
+      "Saved Ghidra plates 0x00D3DA00, 0x00D3E2C0, 0x00DBF0A0, 0x00DB9C50, 0x00DB9EF0, 0x00D61B60 and CGUIWndButtonStatePartial",
+      "tools/gui_editor/fixtures/button-states-live-1440x1080.json: 53 visible buttons, 48 Normal, three Checked and two Normal+Disabled; active index is an output only",
+      "Rust tests cover missing-state fallback, disabled ancestors, state-dependent client offsets, signed progress clamping and direction, and PB_Bar/PB_Overlay artwork composition"
+    ],
+    "button_selection": "Case-insensitive layout names; missing variants retain relative index zero. Pressed outside hover selects MouseOver; checked and disabled variants follow recovered branch order. Optional runtime flags are capture inputs, not authored XML guesses.",
+    "progress": "Float32 current/maximum ratio clamps to zero through one; maximum <=1 skips content. Horizontal normal fills from left; vertical normal fills from bottom; reverse swaps direction. PB_Bar uses fill rectangle, PB_Overlay uses outer rectangle, then active state is restored to PB_Background. Base traversal draws the active background before content. Preview assumes steady state; absent PB_Background is diagnosed rather than guessed.",
+    "fresh_pixel_gate": "Checked MINIMAP_FORCE_NORTH comparison failed: 87 opaque rendered pixels, mean RGB error 19.4176245, maximum 166. Captured layout index matches Checked; icon absent and text disabled. Subsequent read-only capture reports white effective/background color, secondary color zero and fade one. Color/fade therefore do not explain that later stable state's discrepancy. Do not claim pixel parity or fit an offset to this screenshot.",
+    "loaded_background": "Independent bounded capture confirms all four Checked source rectangles, cached destination rectangles, tile flags and logical filename ingame_gui_map_03.png match the standalone 24x24 allocation. Runtime FileID is remapped from authored 17 to 2; container renderer handle 26 is recorded but never called or used as preview input. Active layout color is white. Fixture: tools/gui_editor/fixtures/force-north-loaded-background.json. Saved Ghidra plates 0x00DBC1F0, 0x00D933B0 and CGuiTextureIdentityPartial precede capture. Logical identity does not establish GPU bytes or archive precedence.",
+    "archive_artwork_gate": "Confirmed for captured Checked button opaque region: base, patch0 and patch1 atlas hashes differ. Explicit patch0 or patch1 artwork, using unchanged source/destination geometry and capture crop, matches all 122 opaque pixels within maximum RGB channel error 1 (mean 0.01639344). Both patches produce identical pixels in this region, so it cannot distinguish loaded patch or prove general archive precedence. Staged candidates live in tools/gui_editor/fixtures/archive-candidates, separate from original extracted assets. Background inspector selection is explicit and is not saved into XML. Regression covers both patches, bounded selection, DDS decode and captured pixels without fitted coordinates.",
+    "visible_heldout_gate": "Independent visible 19:25:58 UTC capture also matches explicit patch1 artwork on all 122 opaque pixels (maximum channel error 1). Recorded viewport, Checked index and visible ancestry; no input or fitted crop. Both visible reference PNGs are tested against both patch candidates. Full blended pixels and other states remain unverified.",
+    "heldout_capture": "Later 19:21 UTC capture excluded: MINIMAP parent Visible=0 under pause menu. Cached rectangle stale; compare-button-reference.ps1 refuses this pixel gate with excluded_hidden_ancestor rather than treating unrelated pixels as renderer failure. No game input was sent to expose the widget.",
+    "remaining": "Keyboard focus overlay, button animation, effective texture/archive precedence, filtering/sampling, full tint inheritance, text colors, progress startup state/history and live progress geometry/pixels remain open. Captures are non-atomic. Hover/pressed branches have static and synthetic evidence; they were not exercised through game input."
+  },
+  "gui_archive_startup_order": {
+    "date": "2026-10-09",
+    "confidence": "confirmed static default startup registration and duplicate-key replacement; effective live file origin and later mounts unverified",
+    "evidence": [
+      "Saved Ghidra plates 0x00457440 InitFileSystem and 0x00C2DC30 path insertion",
+      "Registration chain 0x00BC5370 -> 0x00BC40D0 -> 0x00BC3E30 -> 0x00BC3010; leaf lookup 0x00C2D9E0 and metadata assignment 0x00C2D250"
+    ],
+    "order": [
+      "maindata/data0..5.rda",
+      "maindata/currentLanguage0.rda",
+      "maindata/patch0..1.rda",
+      "addon/data0..5.rda",
+      "addon/currentLanguage0.rda",
+      "addon/patch0.rda"
+    ],
+    "duplicate_paths": "Insertion normalizes ASCII uppercase to lowercase, finds the existing filename leaf and replaces complete archive/file metadata. Later successfully registered archive wins in this startup map. Finalization copies the map into its consumer.",
+    "limits": "This does not establish loose-file configuration, custom mounts after startup, locale details, or that the currently extracted subset includes every later override. patch2 exists on disk but is not in the default startup loop. Do not infer loaded file origin from screenshot similarity alone."
+  },
+  "gui_plain_text_placement": {
+    "date": "2026-10-09",
+    "confidence": "confirmed static plain tokenizer/alignment and 22 cached placements at unit scale with explicit English sources; broad text layout unverified",
+    "evidence": [
+      "Addon.exe Ghidra: tokenizer 0x00DAF170, builder 0x00DB07E0, final alignment 0x00DAF500 and 0x00DC3330; CTextDataFlowPartial and CProcessedTextPartial recorded before capture",
+      "tools/gui_editor/fixtures/text-flow-live-1440x1080.json: 13 exact direct-string token sizes, local offsets and pre-alignment line bounds; 60 unsupported blocks, zero mismatches",
+      "Negative regression changes a captured offset and requires a mismatch"
+    ],
+    "inputs": "Original direct string or unique GUID value from explicitly selected extracted language (candidate source paths and hashes reported), independently captured FontName resolving uniquely to registered font parameters, layout flags, scale and retained processed LayoutWidth. Current client width can differ after fit and is not substituted for original layout width. Captured part sizes, offsets and line rectangles are outputs only.",
+    "english_guid_gate": "Explicit English independently resolves nine additional plain GUID labels (including one wrapped label): 22 exact placements, zero mismatches and 51 unsupported blocks. No cached text-token concatenation is used as original text. Missing/ambiguous language candidates remain unsupported; runtime substitutions are not modeled.",
+    "implementation": "Plain UTF16 tokens include trailing ASCII space. Center/right final alignment shifts part offsets by positive remaining width (center divides by two with integer truncation); line content bounds retain their pre-alignment values. Ordinary word wrapping removes/re-measures exactly one trailing space on the prior line's last token while retaining pre-trim bounds (saved Ghidra plate 0x00DC4A70; callers 0x00DC3480 and 0x00DB0140, trim 0x00DC4940). GUID160014 reproduces two lines exactly in original and held-out captures. Inspector imports the capture; gui-audit --text-flow emits explicit exact/mismatch/unsupported results.",
+    "limits": "Rich tags/icons, pointer source resolution, runtime substitutions, oversized-word splitting, long tokens, control characters, unimplemented flags, owner vertical alignment, glyph pixels and cache lifecycle remain open. Single-line support is a separate narrow gate, not full dialog text parity. Capture is non-atomic."
+  },
+  "gui_inline_text_placement": {
+    "date": "2026-10-09",
+    "confidence": "confirmed static supported tag branches and local part fields in two independent cached captures; glyph pixels and owner origin unverified",
+    "evidence": [
+      "Addon.exe Ghidra CTextInlinePartPartial and CTextDataFlowPartial.dwLayoutTextColor saved before capture; plates 0x00DC39F0, 0x00DB0790 and 0x00DB0670",
+      "tools/gui_editor/fixtures/text-inline-live-1440x1080.json: 34 exact, zero mismatches, 39 unsupported blocks",
+      "tools/gui_editor/fixtures/text-inline-heldout-live-1440x1080.json: 33 exact, zero mismatches, 39 unsupported blocks",
+      "Negative regressions alter inline icon GUID, color and local offset and require mismatches"
+    ],
+    "inputs": "Original strings or independently extracted unique English GUID values, registered font parameters/default colors, retained layout width/flags, original layout text color and scale. Captured parts, sizes, offsets, bounds and icon fields are comparison outputs only.",
+    "behavior": "Supported FONT/COLOR/DEFAULTCOLOR, CENTER/LEFTALIGN/RIGHTALIGN, ordinary CR and AUTOSIZE_ICONGUID/FIXEDSIZE_ICONGUID branches. AUTOSIZE uses measured capital W height; fixed size defaults to 16. Semicolons rewrite a tag sequence and escaped brackets stay text. FONT assigns the new font before pending-prefix flush, then resets color. CR moves to the last part advance; consecutive empty CR lines retain height bounds without independently advancing this cursor. Ordinary wrapping trims/re-measures the prior trailing space while retaining pre-trim line bounds.",
+    "comparison": "All-part snapshots additionally check font names, colors, icon GUIDs, variations and clip flags, including a four-line quest containing two inline icons. Legacy run-only captures keep their narrower plain-text gate.",
+    "limits": "Runtime callback tags, pointer-source strings, numeric CR, oversized-word splitting, ellipsis and remaining tags/flags are unsupported. Captures are non-atomic caches and may contain hidden/stale labels; local agreement does not establish visible owner alignment, clipping or glyph/icon raster parity. FIXEDSIZE and some font/color transitions have static/synthetic support only, not complete live coverage."
+  },
+  "gui_source_caption_preview": {
+    "date": "2026-10-10",
+    "confidence": "confirmed static XML flags/alignment and one source-defined local layout comparison; complete caption pixels unverified",
+    "evidence": [
+      "Ghidra GuiTextSetting_ReadDefinitionNode 0x00DC2390, transfer 0x00DC1AA0, TEXTCOLOR alpha helper 0x00DC1A90; refreshed plate 0x00D8B680",
+      "Source save_dialog.dlg header GUID122002 reproduces independent text-inline-live fixture tokens, sizes, centered offsets and color",
+      "tools/gui_editor/src-tauri/src/captions.rs renders source GUID LABEL text without cached game text inputs"
+    ],
+    "behavior": "XML ALIGNMENT_VERTICAL 0/1/2 means top/middle/bottom; ALIGNMENT_HORIZONTAL 0/1/2 means left/center/right. Historical setter names are inverted. XML TEXTCOLOR forces packed alpha FF. Horizontal alignment or linebreaking constrains client width, clamped to authored parent maximum. Unit-scale source preview computes owner alignment and rasterizes supported parts.",
+    "limits": "Missing text-refresh scenario history, inline icon pixels, runtime controllers, missing or ambiguous source resources and remaining tags remain unsupported. Later work adds explicitly enabled BUTTON captions and CURRENT_CITY_NAME scenario insertion; see gui_button_source_captions/gui_current_city_name_callback/gui_text_owner_resize. Full owner geometry, clipping, translucent compositing and source-to-screenshot fidelity remain unverified. All broad fidelity gates remain open."
+  },
+  "gui_unicode_glyph_pages": {
+    "date": "2026-10-10",
+    "confidence": "confirmed static page selection/builder; standalone BMP rendering checks pass, higher-page live comparison pending",
+    "evidence": [
+      "Ghidra plate 0x00A47970; builder 0x00A470E0 and entry lookup 0x00A487B0; CGuiRenderFontAtlasPartial.pGlyphPageTreeRoot and CGuiFontGlyphPagePartial recorded before capture extension",
+      "Rust tests check page0x20 indexing, mixed-page advance and pageFF/non-BMP/control rejection; existing page0 metadata and opaque screenshot regressions still pass",
+      "Source save_dialog.dlg preview extends from one caption/two sprites to three captions/nine sprites, including extracted ellipses"
+    ],
+    "behavior": "Codeunit high byte selects a full 256-glyph page built with the same GDI rules. Page0 initially cached; pages1..FE created lazily. PageFF returns failure. Standalone sample builds its own needed pages with bounded input/page counts; no page creation is requested in the game.",
+    "verification_limits": "Elevated read-only capture attempt found no running Addon.exe. No game restart or game calls were used. Capture script supports bounded traversal of already-loaded page metadata and compiles, but no new higher-page fixture exists yet. Higher-page glyph metadata, fallback/linking and screenshot pixels remain unverified; surrogate/non-BMP inputs are explicitly unsupported. Do not treat source preview coverage as game pixel parity."
+  },
+  "gui_native_glyph_atlas": {
+    "date": "2026-10-10",
+    "confidence": "confirmed static atlas route and two independent metadata captures; one narrow opaque pixel witness, broad raster parity unverified",
+    "evidence": [
+      "Ghidra plates 0x00A470E0, 0x008B8170 and 0x00D8B420; CGuiRenderFontAtlasPartial, CGuiFontGlyphPartial and renderer partial structures recorded before capture",
+      "tools/gui_editor/fixtures/glyph-metadata-live-1440x1080.json and glyph-metadata-heldout-live-1440x1080.json each reproduce 5632 page-zero glyph records across 22 fonts",
+      "Independent current-island settlement name plus Headlines command inputs reproduce 370 fully opaque pixels exactly at predicted screenshot origin [729,52] in text-island-first.png"
+    ],
+    "pipeline": "GUI font command becomes renderer message 0x3D and custom GDI atlas creation through 0x00A463B0/0x00A470E0. Text draw message 0x48 uses glyph quads through 0x00A46710. The captured facade selects mode3 D3D10. Direct D3DX font wrappers exist but do not establish this GUI command route.",
+    "inputs": "Original font command settings and original string; independent settlement-name scenario for CURRENT_CITY_NAME. Captured glyph dimensions, UVs and cached part offsets are comparison outputs only. Builder creates its own process-local GDI resources.",
+    "xml_style_gate": "Loader plate 0x00D49AD0 confirms document order: Outline flag resets border color to FF000000, later OutlineBorderColor overrides; ShadowOffset reads x/y and ShadowColor supplies packed color. Eight named source font definitions reproduce independently captured command parameters, including active shadow and outline fields. Inspector native single-run samples use explicit ARGB, not guessed source default color.",
+    "document_context_gate": "Ghidra settings initializer 0x00D461C0 zeros offsets but leaves color scalars untouched; loader reuses temporary storage between Font nodes. The selected-document parser resolves retained shadow color only after an earlier explicit assignment. Mainmenu Subheader Start retains shadow color15522472 from preceding Mainmenu Subheader, with offsets reset0/0. All21 named fonts reproduce source-derived command inputs and 5376 page-zero glyph records in each of two captures; standalone missing-color or unknown initial state remains unsupported.",
+    "limits": "Page zero and integer unit-scale glyph quads only. Full tag callback resolution, source DefaultColor overflow, missing active-shadow color initialization, fractional sampling, translucent compositing, owner clipping and whole-dialog pixels remain unverified. Later screenshot is occluded by production dialog and excluded; floating-message probe differs at 28/78 opaque pixels with capture stability unresolved. No game calls or writes."
+  },
+  "gui_native_text_metrics": {
+    "date": "2026-10-09",
+    "confidence": "confirmed static measurement algorithm and live cached run dimensions at 1440x1080, unit scale; glyph pixels and complete text layout unverified",
+    "evidence": [
+      "Ghidra plates 0x00D87F00, 0x00D88240, 0x00D879E0, 0x00D49AD0, 0x00A59D80; partial structures saved in Addon.exe project",
+      "tools/gui_editor/fixtures/text-runs-live-1440x1080.json: 121 runs across eight font/style groups match own-process GDI exactly",
+      "Two subsequent read-only captures each matched 179 runs with zero mismatches"
+    ],
+    "measurement": "Own-process CreateCompatibleDC/CreateFontIndirectW and GetTextExtentPoint32W reproduce recovered LOGFONT settings. Outline adds two physical pixels per UTF-16 code unit to width and two to nonempty height; logical dimensions divide by screen scale and truncate. Captured font parameters are inputs; captured run dimensions are comparison outputs only.",
+    "font_xml": "Child order matters: RelativeFontSize sets relative-size bit; later FontSize changes height without clearing it. Weight enables weight bit. Face names with at least 32 narrow bytes fall back to Arial. XML base/addon candidates remain explicit; effective archive precedence is not inferred.",
+    "capture": "capture-text-reference.ps1 uses OpenProcess query/read rights and bounded ReadProcessMemory only. Reads existing processed text; no game function calls or renderer handles. Non-atomic cache capture may include stale/hidden LABEL runs.",
+    "structures": [
+      "CFontContainerPartial",
+      "CTextPartPartial",
+      "CTextLinePartial",
+      "CProcessedTextPartial"
+    ],
+    "remaining": "D3DX rendering uses a separate font object. Glyph rasterization, wrapping/inline tags, alignment, runtime substitution, private-font registration and resolution overrides remain unverified. Same-machine metric matches are not a cross-machine guarantee. Font color/shadow metadata was corrected in Ghidra; immutable metric fixture intentionally excludes those fields."
+  },
+  "gui_explorer_feasibility": {
+    "date": "2026-10-09",
+    "confidence": "confirmed for extracted corpus and EXTENT reader; full rendering and export unverified",
+    "corpus": {
+      "dlg": 85,
+      "tpl": 881,
+      "stp": 1,
+      "bkg": 906,
+      "matched_bkg_png": 905,
+      "layout_records": 1880
+    },
+    "xml": "All 1873 sources parse and preserve normalized node structure through serialize/reparse; no attributes observed. This does not verify lexical preservation or game acceptance of edited output.",
+    "templates": "8497 non-empty TEMPLATE_REF_ID occurrences resolve to unique ACCESSIDs; no duplicate IDs or inheritance cycles. Explorer shows ordered layers and candidate properties, not constructor defaults or proven generic nested merges.",
+    "extent": {
+      "confidence": "confirmed static",
+      "reader": "0x00DC2090",
+      "long_reader": "0x00DC1DE0",
+      "behavior": "Omitted LEFT/TOP/WIDTH/HEIGHT preserve previous values; present empty fields become zero; right/bottom reconstructed from left/top plus width/height.",
+      "verified_by": "Addon.exe Ghidra decompilation; plate recorded at 0x00DC2090 before this entry"
+    },
+    "backgrounds": "All 1880 layout records have XSize*YSize tile entries. PNG represented state, tile flags, resizing/masks/color fidelity remain unverified; objectmenuinside has a 7x5 grid and 94x94 preview.",
+    "icons": "Addon icons.xml: 2362 GUID records; base iconfilemap.xml: 124 file entries. Nominal ingame_gui_map_01.png stored as 1024x1024 DDS and ABM v1 companion. ABM and index/variation semantics not decoded here.",
+    "cdf_export": "CDF retained opaque; no safe serializer implemented. Prior compilegui experiment ignored loose overrides. Archive precedence, isolated RDA packing and modified-source compiler acceptance remain unverified.",
+    "internal_editor": "unverified; editor metadata/dead writer functions do not establish an internal or released WYSIWYG editor",
+    "prototype": "Initial GET-only Python explorer retired and removed; current compiled Tauri tool is tools/gui_editor/. Historical audit evidence below belongs to the initial prototype.",
+    "evidence": [
+      "Full extracted-corpus audit and unittest checks",
+      "Ghidra plates 0x00DB6740 and 0x00DA14F0, decompilations 0x00D6E1A0/0x00DC2090/0x00DC1DE0",
+      "docs/gui-explorer-feasibility.md"
+    ]
+  },
+  "gui_background_grid": {
+    "date": "2026-10-09",
+    "confidence": "confirmed static allocation/draw modes; game pixel parity unverified",
+    "evidence": [
+      "Ghidra plates recorded first at 0x00DBF3C0, 0x00DBFE30, 0x00D5AD90",
+      "Decompiled XML tile reader 0x00DBB6B0 and texture placement 0x00DEC760"
+    ],
+    "allocation": "Row-major tiles start with source dimensions. XML flags & 5 share residual width per row, flags & 0x42 share residual height per column, signed integer division. Prefix positions accumulate; undersized allocations can be negative. XML32 uses first non-null source rectangle for allocation and skips drawing.",
+    "placement": "XML1/2 selects repeating source-sized blocks (mode2); XML4/64 overrides with stretch mode1. XML8/16 flip axes. Width/Height fields expand destination by original allocated size times the byte value and pass repeat counts value+1.",
+    "client": "Background offsets apply when background object exists and the background-client byte is enabled. Visible generated scrollbar dimensions further reduce client area. State and scaling matter.",
+    "objectmenuinside": "Modern 7x5 grid, 35 tiles: flags0=24, flags4=4, flags64=6, flags68=1; EmptyLayout client offsets [0,0,0,12]. At 400x100, central tile destination [36,24,328,52]. Original ingame_gui_map_01_0.dds is uncompressed 32-bit RGB/alpha, 1024x1024.",
+    "remaining": "ABM role, effective archive precedence, filtering/blending/half-pixel conventions, state fallback, old-format icon mapping and full pixel parity remain unverified. Current renderer rejects unsupported layout flags and ambiguous texture candidates.",
+    "archived_strip_comparison": {
+      "confidence": "confirmed measurement on archived reference; full-row/game-state parity unverified",
+      "reference": "production-objectmenuinside_full.png",
+      "crop": [
+        333,
+        211,
+        1080,
+        114
+      ],
+      "tested_region": [
+        0,
+        0,
+        1080,
+        20
+      ],
+      "pixel_count": 21600,
+      "mean_rgb_channel_error": 0.017407407407407406,
+      "maximum_rgb_channel_error": 1,
+      "method": "Native Canvas DDS/grid render composited over the archived panel color sampled at [100,600], then compared with the background-only top strip. Crop agrees with stale live CARD1 rectangle plus window client origin; not a fresh visible-dialog capture.",
+      "reproduce": "tools/gui_editor/compare-background-reference.ps1 after packaged --smoke-test"
+    }
+  },
+  "gui_editor_fidelity_primitives": {
+    "date": "2026-10-09",
+    "confidence": "confirmed static constructor and atlas rules; broader preview parity unverified",
+    "box_defaults": "XML constructor 0x00D8D9C0 sets LINE_ORDER=1, LINECOLUMNCOUNT=1, XSPACE=YSPACE=0, LEFT_TO_RIGHT=TOP_TO_BOTTOM=1, BOXLAYOUT_BEHAVIOUR=0 before reading definitions. Plate recorded first. Earlier prototype assumed LINE_ORDER=0.",
+    "atlas": "0x00DECE40 computes row-major source origins from index%columns and index/columns. 0x00DEB210 sets columns=floor(textureWidth/cellWidth); total=floor(textureHeight/cellHeight)*columns. IconFileMap loader 0x00D94620 supplies cell sizes through 0x00D94FE0 -> 0x00DEC450. Plates recorded first at draw/grid routines.",
+    "coin_crop": "Extracted addon GUID1160 explicit variation0 -> file116 index242, base map cells46x46, 1024x1024 DXT5 atlas -> source [0,506,46,46]. Rust decoder/crop checks pass. Runtime variant/fallback/effects not inferred.",
+    "live_reference": "Elevated read-only capture found repo-local Addon pid29188, 1440x1080 client, 9779 GUI widgets. Production dialog hidden; child absolute rectangles stale. No process writes, input, bridge rebuild or game restart.",
+    "implementation": "Rust authoritative preview geometry plus original-texture background compositor and explicit icon crop inspector in tools/gui_editor. Constructor defaults added only where recovered. Further verified layout and asset progress is recorded in gui_editor_fidelity_session_1830; complete per-type semantics, scrollbars, text and state selection remain incomplete."
+  },
+  "gui_editor_fidelity_session_1830": {
+    "date": "2026-10-09",
+    "confidence": "confirmed static rules and captured unit-scale infobar geometry; broad dialog/pixel parity unverified",
+    "evidence": [
+      "Ghidra plates recorded before implementation: 0x00D8DC60 box placement, 0x00456620 GuiScreen, 0x00D7E9B0 aspect/scaling, 0x00D5DC10 alpha, 0x005FEB30 fit action, 0x00DC2A90 event handlers",
+      "Label icon plates 0x00D7BB90 and 0x00D7D2B0; button behavior plate 0x00D3FBA0; background local-map loader 0x00DC1100",
+      "tools/gui_editor/fixtures/infobar-live-1440x1080.json; source SHA256 checked by Rust regression",
+      "Fresh read-only capture at 2026-10-09T16:15:59.9669417Z repeated earlier infobar geometry results"
+    ],
+    "layout": "Unit-scale preview now follows pre/child/post/mode ordering, frame reference-screen edge offsets, fixed and automatic box wrapping including reverse-direction asymmetry, and pure OnRender FITSIZETOCHILDREN. Raw authored extents remain distinct from effective frame accessors. Hidden inspection does not add hidden widgets to layout flow. Static inherited alpha uses minimum, not multiplication; animations remain unsupported.",
+    "handlers": "0x00DC2A90 checks existing event key before parsing actions; the first registered handler wins, including template-before-local order. Later duplicate event handlers are shadowed wholesale, not merged. Preview executes only its local pure fit operation; no game verbs are dispatched.",
+    "live_geometry": {
+      "gui_viewport": [
+        1440,
+        1080
+      ],
+      "effective_scale": [
+        1,
+        1
+      ],
+      "exact_visible_source_widgets": 25,
+      "hidden_live": 51,
+      "offscreen_live": 1,
+      "extra_live": 2,
+      "mismatches": 0,
+      "scenario_input": "Captured visibility only; captured extents never used as layout inputs. Source XML and extracted templates determine geometry. Hidden/offscreen cached absolute rectangles are not accepted as parity evidence."
+    },
+    "label_icons": "Normal explicit variation0 label preview uses absolute client origin, ICONSPACE near offsets, natural atlas-cell dimensions when unstretched, or WIDTH/HEIGHT as far-edge insets when stretched. ICONCLIP false uses GUI viewport. Verified label defaults: GUID=-1, variant0, zero space, stretch=false, clip=true, scale=1. At unit effective scale ICONSCALE has no effect. Runtime variation, tint, disabled/overlay effects and pixel parity remain unverified; other widget types are diagnosed.",
+    "background_coverage": {
+      "scope": "All 1880 explicit states at 1000x500: parser, non-drawing-cell allocation, source bounds and original DDS decode; no pixel parity claim",
+      "supported": 1853,
+      "unsupported": 27,
+      "assets_extracted": 23,
+      "remaining": "20 unsupported layout-flag records, five missing textures, one unresolved drawable local texture ID, one out-of-bounds source. Valid data/ and addondata/ namespaces supported. No archive precedence guessed. Fixed zero-area cells and XML32 cells retain geometry without requiring an image."
+    },
+    "dds": "Uncompressed 32-bit RGB/alpha and BC1/DXT1, BC2/DXT3, BC3/DXT5 decode paths tested. BC1 transparency and BC2 explicit alpha follow Microsoft Direct3D9 specifications; exact GPU/browser rounding/filtering remains unverified.",
+    "localisation": "Staged 69 whitelisted English resources from temporary base/addon eng0.rda copies, with hashes in fixtures/localisation-resources.json. Text tables have UTF-16 BOM; strict decoding and raw single-line GUID candidate inspection preserve inline markup. Font definitions use child elements, not attributes; inspector shows separate base/addon named-font XML. Extracted Georgia TTF SHA256 a7cd40982d435cfaa9f6871d64b28b0c47961f4a053ba315434b93378cce6981. Font resource precedence/aliasing, metrics, multiline/markup evaluation and rasterization remain unimplemented.",
+    "font_pipeline_next": {
+      "confidence": "confirmed static parameter preparation; rendering parity unverified",
+      "evidence": "Ghidra plates 0x00D49AD0, 0x00D87870, 0x00D879E0 recorded first and project saved",
+      "registration": "GameFont/FontFilename registers a locale-relative font with AddFontResourceExA flags0x10",
+      "relative_height": "int(authoredSize * GuiScreen scaleY +0.5); absolute size unchanged",
+      "native_parameters": "Computed size becomes LOGFONTW height, width0; quality5 with settings flag0x200 otherwise3. Mode0 uses renderer font creation, mode1 compatible DC/CreateFontIndirectW. Browser CSS size alone does not establish metric equivalence.",
+      "next": "Verify font settings refresh/per-resolution selection and renderer/GDI glyph metrics from captured text before implementing canvas text."
+    },
+    "safety": "RDA preview asset extraction uses read-only source streams to create temporary repo-local archive copies before handing them to a library that opens read/write. Only referenced textures and explicitly requested localization resources are extracted; existing differing files are rejected. Editor saves separate working copies. No game calls, bridge rebuild, archive patch or game restart."
+  },
+  "history_native_reader_live": {
+    "date": "2026-10-12",
+    "confidence": "static bindings and loaded-save snapshots confirmed; displayed UI parity and deliveries unverified",
+    "implementation": "tools/production-menu/history_reader.h",
+    "evidence": [
+      "docs/history-native-reader-snapshot.json: four settlements, recipes, productivity and paused aggregates",
+      "Population tier sums checked against world globals before publication",
+      "Approved native candidate repeatedly reads four settlements"
+    ],
+    "limits": [
+      "Non-atomic snapshots",
+      "Production estimates, not measured deliveries",
+      "Warehouse stock not added to the native calculator",
+      "History demand/balance parity unverified"
+    ]
+  }
+}

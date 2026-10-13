@@ -1,0 +1,23 @@
+{
+  "state": "Checked",
+  "widget": "MINIMAP_FORCE_NORTH",
+  "opaque_pixels": 87,
+  "schema": 1,
+  "captured_utc": "2026-10-09T19:00:13.4773538Z",
+  "render_sha256": "0c29e059691b54d8bbb732e410d36ac7aa61e98cdc348d9b7500246f13ebc58b",
+  "mean_rgb_error": 19.417624521072796,
+  "scope": "Fresh checked BUTTON background comparison on rendered alpha255 pixels only. Runtime icon GUID -1 and text disabled. Blended/transparent pixels excluded because underlying art is not supplied; no all-state/full-dialog parity.",
+  "total_pixels": 576,
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "maximum_rgb_error": 166,
+  "crop": [
+    104,
+    899,
+    24,
+    24
+  ],
+  "reference_sha256": "14d8971f446c649a027c496f6dc7bf98e603f96f5f88117649f03be96a572dca",
+  "pixels_over_3": 87,
+  "full_capture_sha256": "9b6ffd2f08c79fd3dd224f6ad89a463bc3762c495c612cad254abde5c669bb15",
+  "visible_chain": true
+}

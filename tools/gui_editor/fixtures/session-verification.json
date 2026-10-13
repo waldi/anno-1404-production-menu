@@ -1,0 +1,284 @@
+{
+  "schema": 2,
+  "checked_utc": "2026-10-10T20:19:27.8678166Z",
+  "release_sha256": "fc62ef07d19736715506ffcb9be3c23213b014550418e9e67f16c454468c9874",
+  "audit_release_sha256": "9244a8726c3389e3ed258059ef5cbd5ce6b7c52c62a7d8c1de7bd9539f176879",
+  "rust_tests": 57,
+  "frontend_tests": 8,
+  "release_build": "passed",
+  "native_smoke": {
+    "message": "Packaged WebView/Tauri IPC passed catalog, hierarchy, edits, history, gallery, 25-widget geometry, icon crops, 121 native text metrics, 53 button-state comparisons and progress layer canvas composition. No sources or working copies saved. Full pixel fidelity remains unverified.",
+    "success": true
+  },
+  "native_smoke_checks": [
+    "Actual packaged WebView and Tauri IPC",
+    "Catalog/hierarchy/edit/undo/redo without save",
+    "Gallery thumbnails and scrolling",
+    "Live fixture comparison: 25 exact visible source widgets",
+    "Normal LABEL icon placement and explicit atlas crop",
+    "Strict UTF-16 raw localization GUID and named-font inspection",
+    "DDS background composition and PNG export",
+    "121 captured native text run dimensions and explicit XML-font probe",
+    "53 captured button-state selections",
+    "Progress scenario through IPC, DDS layer composition and source immutability",
+    "Explicit patch0 and patch1 background candidates through actual IPC and canvas",
+    "Explicit English startup profile chooses patch1 minimap artwork and reports icon source identity",
+    "Shared startup artwork profile through progress composition IPC",
+    "Independent text placement: 13 direct-string labels; explicit English GUID lookup and word wrapping extends to 22 exact, zero mismatches",
+    "Independent all-part fixtures through packaged IPC: 34 and33 exact, zero mismatches,39 unsupported; includes inline icons, fonts, color, breaks",
+    "Original First Island source LABEL intrinsic90x22 and raw relative11,9,101,31 through actual geometry/caption IPC",
+    "Independent all-part fixtures include processed text bounds; changing cached ClientSize is detected",
+    "Explicit constrained source loading label: keep280 vs fit259 width, height34 and retained identical caption parts through actual IPC"
+  ],
+  "fresh_live_geometry": {
+    "exact": 25,
+    "extra_live": 2,
+    "hidden_live": 51,
+    "offscreen_live": 1
+  },
+  "live_capture_utc": "2026-10-09T16:15:59.9669417Z",
+  "geometry_input_scope": "Captured visibility only; no captured extents used as preview inputs",
+  "background_coverage": {
+    "supported": 1853,
+    "scope": "Parser, allocation, bounds and original DDS decode at1000x500; no pixel fidelity claim",
+    "unsupported": 27,
+    "states": 1880
+  },
+  "archived_strip": {
+    "render_sha256": "42c510b54b13969cff0cb81826da70a08b17074046926ba44d466ebc13086d9c",
+    "schema": 1,
+    "total_pixels": 21600,
+    "region": [
+      0,
+      0,
+      1080,
+      20
+    ],
+    "maximum_rgb_error": 1,
+    "reference_sha256": "a8ec874d9cdcd572dda914c47da57fc008b1a18f9fa35cb9a9f1f2112888e3d1",
+    "confidence": "Archived reference plus stale live row geometry; background-strip evidence only. No text, icons, other states or fresh full-row parity claim.",
+    "pixels_over_3": 0,
+    "mean_rgb_error": 0.017407407407407406,
+    "crop": [
+      333,
+      211,
+      1080,
+      114
+    ],
+    "sampled_background": [
+      100,
+      600
+    ]
+  },
+  "claim": "Implementation and narrowly scoped reference checks only; all broad milestone parity gates remain open",
+  "fresh_checked_button_pixel_gate": {
+    "opaque_pixels": 87,
+    "render_sha256": "0c29e059691b54d8bbb732e410d36ac7aa61e98cdc348d9b7500246f13ebc58b",
+    "maximum_rgb_error": 166,
+    "scope": "Opaque rendered pixels only; underlying artwork excluded. Cached capture crop coordinates still need independent verification. A mismatch must not be corrected by fitting an offset.",
+    "captured_utc": "2026-10-09T19:00:13.4773538Z",
+    "mean_rgb_error": 19.417624521072796,
+    "reference_sha256": "14d8971f446c649a027c496f6dc7bf98e603f96f5f88117649f03be96a572dca",
+    "schema": 1,
+    "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+    "pixels_over_3": 87,
+    "passed": false,
+    "crop": [
+      104,
+      899,
+      24,
+      24
+    ]
+  },
+  "repeated_button_state_capture": {
+    "exact": 37,
+    "mismatch": 0,
+    "scope": "Visible-chain cached selections only; scene changed without input from this tool",
+    "captured_utc": "2026-10-09T19:07:36.7972058Z"
+  },
+  "loaded_background_fixture": {
+    "captured_utc": "2026-10-09T19:13:36.2626864Z",
+    "tiles": 4,
+    "pixel_parity": "failed separate gate",
+    "path": "fixtures/force-north-loaded-background.json",
+    "source_destinations_flags_logical_texture": "exact"
+  },
+  "patch_artwork_pixel_gate": {
+    "crop": [
+      104,
+      899,
+      24,
+      24
+    ],
+    "opaque_pixels": 122,
+    "pixels_over_3": 0,
+    "passed": true,
+    "captured_utc": "2026-10-09T19:00:13.4773538Z",
+    "schema": 1,
+    "render_sha256": "7f890a3ab70cc28170cd84393e5f7855ed2c937a1fdedc1b345215c339e08ee8",
+    "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+    "maximum_rgb_error": 1,
+    "candidate": "patch1",
+    "reference_sha256": "14d8971f446c649a027c496f6dc7bf98e603f96f5f88117649f03be96a572dca",
+    "scope": "Opaque rendered pixels only; underlying artwork excluded. Cached capture crop coordinates still need independent verification. A mismatch must not be corrected by fitting an offset.",
+    "mean_rgb_error": 0.01639344262295082
+  },
+  "heldout_pixel_capture": {
+    "captured_utc": "2026-10-09T19:21:26.4387817Z",
+    "status": "excluded_hidden_ancestor",
+    "reason": "MINIMAP parent Visible=0; absolute cache stale"
+  },
+  "plain_text_placement": {
+    "fixture": "fixtures/text-flow-live-1440x1080.json",
+    "exact": 22,
+    "mismatch": 0,
+    "unsupported": 51,
+    "language": "eng",
+    "scope": "Plain token dimensions, local offsets, pre-alignment bounds and ordinary word wrapping; no rich text, oversized-word splitting, owner alignment or glyph pixel claim"
+  },
+  "heldout_plain_text_placement": {
+    "fixture": "fixtures/text-flow-heldout-live-1440x1080.json",
+    "exact": 22,
+    "mismatch": 0,
+    "unsupported": 52,
+    "language": "eng",
+    "captured_utc": "2026-10-09T19:54:55.0475613Z"
+  },
+  "visible_heldout_checked_button": {
+    "reference_sha256": "78dee6818f6eea600fcbf9410f83df85fcb13408c6addb3b1e5644f16cafb370",
+    "layout_color": 4294967295,
+    "crop": [
+      104,
+      899,
+      24,
+      24
+    ],
+    "visible_chain": true,
+    "captured_utc": "2026-10-09T19:25:58.657647Z",
+    "actual_index": 4,
+    "schema": 1,
+    "scope": "Later visible held-out frame. Recorded absolute rectangle and client origin; active Checked index and white layout color. No input or fitted coordinates.",
+    "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007"
+  },
+  "artwork_census": {
+    "fixture": "fixtures/known-startup-artwork-census.json",
+    "assets": 92,
+    "scope": "GUI background texture and base IconFileMap whitelist across default English startup archives. Actual bytes/hashes verified on disposable archive copies; loose files and later custom mounts excluded."
+  },
+  "inline_text_placement": {
+    "fixture": "fixtures/text-inline-live-1440x1080.json",
+    "mismatch": 0,
+    "unsupported": 39,
+    "exact": 34,
+    "scope": "Local text/icon part geometry, fonts, colors, icon GUID/variation/clip; owner origin and glyph pixels excluded",
+    "language": "eng"
+  },
+  "heldout_inline_text_placement": {
+    "language": "eng",
+    "fixture": "fixtures/text-inline-heldout-live-1440x1080.json",
+    "mismatch": 0,
+    "unsupported": 39,
+    "exact": 33
+  },
+  "glyph_metadata": {
+    "fonts": 22,
+    "glyphs_per_capture": 5632,
+    "scope": "Metadata only",
+    "captures": 2
+  },
+  "glyph_pixel_witness": {
+    "heldout": "excluded_occluded",
+    "scope": "Single Headlines unit-scale opaque witness; broad parity unverified",
+    "exact_opaque_pixels": 370,
+    "fixture": "glyph-headlines-witness.json"
+  },
+  "native_xml_style": {
+    "native_sample_ipc": "passed explicit ARGB PNG dimensions and opaque colors",
+    "named_fonts": 8,
+    "active_fields": "shadow enable, offsets, color; outline border color",
+    "scope": "Source DefaultColor overflow and full caption rendering remain unverified"
+  },
+  "source_caption": {
+    "audit": {
+      "unsupported": 0,
+      "scope": "Available source LABEL cases in save_dialog only; broader parity unverified",
+      "sprites": 9,
+      "captions": 3
+    },
+    "guid": 122002,
+    "source_geometry": "client width from resolved source/template preview",
+    "scope": "Complete caption pixels and all broader fidelity gates unverified",
+    "local_parts": "tokens, sizes, centered offsets, color match independent capture",
+    "native_ipc": "passed",
+    "definition": "menudefinitions/save_dialog.dlg"
+  },
+  "source_font_document": {
+    "scope": "Source-derived command settings/page0 metadata. Unknown initial color and full pixels remain unverified",
+    "menu_retained_shadow_color": 15522472,
+    "native_menu_sample": "passed",
+    "named_fonts": 21,
+    "glyph_records_per_capture": 5376,
+    "captures": 2
+  },
+  "unicode_pages": {
+    "capture_script": "PowerShell parse and C# compile passed",
+    "rejected": "FF, non-BMP, controls",
+    "pages": "00..FE",
+    "native_unicode_sample": "passed",
+    "higher_page_live_metadata": "pending: elevated capture found no running game",
+    "scope": "Static BMP page rules, own-process rendering checks"
+  },
+  "button_source_captions": {
+    "rust": "Original exit_game_menu source caption and state colors, cleared explicit color, missing active color and retained-history rejection passed",
+    "static": "D3D650/D40140/D3E2C0/D3FBA0 and DC1E90/DC1A90",
+    "native_smoke": "Original button disabled caption PNG and source-selected color passed actual packaged WebView/Tauri IPC",
+    "live_pixels": "pending",
+    "scope": "Explicitly enabled source BUTTON captions at unit scale; whole-dialog parity remains unverified"
+  },
+  "city_name_scenarios": {
+    "local_parts": "Original GUID198142 and original font/color plus explicit independent First Island string match captured parts, sizes, offsets, line bounds and colors",
+    "scope": "Scenario data does not edit XML; broad fidelity gates remain open",
+    "localization_fallback": "Original English GUID140038 -> Uninhabited Island with source SHA256 reported by release audit",
+    "native_smoke": "Manual name and synthetic schema3 primary-score/tie selection passed packaged WebView/Tauri IPC",
+    "capture_compile": "PowerShell AST and C# compile passed",
+    "fresh_live": "pending: elevated attempt confirms Addon closed",
+    "owner_geometry": "Unbounded First Island relative rectangle and explicit constrained loading label relative rectangle match historical outputs; automatic history and runtime ancestors pending",
+    "tests": "Streaming prefix/suffix, markup, escapes, semicolons, missing value, recursive bound; fallback local/primary/secondary/localization ordering, ties and invalid player passed",
+    "static": "CURRENT_CITY_NAME ID0x50 callback and fallback path recorded in Ghidra; CIsland vector ranges/primary scores and CGameEngine partial fields recorded"
+  },
+  "text_owner_resize": {
+    "static": "Dirty text precedes relayout; processed appended-line bounds, background borders and both-axis anchors recovered",
+    "relative_witness": "Original GUID198142/font/color and explicit First Island ->90x22 / [11,9,101,31] exactly",
+    "fixture": "text-owner-first-island-live.json with parent-capture hash",
+    "synthetic_tests": "Empty/trailing CR, min client, borders, both-axis far anchor and box/parent fit",
+    "release_cli": "First Island source caption, two native sprites passed",
+    "native_smoke": "Source label resize and caption IPC passed",
+    "scope": "Source LABEL resizing with explicit constrained pre-refresh width/mode; automatic history, runtime ancestors and full dialog pixels remain open"
+  },
+  "constrained_text_refresh": {
+    "static": "D8B680 and callers D76180/D89DB0/D89810; LABEL maxwidth INT_MAX via D7BB90/DC2390/DC1AA0/D8B1F0",
+    "scenario": "text_refresh map: client_width1..8192 and fit_wrapped_width; initial authored near position/height plus supplied client width",
+    "original_witness": "load_text_frame source width296 minus background borders8+8 ->280, processed259x34, raw[36,30,332,80] and captured parts exact",
+    "native_smoke": "keep/fit widths and retained parts passed packaged WebView/Tauri IPC",
+    "release_cli": "12 source loading caption parts and native sprites passed separate JSON import",
+    "capture_compile": "PowerShell parse and embedded C# compile passed; ParentMaxWidth and ProcessedSize added",
+    "limits": "Historical offscreen relative witness, not refresh-provenance/absolute/pixel proof",
+    "test_transient": "One early parallel run had isolated text discrepancies; isolated and three subsequent parallel suites passed without tolerance/reference changes; root cause unverified"
+  },
+  "mixed_case_fit": {
+    "static": "005FEB30 and00B08440",
+    "original_source_list_raw": [
+      2,
+      0,
+      86,
+      41
+    ],
+    "raw_delta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "whole_panel": "unverified; controller and multi-pass ordering remain open"
+  }
+}

@@ -1,0 +1,1074 @@
+{
+  "diagnostics": [],
+  "schema": 1,
+  "captured_utc": "2026-10-09T18:50:14.353107Z",
+  "scope": "Visible ancestor-chain BUTTON cached layout indices. Non-atomic reads; no input or game calls. Hidden buttons excluded, glyph and pixel parity not implied.",
+  "buttons": [
+    {
+      "widget": 830391624,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480023728,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": true,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 4
+    },
+    {
+      "widget": 480031924,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480034656,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480020996,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480007336,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": true,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 4
+    },
+    {
+      "widget": 480012800,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480018264,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480010068,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": true,
+        "force_checked_hover": false
+      },
+      "enabled_chain": false,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 2
+    },
+    {
+      "widget": 480015532,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480026460,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480029192,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480152132,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480094760,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480154864,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477887304,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 478146844,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480040120,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480042852,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480045584,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480048316,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480051048,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480053780,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480056512,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480059244,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480061976,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480064708,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480067440,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480070172,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480072904,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480075636,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480078368,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480081100,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480083832,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480086564,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480089296,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480092028,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480097492,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 480100224,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "EmptyLayout"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477890036,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": true,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 4
+    },
+    {
+      "widget": 477900964,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477791684,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477794416,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477797148,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477799880,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477802612,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477805344,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477808076,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477810808,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477813540,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477816272,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477827200,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": false,
+        "force_checked_hover": false
+      },
+      "enabled_chain": true,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 0
+    },
+    {
+      "widget": 477832664,
+      "input": {
+        "hovered": false,
+        "pressed": false,
+        "checked": false,
+        "suppress_hover": false,
+        "force_disabled": true,
+        "force_checked_hover": false
+      },
+      "enabled_chain": false,
+      "layouts": [
+        "Normal",
+        "Normal+MouseButtonDown",
+        "Normal+Disabled",
+        "Normal+MouseOver",
+        "Checked",
+        "Checked+MouseButtonDown",
+        "Checked+Disabled",
+        "Checked+MouseOver"
+      ],
+      "actual_index": 2
+    }
+  ],
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007"
+}

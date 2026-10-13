@@ -1,0 +1,2224 @@
+{
+  "schema": 2,
+  "captured_utc": "2026-10-09T22:09:25.0535123Z",
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "capture_sha256": "333aaa7e530c089926413d8671d12c4c40c8983485a91d980e907d58316ab38a",
+  "gui_screen": {
+    "ReferenceSize": [
+      1280,
+      1024
+    ],
+    "PhysicalSize": [
+      1440,
+      1080
+    ],
+    "GuiSize": [
+      1440,
+      1080
+    ],
+    "Mode": 2,
+    "Scale": [
+      1.0,
+      1.0
+    ],
+    "AlignmentOffsets": [
+      80,
+      160,
+      28,
+      56
+    ]
+  },
+  "widgets": [
+    {
+      "Address": 131697712,
+      "Parent": 126644424,
+      "Type": 11,
+      "PathId": "INFOBAR_ISLAND_INFO",
+      "AccessId": "INFOBAR_ISLAND_INFO",
+      "Relative": [
+        604,
+        1,
+        836,
+        229
+      ],
+      "Absolute": [
+        604,
+        1,
+        836,
+        229
+      ],
+      "ScaledRelative": [
+        604.0,
+        1.0,
+        836.0,
+        229.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "Visible": 1,
+      "Flags": 536870912,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        524607224
+      ]
+    },
+    {
+      "Address": 524607224,
+      "Parent": 131697712,
+      "Type": 1,
+      "PathId": "ISLAND_INFO_PANEL",
+      "AccessId": "INFOBAR_ISLAND_INFO_PANEL",
+      "Relative": [
+        0,
+        0,
+        232,
+        235
+      ],
+      "Absolute": [
+        604,
+        1,
+        836,
+        236
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        232.0,
+        235.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        524609564,
+        402993596
+      ]
+    },
+    {
+      "Address": 524609564,
+      "Parent": 524607224,
+      "Type": 1,
+      "PathId": "RESOURCES_PANEL",
+      "AccessId": "INFOBAR_RESOURCES_PANEL",
+      "Relative": [
+        37,
+        48,
+        230,
+        111
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        37.0,
+        48.0,
+        230.0,
+        111.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 4194330,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        524611904
+      ]
+    },
+    {
+      "Address": 402993596,
+      "Parent": 524607224,
+      "Type": 6,
+      "PathId": "FERTILITIES_PANEL",
+      "AccessId": "",
+      "Relative": [
+        0,
+        2,
+        232,
+        63
+      ],
+      "Absolute": [
+        604,
+        3,
+        836,
+        64
+      ],
+      "ScaledRelative": [
+        0.0,
+        2.0,
+        232.0,
+        63.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870912,
+      "UsesBackgroundClient": true,
+      "Background": 119604080,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobar_background_horizontal.bkg",
+      "Children": [
+        524693804,
+        524686784,
+        524691464
+      ]
+    },
+    {
+      "Address": 524611904,
+      "Parent": 524609564,
+      "Type": 1,
+      "PathId": "RESOURCES_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        3,
+        0,
+        163,
+        33
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 119605808,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbackground.bkg",
+      "Children": [
+        402991800
+      ]
+    },
+    {
+      "Address": 524693804,
+      "Parent": 402993596,
+      "Type": 1,
+      "PathId": "FERTILITY_BUTTON_OFFSET",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        102,
+        58
+      ],
+      "Absolute": [
+        608,
+        6,
+        710,
+        64
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        102.0,
+        58.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        478146844
+      ]
+    },
+    {
+      "Address": 524686784,
+      "Parent": 402993596,
+      "Type": 1,
+      "PathId": "ISLAND_NAME_CONTAINER",
+      "AccessId": "",
+      "Relative": [
+        107,
+        0,
+        208,
+        58
+      ],
+      "Absolute": [
+        715,
+        6,
+        816,
+        64
+      ],
+      "ScaledRelative": [
+        107.0,
+        0.0,
+        208.0,
+        58.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        524689124
+      ]
+    },
+    {
+      "Address": 524691464,
+      "Parent": 402993596,
+      "Type": 1,
+      "PathId": "DUMMY",
+      "AccessId": "",
+      "Relative": [
+        213,
+        0,
+        218,
+        50
+      ],
+      "Absolute": [
+        821,
+        6,
+        826,
+        56
+      ],
+      "ScaledRelative": [
+        213.0,
+        0.0,
+        218.0,
+        50.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 402991800,
+      "Parent": 524611904,
+      "Type": 6,
+      "PathId": "RESOURCES_BOXLAYOUT",
+      "AccessId": "",
+      "Relative": [
+        0,
+        3,
+        238,
+        33
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870912,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        524614244,
+        478119524,
+        478122256,
+        478124988,
+        478127720,
+        478130452,
+        478133184,
+        478135916,
+        478138648,
+        478141380,
+        478144112
+      ]
+    },
+    {
+      "Address": 478146844,
+      "Parent": 524693804,
+      "Type": 2,
+      "PathId": "FERTILITY_BUTTON",
+      "AccessId": "INFOBAR_FERTILITY_BUTTON",
+      "Relative": [
+        4,
+        2,
+        102,
+        60
+      ],
+      "Absolute": [
+        612,
+        8,
+        710,
+        66
+      ],
+      "ScaledRelative": [
+        4.0,
+        2.0,
+        102.0,
+        60.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 1573000,
+      "UsesBackgroundClient": true,
+      "Background": 119604224,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarbeigebrassbackground.bkg",
+      "Children": [
+        402995392
+      ]
+    },
+    {
+      "Address": 524689124,
+      "Parent": 524686784,
+      "Type": 1,
+      "PathId": "ISLAND_NAME",
+      "AccessId": "INFOBAR_ISLAND_INFO_NAME",
+      "Relative": [
+        11,
+        9,
+        101,
+        31
+      ],
+      "Absolute": [
+        726,
+        15,
+        816,
+        37
+      ],
+      "ScaledRelative": [
+        11.0,
+        9.0,
+        101.0,
+        31.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524614244,
+      "Parent": 402991800,
+      "Type": 1,
+      "PathId": "NO_RESOURCES_LABEL",
+      "AccessId": "INFOBAR_NO_RESOURCES_LABEL",
+      "Relative": [
+        0,
+        0,
+        156,
+        34
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 478119524,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE0",
+      "AccessId": "INFOBAR_RESOURCE_PANEL0",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119606096,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524616584,
+        524618924,
+        524621264
+      ]
+    },
+    {
+      "Address": 478122256,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE1",
+      "AccessId": "INFOBAR_RESOURCE_PANEL1",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119603504,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524623604,
+        524625944,
+        524628284
+      ]
+    },
+    {
+      "Address": 478124988,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE2",
+      "AccessId": "INFOBAR_RESOURCE_PANEL2",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119604368,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524630624,
+        524632964,
+        524635304
+      ]
+    },
+    {
+      "Address": 478127720,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE3",
+      "AccessId": "INFOBAR_RESOURCE_PANEL3",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119607824,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524637644,
+        524639984,
+        524642324
+      ]
+    },
+    {
+      "Address": 478130452,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE4",
+      "AccessId": "INFOBAR_RESOURCE_PANEL4",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119605232,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524644664,
+        524647004,
+        524649344
+      ]
+    },
+    {
+      "Address": 478133184,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE5",
+      "AccessId": "INFOBAR_RESOURCE_PANEL5",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119607104,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524651684,
+        524654024,
+        524656364
+      ]
+    },
+    {
+      "Address": 478135916,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE6",
+      "AccessId": "INFOBAR_RESOURCE_PANEL6",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119606240,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524658704,
+        524661044,
+        524663384
+      ]
+    },
+    {
+      "Address": 478138648,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE7",
+      "AccessId": "INFOBAR_RESOURCE_PANEL7",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119605088,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524665724,
+        524668064,
+        524670404
+      ]
+    },
+    {
+      "Address": 478141380,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE8",
+      "AccessId": "INFOBAR_RESOURCE_PANEL8",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119607392,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524672744,
+        524675084,
+        524677424
+      ]
+    },
+    {
+      "Address": 478144112,
+      "Parent": 402991800,
+      "Type": 2,
+      "PathId": "RESOURCE9",
+      "AccessId": "INFOBAR_RESOURCE_PANEL9",
+      "Relative": [
+        0,
+        0,
+        76,
+        42
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 8912904,
+      "UsesBackgroundClient": true,
+      "Background": 119603648,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarpopupbutton.bkg",
+      "Children": [
+        524679764,
+        524682104,
+        524684444
+      ]
+    },
+    {
+      "Address": 402995392,
+      "Parent": 478146844,
+      "Type": 6,
+      "PathId": "FERTILITIES_LIST",
+      "AccessId": "FERTILITIES_LIST",
+      "Relative": [
+        2,
+        0,
+        86,
+        41
+      ],
+      "Absolute": [
+        620,
+        13,
+        704,
+        54
+      ],
+      "ScaledRelative": [
+        2.0,
+        0.0,
+        86.0,
+        41.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870912,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        524696144,
+        524698484,
+        524700824,
+        524703164
+      ]
+    },
+    {
+      "Address": 524616584,
+      "Parent": 478119524,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524618924,
+      "Parent": 478119524,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON1",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524621264,
+      "Parent": 478119524,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT1",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524623604,
+      "Parent": 478122256,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524625944,
+      "Parent": 478122256,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON2",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524628284,
+      "Parent": 478122256,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT2",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524630624,
+      "Parent": 478124988,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524632964,
+      "Parent": 478124988,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON3",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524635304,
+      "Parent": 478124988,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT3",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524637644,
+      "Parent": 478127720,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524639984,
+      "Parent": 478127720,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON4",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524642324,
+      "Parent": 478127720,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT4",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524644664,
+      "Parent": 478130452,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524647004,
+      "Parent": 478130452,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON5",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524649344,
+      "Parent": 478130452,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT5",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524651684,
+      "Parent": 478133184,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524654024,
+      "Parent": 478133184,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON6",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524656364,
+      "Parent": 478133184,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT6",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524658704,
+      "Parent": 478135916,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524661044,
+      "Parent": 478135916,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON7",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524663384,
+      "Parent": 478135916,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT7",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524665724,
+      "Parent": 478138648,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524668064,
+      "Parent": 478138648,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON8",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524670404,
+      "Parent": 478138648,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT8",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524672744,
+      "Parent": 478141380,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524675084,
+      "Parent": 478141380,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON9",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524677424,
+      "Parent": 478141380,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT9",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524679764,
+      "Parent": 478144112,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT_BACKGROUND",
+      "AccessId": "",
+      "Relative": [
+        -7,
+        -1,
+        78,
+        41
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524682104,
+      "Parent": 478144112,
+      "Type": 1,
+      "PathId": "RESOURCE_ICON",
+      "AccessId": "INFOBAR_RESOURCE_ICON10",
+      "Relative": [
+        11,
+        5,
+        37,
+        31
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524684444,
+      "Parent": 478144112,
+      "Type": 1,
+      "PathId": "RESOURCE_AMOUNT",
+      "AccessId": "INFOBAR_RESOURCE_AMOUNT10",
+      "Relative": [
+        45,
+        4,
+        69,
+        30
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524696144,
+      "Parent": 402995392,
+      "Type": 1,
+      "PathId": "FERTILITY_1",
+      "AccessId": "INFOBAR_FERTILITY_1",
+      "Relative": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "Absolute": [
+        620,
+        13,
+        646,
+        39
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        26.0,
+        26.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870928,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524698484,
+      "Parent": 402995392,
+      "Type": 1,
+      "PathId": "FERTILITY_2",
+      "AccessId": "INFOBAR_FERTILITY_2",
+      "Relative": [
+        29,
+        0,
+        55,
+        26
+      ],
+      "Absolute": [
+        649,
+        13,
+        675,
+        39
+      ],
+      "ScaledRelative": [
+        29.0,
+        0.0,
+        55.0,
+        26.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870928,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524700824,
+      "Parent": 402995392,
+      "Type": 1,
+      "PathId": "FERTILITY_3",
+      "AccessId": "INFOBAR_FERTILITY_3",
+      "Relative": [
+        58,
+        0,
+        84,
+        26
+      ],
+      "Absolute": [
+        678,
+        13,
+        704,
+        39
+      ],
+      "ScaledRelative": [
+        58.0,
+        0.0,
+        84.0,
+        26.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870928,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 524703164,
+      "Parent": 402995392,
+      "Type": 1,
+      "PathId": "FERTILITY_4",
+      "AccessId": "INFOBAR_FERTILITY_4",
+      "Relative": [
+        87,
+        0,
+        113,
+        26
+      ],
+      "Absolute": [
+        693,
+        13,
+        719,
+        39
+      ],
+      "ScaledRelative": [
+        87.0,
+        0.0,
+        113.0,
+        26.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 536870928,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    }
+  ],
+  "scope": "Historical island-panel subtree comparison outputs. Only visibility may be supplied as input; rectangles are never layout inputs. Runtime controller, resource/icon contents and transition timing remain unverified."
+}

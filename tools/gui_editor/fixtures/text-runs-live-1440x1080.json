@@ -1,0 +1,2763 @@
+{
+  "fonts": [
+    {
+      "Address": 118504616,
+      "Name": "IngameMessages",
+      "Face": "Times New Roman",
+      "Flags": 945,
+      "Height": 22,
+      "Weight": 0
+    },
+    {
+      "Address": 118504024,
+      "Name": "Headlines",
+      "Face": "Times New Roman",
+      "Flags": 753,
+      "Height": 22,
+      "Weight": 500
+    },
+    {
+      "Address": 118506392,
+      "Name": "Tooltip",
+      "Face": "Times New Roman",
+      "Flags": 673,
+      "Height": 18,
+      "Weight": 0
+    },
+    {
+      "Address": 118499288,
+      "Name": "LoadingBarText",
+      "Face": "Times New Roman",
+      "Flags": 753,
+      "Height": 20,
+      "Weight": 500
+    },
+    {
+      "Address": 118504320,
+      "Name": "Mainmenu Subheader Start",
+      "Face": "Times New Roman",
+      "Flags": 753,
+      "Height": 19,
+      "Weight": 500
+    },
+    {
+      "Address": 118506688,
+      "Name": "Mainmenu text",
+      "Face": "Arial",
+      "Flags": 689,
+      "Height": 16,
+      "Weight": 500
+    },
+    {
+      "Address": 118507576,
+      "Name": "Default",
+      "Face": "Times New Roman",
+      "Flags": 673,
+      "Height": 18,
+      "Weight": 0
+    },
+    {
+      "Address": 118502840,
+      "Name": "H2",
+      "Face": "Times New Roman",
+      "Flags": 673,
+      "Height": 36,
+      "Weight": 0
+    }
+  ],
+  "gui_screen": {
+    "ReferenceSize": [
+      1280,
+      1024
+    ],
+    "PhysicalSize": [
+      1440,
+      1080
+    ],
+    "GuiSize": [
+      1440,
+      1080
+    ],
+    "Mode": 2,
+    "Scale": [
+      1.0,
+      1.0
+    ],
+    "AlignmentOffsets": [
+      80,
+      160,
+      28,
+      56
+    ]
+  },
+  "schema": 1,
+  "diagnostics": [],
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "scope": "Cached LABEL text runs and font settings only; non-atomic read. No renderer/GDI handles are used and no game calls are made.",
+  "captured_utc": "2026-10-09T18:25:29.7414044Z",
+  "runs": [
+    {
+      "Widget": 534432884,
+      "Part": 126306244,
+      "ProcessedId": 6959,
+      "Text": "Press ",
+      "Size": [
+        60,
+        24
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        307,
+        24
+      ],
+      "Color": 4294967168,
+      "Font": 118504616
+    },
+    {
+      "Widget": 534432884,
+      "Part": 126306148,
+      "ProcessedId": 6959,
+      "Text": "\"P\" ",
+      "Size": [
+        40,
+        24
+      ],
+      "Offset": [
+        60,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        307,
+        24
+      ],
+      "Color": 4294967168,
+      "Font": 118504616
+    },
+    {
+      "Widget": 534432884,
+      "Part": 126311716,
+      "ProcessedId": 6959,
+      "Text": "to ",
+      "Size": [
+        26,
+        24
+      ],
+      "Offset": [
+        100,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        307,
+        24
+      ],
+      "Color": 4294967168,
+      "Font": 118504616
+    },
+    {
+      "Widget": 534432884,
+      "Part": 126311812,
+      "ProcessedId": 6959,
+      "Text": "continue ",
+      "Size": [
+        89,
+        24
+      ],
+      "Offset": [
+        126,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        307,
+        24
+      ],
+      "Color": 4294967168,
+      "Font": 118504616
+    },
+    {
+      "Widget": 534432884,
+      "Part": 126311908,
+      "ProcessedId": 6959,
+      "Text": "the ",
+      "Size": [
+        36,
+        24
+      ],
+      "Offset": [
+        215,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        307,
+        24
+      ],
+      "Color": 4294967168,
+      "Font": 118504616
+    },
+    {
+      "Widget": 534432884,
+      "Part": 126312004,
+      "ProcessedId": 6959,
+      "Text": "game.",
+      "Size": [
+        56,
+        24
+      ],
+      "Offset": [
+        251,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        307,
+        24
+      ],
+      "Color": 4294967168,
+      "Font": 118504616
+    },
+    {
+      "Widget": 505554632,
+      "Part": 126305956,
+      "ProcessedId": 6853,
+      "Text": "Production: ",
+      "Size": [
+        156,
+        36
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        333,
+        36
+      ],
+      "Color": 4281870105,
+      "Font": 118502840
+    },
+    {
+      "Widget": 505554632,
+      "Part": 126314500,
+      "ProcessedId": 6853,
+      "Text": "Second ",
+      "Size": [
+        101,
+        36
+      ],
+      "Offset": [
+        156,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        333,
+        36
+      ],
+      "Color": 4281870105,
+      "Font": 118502840
+    },
+    {
+      "Widget": 505554632,
+      "Part": 126316420,
+      "ProcessedId": 6853,
+      "Text": "Island",
+      "Size": [
+        76,
+        36
+      ],
+      "Offset": [
+        257,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        333,
+        36
+      ],
+      "Color": 4281870105,
+      "Font": 118502840
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966438636,
+      "ProcessedId": 6855,
+      "Text": "Ctrl-click ",
+      "Size": [
+        58,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966438252,
+      "ProcessedId": 6855,
+      "Text": "settlements ",
+      "Size": [
+        70,
+        17
+      ],
+      "Offset": [
+        58,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966438156,
+      "ProcessedId": 6855,
+      "Text": "to ",
+      "Size": [
+        15,
+        17
+      ],
+      "Offset": [
+        128,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966438060,
+      "ProcessedId": 6855,
+      "Text": "combine. ",
+      "Size": [
+        57,
+        17
+      ],
+      "Offset": [
+        143,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966437964,
+      "ProcessedId": 6855,
+      "Text": "Potential ",
+      "Size": [
+        55,
+        17
+      ],
+      "Offset": [
+        200,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966437868,
+      "ProcessedId": 6855,
+      "Text": "assumes ",
+      "Size": [
+        54,
+        17
+      ],
+      "Offset": [
+        255,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966437772,
+      "ProcessedId": 6855,
+      "Text": "inputs ",
+      "Size": [
+        38,
+        17
+      ],
+      "Offset": [
+        309,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966437676,
+      "ProcessedId": 6855,
+      "Text": "and ",
+      "Size": [
+        25,
+        17
+      ],
+      "Offset": [
+        347,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 126309796,
+      "ProcessedId": 6855,
+      "Text": "warehouse ",
+      "Size": [
+        68,
+        17
+      ],
+      "Offset": [
+        372,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505549752,
+      "Part": 966436620,
+      "ProcessedId": 6855,
+      "Text": "space.",
+      "Size": [
+        38,
+        17
+      ],
+      "Offset": [
+        440,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        478,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505552192,
+      "Part": 126312868,
+      "ProcessedId": 6856,
+      "Text": "Settlements",
+      "Size": [
+        68,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        68,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966437580,
+      "ProcessedId": 6857,
+      "Text": "Blue: ",
+      "Size": [
+        34,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966437484,
+      "ProcessedId": 6857,
+      "Text": "resident ",
+      "Size": [
+        50,
+        17
+      ],
+      "Offset": [
+        34,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966437388,
+      "ProcessedId": 6857,
+      "Text": "+ ",
+      "Size": [
+        12,
+        17
+      ],
+      "Offset": [
+        84,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966437292,
+      "ProcessedId": 6857,
+      "Text": "factory ",
+      "Size": [
+        46,
+        17
+      ],
+      "Offset": [
+        96,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966437196,
+      "ProcessedId": 6857,
+      "Text": "demand ",
+      "Size": [
+        50,
+        17
+      ],
+      "Offset": [
+        142,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 126315364,
+      "ProcessedId": 6857,
+      "Text": "estimate ",
+      "Size": [
+        53,
+        17
+      ],
+      "Offset": [
+        192,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 126309508,
+      "ProcessedId": 6857,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        245,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966437004,
+      "ProcessedId": 6857,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        249,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966436908,
+      "ProcessedId": 6857,
+      "Text": "Green: ",
+      "Size": [
+        43,
+        17
+      ],
+      "Offset": [
+        253,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966436812,
+      "ProcessedId": 6857,
+      "Text": "potential ",
+      "Size": [
+        53,
+        17
+      ],
+      "Offset": [
+        296,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 966436716,
+      "ProcessedId": 6857,
+      "Text": "output ",
+      "Size": [
+        40,
+        17
+      ],
+      "Offset": [
+        349,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 126316996,
+      "ProcessedId": 6857,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        389,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 126314884,
+      "ProcessedId": 6857,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        393,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 505542432,
+      "Part": 126309892,
+      "ProcessedId": 6857,
+      "Text": "(t/min)",
+      "Size": [
+        39,
+        17
+      ],
+      "Offset": [
+        397,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        436,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506125448,
+      "Part": 966435660,
+      "ProcessedId": 6889,
+      "Text": "Cider",
+      "Size": [
+        32,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        32,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506135208,
+      "Part": 126308932,
+      "ProcessedId": 6890,
+      "Text": "Fish",
+      "Size": [
+        24,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        24,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506127888,
+      "Part": 126314788,
+      "ProcessedId": 6891,
+      "Text": "Wood",
+      "Size": [
+        35,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        35,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506162048,
+      "Part": 126313156,
+      "ProcessedId": 6904,
+      "Text": "Demand ",
+      "Size": [
+        54,
+        17
+      ],
+      "Offset": [
+        293,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506162048,
+      "Part": 966436332,
+      "ProcessedId": 6904,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        347,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506162048,
+      "Part": 126306052,
+      "ProcessedId": 6904,
+      "Text": "0.14 ",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        351,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506162048,
+      "Part": 126315940,
+      "ProcessedId": 6904,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        380,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506957120,
+      "Part": 126305092,
+      "ProcessedId": 6905,
+      "Text": "Potential ",
+      "Size": [
+        55,
+        17
+      ],
+      "Offset": [
+        292,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506957120,
+      "Part": 126305380,
+      "ProcessedId": 6905,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        347,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506957120,
+      "Part": 126305476,
+      "ProcessedId": 6905,
+      "Text": "0.00 ",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        351,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506957120,
+      "Part": 126305860,
+      "ProcessedId": 6905,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        380,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506947360,
+      "Part": 126309604,
+      "ProcessedId": 6906,
+      "Text": "Missing ",
+      "Size": [
+        49,
+        17
+      ],
+      "Offset": [
+        34,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        107,
+        17
+      ],
+      "Color": 4288229152,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506947360,
+      "Part": 126312676,
+      "ProcessedId": 6906,
+      "Text": "0.14 ",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        83,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        107,
+        17
+      ],
+      "Color": 4288229152,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506947360,
+      "Part": 126305188,
+      "ProcessedId": 6906,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        112,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        107,
+        17
+      ],
+      "Color": 4288229152,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506954680,
+      "Part": 126309028,
+      "ProcessedId": 6908,
+      "Text": "Demand ",
+      "Size": [
+        54,
+        17
+      ],
+      "Offset": [
+        293,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506954680,
+      "Part": 126305572,
+      "ProcessedId": 6908,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        347,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506954680,
+      "Part": 126305668,
+      "ProcessedId": 6908,
+      "Text": "0.32 ",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        351,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506954680,
+      "Part": 966434700,
+      "ProcessedId": 6908,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        380,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506959560,
+      "Part": 966436524,
+      "ProcessedId": 6909,
+      "Text": "Potential ",
+      "Size": [
+        55,
+        17
+      ],
+      "Offset": [
+        292,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506959560,
+      "Part": 966439212,
+      "ProcessedId": 6909,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        347,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506959560,
+      "Part": 966439308,
+      "ProcessedId": 6909,
+      "Text": "2.00 ",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        351,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506959560,
+      "Part": 126305284,
+      "ProcessedId": 6909,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        380,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506962000,
+      "Part": 126315172,
+      "ProcessedId": 6910,
+      "Text": "Capacity ",
+      "Size": [
+        56,
+        17
+      ],
+      "Offset": [
+        27,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        122,
+        17
+      ],
+      "Color": 4281359138,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506962000,
+      "Part": 966434988,
+      "ProcessedId": 6910,
+      "Text": "+1.68 ",
+      "Size": [
+        37,
+        17
+      ],
+      "Offset": [
+        83,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        122,
+        17
+      ],
+      "Color": 4281359138,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506962000,
+      "Part": 966436428,
+      "ProcessedId": 6910,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        120,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        122,
+        17
+      ],
+      "Color": 4281359138,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506964440,
+      "Part": 126304996,
+      "ProcessedId": 6912,
+      "Text": "Demand ",
+      "Size": [
+        54,
+        17
+      ],
+      "Offset": [
+        293,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506964440,
+      "Part": 126315268,
+      "ProcessedId": 6912,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        347,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506964440,
+      "Part": 966434796,
+      "ProcessedId": 6912,
+      "Text": "0.00 ",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        351,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506964440,
+      "Part": 126315076,
+      "ProcessedId": 6912,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        380,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        116,
+        17
+      ],
+      "Color": 4281870105,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506952240,
+      "Part": 966435276,
+      "ProcessedId": 6913,
+      "Text": "Potential ",
+      "Size": [
+        55,
+        17
+      ],
+      "Offset": [
+        292,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506952240,
+      "Part": 966435180,
+      "ProcessedId": 6913,
+      "Text": " ",
+      "Size": [
+        4,
+        17
+      ],
+      "Offset": [
+        347,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506952240,
+      "Part": 966435084,
+      "ProcessedId": 6913,
+      "Text": "1.44 ",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        351,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506952240,
+      "Part": 126309412,
+      "ProcessedId": 6913,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        380,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        117,
+        17
+      ],
+      "Color": 4294240712,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506979080,
+      "Part": 126314596,
+      "ProcessedId": 6914,
+      "Text": "Capacity ",
+      "Size": [
+        56,
+        17
+      ],
+      "Offset": [
+        27,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        122,
+        17
+      ],
+      "Color": 4281359138,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506979080,
+      "Part": 126313060,
+      "ProcessedId": 6914,
+      "Text": "+1.44 ",
+      "Size": [
+        37,
+        17
+      ],
+      "Offset": [
+        83,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        122,
+        17
+      ],
+      "Color": 4281359138,
+      "Font": 118506392
+    },
+    {
+      "Widget": 506979080,
+      "Part": 966439020,
+      "ProcessedId": 6914,
+      "Text": "t/min",
+      "Size": [
+        29,
+        17
+      ],
+      "Offset": [
+        120,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        122,
+        17
+      ],
+      "Color": 4281359138,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126311332,
+      "ProcessedId": 802,
+      "Text": "Giacomo ",
+      "Size": [
+        56,
+        17
+      ],
+      "Offset": [
+        32,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126311428,
+      "ProcessedId": 802,
+      "Text": "Garibaldi ",
+      "Size": [
+        56,
+        17
+      ],
+      "Offset": [
+        88,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126311524,
+      "ProcessedId": 802,
+      "Text": "is ",
+      "Size": [
+        13,
+        17
+      ],
+      "Offset": [
+        144,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126311620,
+      "ProcessedId": 802,
+      "Text": "the ",
+      "Size": [
+        22,
+        17
+      ],
+      "Offset": [
+        157,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126314404,
+      "ProcessedId": 802,
+      "Text": "sole ",
+      "Size": [
+        27,
+        17
+      ],
+      "Offset": [
+        179,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126317092,
+      "ProcessedId": 802,
+      "Text": "source ",
+      "Size": [
+        43,
+        17
+      ],
+      "Offset": [
+        206,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126316036,
+      "ProcessedId": 802,
+      "Text": "for ",
+      "Size": [
+        21,
+        17
+      ],
+      "Offset": [
+        249,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126314980,
+      "ProcessedId": 802,
+      "Text": "Geologist ",
+      "Size": [
+        58,
+        17
+      ],
+      "Offset": [
+        270,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126316516,
+      "ProcessedId": 802,
+      "Text": "Items. ",
+      "Size": [
+        41,
+        17
+      ],
+      "Offset": [
+        328,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126315460,
+      "ProcessedId": 802,
+      "Text": "These ",
+      "Size": [
+        40,
+        17
+      ],
+      "Offset": [
+        369,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126314308,
+      "ProcessedId": 802,
+      "Text": "allow ",
+      "Size": [
+        35,
+        17
+      ],
+      "Offset": [
+        409,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126314212,
+      "ProcessedId": 802,
+      "Text": "you ",
+      "Size": [
+        25,
+        17
+      ],
+      "Offset": [
+        444,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126314116,
+      "ProcessedId": 802,
+      "Text": "to ",
+      "Size": [
+        15,
+        17
+      ],
+      "Offset": [
+        469,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126314020,
+      "ProcessedId": 802,
+      "Text": "mine ",
+      "Size": [
+        32,
+        17
+      ],
+      "Offset": [
+        484,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126313924,
+      "ProcessedId": 802,
+      "Text": "one ",
+      "Size": [
+        25,
+        17
+      ],
+      "Offset": [
+        516,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126313828,
+      "ProcessedId": 802,
+      "Text": "or ",
+      "Size": [
+        16,
+        17
+      ],
+      "Offset": [
+        541,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126313732,
+      "ProcessedId": 802,
+      "Text": "more ",
+      "Size": [
+        34,
+        17
+      ],
+      "Offset": [
+        557,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126313636,
+      "ProcessedId": 802,
+      "Text": "Resources ",
+      "Size": [
+        66,
+        17
+      ],
+      "Offset": [
+        591,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126313540,
+      "ProcessedId": 802,
+      "Text": "of ",
+      "Size": [
+        16,
+        17
+      ],
+      "Offset": [
+        657,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126313444,
+      "ProcessedId": 802,
+      "Text": "your ",
+      "Size": [
+        30,
+        17
+      ],
+      "Offset": [
+        673,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126310276,
+      "ProcessedId": 802,
+      "Text": "choice ",
+      "Size": [
+        42,
+        17
+      ],
+      "Offset": [
+        703,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126307396,
+      "ProcessedId": 802,
+      "Text": "on ",
+      "Size": [
+        18,
+        17
+      ],
+      "Offset": [
+        745,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126307492,
+      "ProcessedId": 802,
+      "Text": "a ",
+      "Size": [
+        11,
+        17
+      ],
+      "Offset": [
+        763,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126307588,
+      "ProcessedId": 802,
+      "Text": "Volcanic ",
+      "Size": [
+        56,
+        17
+      ],
+      "Offset": [
+        774,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 524721884,
+      "Part": 126307684,
+      "ProcessedId": 802,
+      "Text": "island.",
+      "Size": [
+        37,
+        17
+      ],
+      "Offset": [
+        830,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        835,
+        17
+      ],
+      "Color": 4292719495,
+      "Font": 118506392
+    },
+    {
+      "Widget": 529511864,
+      "Part": 126312196,
+      "ProcessedId": 3882,
+      "Text": "-25",
+      "Size": [
+        19,
+        17
+      ],
+      "Offset": [
+        52,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        19,
+        17
+      ],
+      "Color": 4290130970,
+      "Font": 118507576
+    },
+    {
+      "Widget": 529518884,
+      "Part": 126312100,
+      "ProcessedId": 3886,
+      "Text": "276",
+      "Size": [
+        21,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        21,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 524724224,
+      "Part": 126311236,
+      "ProcessedId": 803,
+      "Text": "Tip",
+      "Size": [
+        25,
+        20
+      ],
+      "Offset": [
+        437,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        25,
+        20
+      ],
+      "Color": 4294304180,
+      "Font": 118499288
+    },
+    {
+      "Widget": 524731244,
+      "Part": 126312292,
+      "ProcessedId": 807,
+      "Text": "Forecast ",
+      "Size": [
+        66,
+        20
+      ],
+      "Offset": [
+        390,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        170,
+        20
+      ],
+      "Color": 4294302087,
+      "Font": 118499288
+    },
+    {
+      "Widget": 524731244,
+      "Part": 126310852,
+      "ProcessedId": 807,
+      "Text": "the ",
+      "Size": [
+        27,
+        20
+      ],
+      "Offset": [
+        456,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        170,
+        20
+      ],
+      "Color": 4294302087,
+      "Font": 118499288
+    },
+    {
+      "Widget": 524731244,
+      "Part": 126310756,
+      "ProcessedId": 807,
+      "Text": "weather ",
+      "Size": [
+        62,
+        20
+      ],
+      "Offset": [
+        483,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        170,
+        20
+      ],
+      "Color": 4294302087,
+      "Font": 118499288
+    },
+    {
+      "Widget": 524731244,
+      "Part": 126310948,
+      "ProcessedId": 807,
+      "Text": "...",
+      "Size": [
+        15,
+        20
+      ],
+      "Offset": [
+        545,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        170,
+        20
+      ],
+      "Color": 4294302087,
+      "Font": 118499288
+    },
+    {
+      "Widget": 524689124,
+      "Part": 966438924,
+      "ProcessedId": 773,
+      "Text": "Second ",
+      "Size": [
+        63,
+        22
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        111,
+        22
+      ],
+      "Color": 4294105208,
+      "Font": 118504024
+    },
+    {
+      "Widget": 524689124,
+      "Part": 966437100,
+      "ProcessedId": 773,
+      "Text": "Island",
+      "Size": [
+        48,
+        22
+      ],
+      "Offset": [
+        63,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        111,
+        22
+      ],
+      "Color": 4294105208,
+      "Font": 118504024
+    },
+    {
+      "Widget": 524471504,
+      "Part": 126309124,
+      "ProcessedId": 663,
+      "Text": "63,764",
+      "Size": [
+        38,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        38,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 524457464,
+      "Part": 126309220,
+      "ProcessedId": 656,
+      "Text": "310",
+      "Size": [
+        21,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        21,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 534458624,
+      "Part": 966438348,
+      "ProcessedId": 6973,
+      "Text": "Leif ",
+      "Size": [
+        37,
+        22
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        115,
+        22
+      ],
+      "Color": 4294105208,
+      "Font": 118504024
+    },
+    {
+      "Widget": 534458624,
+      "Part": 126316900,
+      "ProcessedId": 6973,
+      "Text": "Jorgensen",
+      "Size": [
+        78,
+        22
+      ],
+      "Offset": [
+        37,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        115,
+        22
+      ],
+      "Color": 4294105208,
+      "Font": 118504024
+    },
+    {
+      "Widget": 524483204,
+      "Part": 126310180,
+      "ProcessedId": 669,
+      "Text": "0",
+      "Size": [
+        7,
+        17
+      ],
+      "Offset": [
+        25,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        7,
+        17
+      ],
+      "Color": 4280341028,
+      "Font": 118507576
+    },
+    {
+      "Widget": 524537024,
+      "Part": 126307876,
+      "ProcessedId": 694,
+      "Text": "33",
+      "Size": [
+        14,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        14,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 524562764,
+      "Part": 126306820,
+      "ProcessedId": 707,
+      "Text": "20",
+      "Size": [
+        14,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        14,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 534526484,
+      "Part": 126315748,
+      "ProcessedId": 7017,
+      "Text": "Leif ",
+      "Size": [
+        28,
+        17
+      ],
+      "Offset": [
+        0,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        180,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 534526484,
+      "Part": 966438540,
+      "ProcessedId": 7017,
+      "Text": "offers ",
+      "Size": [
+        39,
+        17
+      ],
+      "Offset": [
+        28,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        180,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 534526484,
+      "Part": 126316804,
+      "ProcessedId": 7017,
+      "Text": "you ",
+      "Size": [
+        25,
+        17
+      ],
+      "Offset": [
+        67,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        180,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 534526484,
+      "Part": 126316708,
+      "ProcessedId": 7017,
+      "Text": "a ",
+      "Size": [
+        11,
+        17
+      ],
+      "Offset": [
+        92,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        180,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 534526484,
+      "Part": 126316612,
+      "ProcessedId": 7017,
+      "Text": "Trade ",
+      "Size": [
+        39,
+        17
+      ],
+      "Offset": [
+        103,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        180,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 534526484,
+      "Part": 126312772,
+      "ProcessedId": 7017,
+      "Text": "treaty.",
+      "Size": [
+        38,
+        17
+      ],
+      "Offset": [
+        142,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        180,
+        17
+      ],
+      "Color": 4278190080,
+      "Font": 118507576
+    },
+    {
+      "Widget": 524803784,
+      "Part": 126310564,
+      "ProcessedId": 853,
+      "Text": "Waldo",
+      "Size": [
+        41,
+        19
+      ],
+      "Offset": [
+        129,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        41,
+        19
+      ],
+      "Color": 4294960551,
+      "Font": 118504320
+    },
+    {
+      "Widget": 524808464,
+      "Part": 126307780,
+      "ProcessedId": 855,
+      "Text": "v2.01.5010",
+      "Size": [
+        62,
+        16
+      ],
+      "Offset": [
+        119,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        62,
+        16
+      ],
+      "Color": 4289309097,
+      "Font": 118506688
+    },
+    {
+      "Widget": 524544044,
+      "Part": 126311044,
+      "ProcessedId": 698,
+      "Text": "0",
+      "Size": [
+        7,
+        17
+      ],
+      "Offset": [
+        14,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        7,
+        17
+      ],
+      "Color": 4280341028,
+      "Font": 118507576
+    },
+    {
+      "Widget": 524572124,
+      "Part": 126311140,
+      "ProcessedId": 712,
+      "Text": "0",
+      "Size": [
+        7,
+        17
+      ],
+      "Offset": [
+        14,
+        0
+      ],
+      "LineRect": [
+        0,
+        0,
+        7,
+        17
+      ],
+      "Color": 4280341028,
+      "Font": 118507576
+    }
+  ],
+  "evidence_scope": "Captured native metric inputs only. Width/color/shadow metadata omitted; no glyph pixel or font precedence claim. Sizes are comparison outputs, never measurement inputs."
+}

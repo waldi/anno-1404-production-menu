@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "captured_utc": "2026-10-09T22:09:25.0535123Z",
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "capture_sha256": "333aaa7e530c089926413d8671d12c4c40c8983485a91d980e907d58316ab38a",
+  "gui_screen": {
+    "ReferenceSize": [
+      1280,
+      1024
+    ],
+    "PhysicalSize": [
+      1440,
+      1080
+    ],
+    "GuiSize": [
+      1440,
+      1080
+    ],
+    "Mode": 2,
+    "Scale": [
+      1.0,
+      1.0
+    ],
+    "AlignmentOffsets": [
+      80,
+      160,
+      28,
+      56
+    ]
+  },
+  "widget": {
+    "Address": 524789744,
+    "Parent": 131707592,
+    "Type": 1,
+    "PathId": "TEXT",
+    "AccessId": "",
+    "Relative": [
+      36,
+      30,
+      332,
+      80
+    ],
+    "Absolute": [
+      1428,
+      367,
+      1724,
+      417
+    ],
+    "ScaledRelative": [
+      36.0,
+      30.0,
+      332.0,
+      80.0
+    ],
+    "Scroll": [
+      0,
+      0
+    ],
+    "Alpha": 1.0,
+    "FrameAlignment": null,
+    "Visible": 1,
+    "Flags": 26,
+    "UsesBackgroundClient": true,
+    "Background": 119610416,
+    "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/squarebeigebackgroundca8.bkg",
+    "Children": []
+  },
+  "scope": "Historical offscreen widget raw relative output only. Pre-refresh client width280 is independently specified from original source width296 and original background8+8 borders, under explicit keep-wrapped-width refresh scenario. Cached parts and final rectangles are comparison outputs. No absolute/pixel or refresh-history provenance claim."
+}

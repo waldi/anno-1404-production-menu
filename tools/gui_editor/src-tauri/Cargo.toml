@@ -1,0 +1,35 @@
+[package]
+name = "anno-gui-editor"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+default-run = "anno-gui-studio"
+autobins = false
+
+[[bin]]
+name = "anno-gui-studio"
+path = "src/main.rs"
+
+[[bin]]
+name = "gui-audit"
+path = "src/bin/gui-audit.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+roxmltree = "0.21"
+sha2 = "0.10"
+base64 = "0.22"
+png = "0.17"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61.2", features = ["Win32_Foundation", "Win32_Graphics_Gdi"] }
+
+[features]
+# Local suite compiles game-derived image fixtures only when explicitly enabled.
+local-fidelity = []
+custom-protocol = ["tauri/custom-protocol"]

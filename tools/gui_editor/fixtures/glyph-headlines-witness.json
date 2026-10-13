@@ -1,0 +1,21 @@
+{
+  "exact_pixels": 370,
+  "opaque_pixels": 370,
+  "schema": 1,
+  "origin": [
+    729,
+    52
+  ],
+  "source_frame": "text-island-first.png",
+  "input": "glyph-headlines-input.json",
+  "reference": "glyph-headlines-reference.png",
+  "heldout_sha256": "194d62dc9771a3e770c43125c387ea52b949874133e4b3bd09e748c00bea8a4b",
+  "size": [
+    91,
+    23
+  ],
+  "scenario": "Independent settlement name: CURRENT_CITY_NAME=First Island",
+  "scope": "Single fully opaque pixel witness. Translucent edges excluded; no origin fitting.",
+  "source_frame_sha256": "d5a399612e3ce3d603a99bf903ee9f4a7757eacef1e2e3d27996d10d3b64fa58",
+  "heldout": "Excluded: production dialog occludes HUD in text-island-heldout.png"
+}

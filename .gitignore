@@ -1,0 +1,58 @@
+# Large third-party trees — not ours to version
+ghidra_12.1.2/
+ghidra-mcp/
+Anno 1404 Gold Edition/
+anno-1404-warenrechner/
+rda-explorer/
+
+# Extracted RDA content — game data, regenerate with an RDA extractor
+data/
+
+# Ghidra project is a binary database; back up by copying, not diffing
+ghidra-project/
+
+__pycache__/
+*.pyc
+
+.codex
+
+# Edition build staging and release packages
+.build/
+dist/
+
+# Local Pi session state and machine-specific MCP configuration
+.pi/
+.mcp.json
+
+# annobridge build output
+tools/production-menu/d3d9.dll
+tools/production-menu/AnnoRECompanion.exe
+tools/production-menu/*.obj
+tools/production-menu/*.exp
+tools/production-menu/*.lib
+
+.npm-cache
+.tmp
+
+# Standalone Tauri GUI editor: dependencies, build outputs and working copies
+tools/gui_editor/node_modules/
+tools/gui_editor/dist/
+tools/gui_editor/src-tauri/target/
+tools/gui_editor/.cargo-cache/
+tools/gui_editor/.npm-cache/
+tools/gui_editor/.tmp/
+tools/gui_editor/.webview/
+tools/gui_editor/workspaces/
+tools/gui_editor/fixtures/archive-candidates/
+tools/gui_editor/src-tauri/icons/*
+!tools/gui_editor/src-tauri/icons/icon.ico
+!tools/gui_editor/src-tauri/icons/icon.png
+
+# Reproducible generated schemas and old local packages
+tools/gui_editor/src-tauri/gen/
+tools/gui_editor/release/
+# Local fidelity screenshots: retain locally, never include in public import
+tools/gui_editor/fixtures/*.png
+# All native intermediate output, including History development builds
+tools/production-menu/*.exe
+tools/production-menu/*.pdb

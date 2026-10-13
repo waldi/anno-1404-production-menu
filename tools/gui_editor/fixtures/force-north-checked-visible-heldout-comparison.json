@@ -1,0 +1,16 @@
+{
+  "reference_sha256": "78dee6818f6eea600fcbf9410f83df85fcb13408c6addb3b1e5644f16cafb370",
+  "layout_color": 4294967295,
+  "crop": [
+    104,
+    899,
+    24,
+    24
+  ],
+  "visible_chain": true,
+  "captured_utc": "2026-10-09T19:25:58.657647Z",
+  "actual_index": 4,
+  "schema": 1,
+  "scope": "Later visible held-out frame. Recorded absolute rectangle and client origin; active Checked index and white layout color. No input or fitted coordinates.",
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007"
+}

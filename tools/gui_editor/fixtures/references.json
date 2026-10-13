@@ -1,0 +1,42 @@
+{
+  "references": [
+    {
+      "scenario": null,
+      "kind": "existing game screenshot",
+      "sha256": "a8ec874d9cdcd572dda914c47da57fc008b1a18f9fa35cb9a9f1f2112888e3d1",
+      "language": null,
+      "viewport": null,
+      "confidence": "qualitative reference only",
+      "path": "production-objectmenuinside_full.png"
+    },
+    {
+      "scenario": null,
+      "kind": "existing game screenshot",
+      "sha256": "87cf3788b50f161c9e090792b90935ae47e8ba7b8d22e2cee543d0a1105d8c90",
+      "language": null,
+      "viewport": null,
+      "confidence": "qualitative reference only",
+      "path": "docs/img/tier2-2026-09-26.png"
+    },
+    {
+      "scenario": null,
+      "kind": "existing game screenshot",
+      "sha256": "beb75f01196f3d7b4f989be466dc545862da088a875a94821616017ef326766b",
+      "language": null,
+      "viewport": null,
+      "confidence": "qualitative reference only",
+      "path": "docs/img/xml-scrollbox-2026-09-26.png"
+    },
+    {
+      "scenario": null,
+      "kind": "existing game screenshot",
+      "sha256": "2e53d8ec3d45155b50f0354db93c2aa74aee4015f3c226aec14dec90c6fc6985",
+      "language": null,
+      "viewport": null,
+      "confidence": "qualitative reference only",
+      "path": "docs/img/scrollbox-2026-09-20.png"
+    }
+  ],
+  "requirements": "Populate viewport, language, scenario and widget snapshots before using a screenshot as a quantitative fidelity baseline.",
+  "schema": 1
+}

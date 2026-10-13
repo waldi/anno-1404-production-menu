@@ -1,0 +1,3080 @@
+{
+  "client_size": [
+    1440,
+    1080
+  ],
+  "process_id": 29188,
+  "gui_screen": {
+    "ReferenceSize": [
+      1280,
+      1024
+    ],
+    "PhysicalSize": [
+      1440,
+      1080
+    ],
+    "GuiSize": [
+      1440,
+      1080
+    ],
+    "Mode": 2,
+    "Scale": [
+      1.0,
+      1.0
+    ],
+    "AlignmentOffsets": [
+      80,
+      160,
+      28,
+      56
+    ]
+  },
+  "client_origin_in_capture": [
+    3,
+    37
+  ],
+  "schema": 2,
+  "confidence": "Non-atomic live read. Invisible/off-clip absolute rectangles may be stale. Pair relative rectangles with visibility and validate stable captures.",
+  "widgets": [
+    {
+      "Address": 131073848,
+      "Parent": 131567200,
+      "Type": 11,
+      "PathId": "INFOBAR",
+      "AccessId": "INFOBAR",
+      "Relative": [
+        0,
+        3,
+        1365,
+        195
+      ],
+      "Absolute": [
+        0,
+        3,
+        1525,
+        195
+      ],
+      "ScaledRelative": [
+        0.0,
+        3.0,
+        1365.0,
+        195.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "Visible": 1,
+      "Flags": 536870912,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489857384,
+        754040680
+      ]
+    },
+    {
+      "Address": 489857384,
+      "Parent": 131073848,
+      "Type": 1,
+      "PathId": "MAIN_PANEL",
+      "AccessId": "",
+      "Relative": [
+        2,
+        0,
+        613,
+        198
+      ],
+      "Absolute": [
+        2,
+        3,
+        613,
+        201
+      ],
+      "ScaledRelative": [
+        2.0,
+        0.0,
+        613.0,
+        198.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489859724
+      ]
+    },
+    {
+      "Address": 754040680,
+      "Parent": 131073848,
+      "Type": 2,
+      "PathId": "ANNORE_PROD5_BUTTON",
+      "AccessId": "ANNORE_PROD5_BUTTON",
+      "Relative": [
+        10,
+        60,
+        65,
+        115
+      ],
+      "Absolute": [
+        10,
+        63,
+        65,
+        118
+      ],
+      "ScaledRelative": [
+        10.0,
+        60.0,
+        65.0,
+        115.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 11010056,
+      "UsesBackgroundClient": true,
+      "Background": 476021032,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_buttons/54x54_circle_iconarea.bkg",
+      "Children": [
+        801573752
+      ]
+    },
+    {
+      "Address": 489859724,
+      "Parent": 489857384,
+      "Type": 1,
+      "PathId": "GLOBAL_INFO_BACKGROUND",
+      "AccessId": "INFOBAR_INFO_BACKGROUND",
+      "Relative": [
+        0,
+        0,
+        344,
+        181
+      ],
+      "Absolute": [
+        2,
+        3,
+        346,
+        184
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        344.0,
+        181.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 537919514,
+      "UsesBackgroundClient": true,
+      "Background": 118904160,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobar_background_horizontal.bkg",
+      "Children": [
+        489873764,
+        489876104,
+        490007144,
+        489862064,
+        489894824
+      ]
+    },
+    {
+      "Address": 801573752,
+      "Parent": 754040680,
+      "Type": 1,
+      "PathId": "ANNORE_PROD5_MARKET_ICON",
+      "AccessId": "ANNORE_PROD5_MARKET_ICON",
+      "Relative": [
+        0,
+        0,
+        28,
+        28
+      ],
+      "Absolute": [
+        20,
+        73,
+        48,
+        101
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        28.0,
+        28.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 538968064,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489873764,
+      "Parent": 489859724,
+      "Type": 1,
+      "PathId": "GLOBAL_INFO_BACKGROUND1",
+      "AccessId": "INFOBAR_INFO_BACKGROUND1",
+      "Relative": [
+        1,
+        2,
+        186,
+        74
+      ],
+      "Absolute": [
+        7,
+        8,
+        192,
+        80
+      ],
+      "ScaledRelative": [
+        1.0,
+        2.0,
+        186.0,
+        74.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 1048602,
+      "UsesBackgroundClient": true,
+      "Background": 118902000,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackground.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489876104,
+      "Parent": 489859724,
+      "Type": 1,
+      "PathId": "GOLD_COINS_PANEL",
+      "AccessId": "",
+      "Relative": [
+        14,
+        2,
+        148,
+        147
+      ],
+      "Absolute": [
+        20,
+        8,
+        154,
+        153
+      ],
+      "ScaledRelative": [
+        14.0,
+        2.0,
+        148.0,
+        147.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489878444
+      ]
+    },
+    {
+      "Address": 490007144,
+      "Parent": 489859724,
+      "Type": 1,
+      "PathId": "MISSION_PANEL",
+      "AccessId": "MISSION_PANEL",
+      "Relative": [
+        0,
+        72,
+        183,
+        142
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        72.0,
+        183.0,
+        142.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 4194330,
+      "UsesBackgroundClient": true,
+      "Background": 118910064,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardglassbackgrounddark.bkg",
+      "Children": [
+        27468724,
+        490014164
+      ]
+    },
+    {
+      "Address": 489862064,
+      "Parent": 489859724,
+      "Type": 1,
+      "PathId": "HONOUR_PANEL",
+      "AccessId": "INFOBAR_HONOUR_PANEL",
+      "Relative": [
+        106,
+        2,
+        179,
+        144
+      ],
+      "Absolute": [
+        112,
+        8,
+        185,
+        150
+      ],
+      "ScaledRelative": [
+        106.0,
+        2.0,
+        179.0,
+        144.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489864404
+      ]
+    },
+    {
+      "Address": 489894824,
+      "Parent": 489859724,
+      "Type": 1,
+      "PathId": "WARES_PANEL",
+      "AccessId": "INFOBAR_WARES_PANEL",
+      "Relative": [
+        184,
+        2,
+        330,
+        129
+      ],
+      "Absolute": [
+        190,
+        8,
+        336,
+        135
+      ],
+      "ScaledRelative": [
+        184.0,
+        2.0,
+        330.0,
+        129.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489983744,
+        489911204,
+        489897164
+      ]
+    },
+    {
+      "Address": 489878444,
+      "Parent": 489876104,
+      "Type": 1,
+      "PathId": "MONEY_SUMMARY_PANEL",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        123,
+        103
+      ],
+      "Absolute": [
+        20,
+        8,
+        143,
+        111
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        123.0,
+        103.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489887804,
+        489885464,
+        378865244,
+        489880784
+      ]
+    },
+    {
+      "Address": 27468724,
+      "Parent": 490007144,
+      "Type": 6,
+      "PathId": "MISSION_TIMER_BOX",
+      "AccessId": "MISSION_TIMER_BOX",
+      "Relative": [
+        2,
+        0,
+        176,
+        46
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 0,
+      "UsesBackgroundClient": true,
+      "Background": 118910496,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackground_full.bkg",
+      "Children": [
+        490009484,
+        490011824
+      ]
+    },
+    {
+      "Address": 490014164,
+      "Parent": 490007144,
+      "Type": 1,
+      "PathId": "MISSION_TIMERBONUS",
+      "AccessId": "MISSION_TIMERBONUS",
+      "Relative": [
+        12,
+        29,
+        148,
+        51
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489864404,
+      "Parent": 489862064,
+      "Type": 1,
+      "PathId": "HONOUR_SUMMARY_PANEL",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        70,
+        124
+      ],
+      "Absolute": [
+        112,
+        8,
+        182,
+        132
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        70.0,
+        124.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489871424,
+        378862512,
+        489866744
+      ]
+    },
+    {
+      "Address": 489983744,
+      "Parent": 489894824,
+      "Type": 1,
+      "PathId": "BORDER_PANEL",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        146,
+        41
+      ],
+      "Absolute": [
+        190,
+        8,
+        336,
+        49
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        146.0,
+        41.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489986084,
+        489988424,
+        489990764,
+        489993104,
+        489995444,
+        489997784,
+        490000124,
+        490002464,
+        490004804
+      ]
+    },
+    {
+      "Address": 489911204,
+      "Parent": 489894824,
+      "Type": 1,
+      "PathId": "WARE_SLOTS_PANEL",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        128,
+        183
+      ],
+      "Absolute": [
+        190,
+        8,
+        318,
+        191
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        128.0,
+        183.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489913544,
+        489927584,
+        489941624,
+        489955664,
+        489969704
+      ]
+    },
+    {
+      "Address": 489897164,
+      "Parent": 489894824,
+      "Type": 1,
+      "PathId": "DND_PANEL",
+      "AccessId": "INFOBAR_CUSTOM_WARE_PANEL",
+      "Relative": [
+        0,
+        0,
+        0,
+        76
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        76.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489899504,
+        489901844,
+        489904184,
+        489906524,
+        489908864
+      ]
+    },
+    {
+      "Address": 489887804,
+      "Parent": 489878444,
+      "Type": 1,
+      "PathId": "BUILDCOSTS_COOP",
+      "AccessId": "INFOBAR_COOP_BUILDCOST_GOLDCOINS",
+      "Relative": [
+        13,
+        32,
+        90,
+        116
+      ],
+      "Absolute": [
+        33,
+        -54,
+        110,
+        30
+      ],
+      "ScaledRelative": [
+        13.0,
+        32.0,
+        90.0,
+        116.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489890144,
+        489892484
+      ]
+    },
+    {
+      "Address": 489885464,
+      "Parent": 489878444,
+      "Type": 1,
+      "PathId": "BUILDCOSTS",
+      "AccessId": "INFOBAR_BUILDCOST_GOLDCOINS",
+      "Relative": [
+        13,
+        32,
+        90,
+        74
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        13.0,
+        32.0,
+        90.0,
+        74.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118902288,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/tooltipbackgroundtiny.bkg",
+      "Children": []
+    },
+    {
+      "Address": 378865244,
+      "Parent": 489878444,
+      "Type": 2,
+      "PathId": "SHOW_INFO_BUTTON",
+      "AccessId": "SHOW_TRADE_LOG_BUTTON",
+      "Relative": [
+        4,
+        3,
+        37,
+        36
+      ],
+      "Absolute": [
+        24,
+        11,
+        57,
+        44
+      ],
+      "ScaledRelative": [
+        4.0,
+        3.0,
+        37.0,
+        36.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 524424,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489883124
+      ]
+    },
+    {
+      "Address": 489880784,
+      "Parent": 489878444,
+      "Type": 1,
+      "PathId": "CURRENT_MONEY_VIEW",
+      "AccessId": "",
+      "Relative": [
+        37,
+        10,
+        105,
+        29
+      ],
+      "Absolute": [
+        57,
+        18,
+        125,
+        37
+      ],
+      "ScaledRelative": [
+        37.0,
+        10.0,
+        105.0,
+        29.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 490009484,
+      "Parent": 27468724,
+      "Type": 1,
+      "PathId": "MISSION_TIMER_TEXT",
+      "AccessId": "MISSION_TIMER_TEXT",
+      "Relative": [
+        10,
+        10,
+        146,
+        27
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 490011824,
+      "Parent": 27468724,
+      "Type": 1,
+      "PathId": "MISSION_TIMER",
+      "AccessId": "MISSION_TIMER",
+      "Relative": [
+        10,
+        27,
+        146,
+        44
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 541065242,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489871424,
+      "Parent": 489864404,
+      "Type": 1,
+      "PathId": "BUILDCOSTS",
+      "AccessId": "INFOBAR_BUILDCOST_HONOUR",
+      "Relative": [
+        24,
+        32,
+        79,
+        74
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        24.0,
+        32.0,
+        79.0,
+        74.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118901280,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/tooltipbackgroundtiny.bkg",
+      "Children": []
+    },
+    {
+      "Address": 378862512,
+      "Parent": 489864404,
+      "Type": 2,
+      "PathId": "SHOW_INFO_BUTTON",
+      "AccessId": "SHOW_HONOUR_BREAKDOWN_BUTTON",
+      "Relative": [
+        4,
+        3,
+        37,
+        36
+      ],
+      "Absolute": [
+        116,
+        11,
+        149,
+        44
+      ],
+      "ScaledRelative": [
+        4.0,
+        3.0,
+        37.0,
+        36.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 524424,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489869084
+      ]
+    },
+    {
+      "Address": 489866744,
+      "Parent": 489864404,
+      "Type": 1,
+      "PathId": "CURRENT_HONOUR_VIEW",
+      "AccessId": "",
+      "Relative": [
+        37,
+        10,
+        70,
+        29
+      ],
+      "Absolute": [
+        149,
+        18,
+        182,
+        37
+      ],
+      "ScaledRelative": [
+        37.0,
+        10.0,
+        70.0,
+        29.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489986084,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "LEFT_WARE_BORDER1",
+      "AccessId": "INFOBAR_LEFT_WARE_BORDER1",
+      "Relative": [
+        0,
+        0,
+        16,
+        45
+      ],
+      "Absolute": [
+        190,
+        8,
+        206,
+        53
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        16.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118907184,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundleft.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489988424,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "RIGHT_WARE_BORDER1",
+      "AccessId": "INFOBAR_RIGHT_WARE_BORDER1",
+      "Relative": [
+        72,
+        0,
+        90,
+        45
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        72.0,
+        0.0,
+        90.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118905600,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundrightsmall.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489990764,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "LEFT_WARE_BORDER2",
+      "AccessId": "INFOBAR_LEFT_WARE_BORDER2",
+      "Relative": [
+        56,
+        0,
+        72,
+        45
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        56.0,
+        0.0,
+        72.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118905456,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundleft.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489993104,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "LEFT_WARE_BORDER3",
+      "AccessId": "INFOBAR_LEFT_WARE_BORDER3",
+      "Relative": [
+        112,
+        0,
+        128,
+        45
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        112.0,
+        0.0,
+        128.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118904592,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundleft.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489995444,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "LEFT_WARE_BORDER4",
+      "AccessId": "INFOBAR_LEFT_WARE_BORDER4",
+      "Relative": [
+        168,
+        0,
+        184,
+        45
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        168.0,
+        0.0,
+        184.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118904736,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundleft.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489997784,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "LEFT_WARE_BORDER5",
+      "AccessId": "INFOBAR_LEFT_WARE_BORDER5",
+      "Relative": [
+        224,
+        0,
+        240,
+        45
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        224.0,
+        0.0,
+        240.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118904880,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundleft.bkg",
+      "Children": []
+    },
+    {
+      "Address": 490000124,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "RIGHT_WARE_BORDER2",
+      "AccessId": "INFOBAR_RIGHT_WARE_BORDER2",
+      "Relative": [
+        128,
+        0,
+        146,
+        45
+      ],
+      "Absolute": [
+        318,
+        8,
+        336,
+        53
+      ],
+      "ScaledRelative": [
+        128.0,
+        0.0,
+        146.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118905024,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundrightsmall.bkg",
+      "Children": []
+    },
+    {
+      "Address": 490002464,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "RIGHT_WARE_BORDER3",
+      "AccessId": "INFOBAR_RIGHT_WARE_BORDER3",
+      "Relative": [
+        184,
+        0,
+        202,
+        45
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        184.0,
+        0.0,
+        202.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118912368,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundrightsmall.bkg",
+      "Children": []
+    },
+    {
+      "Address": 490004804,
+      "Parent": 489983744,
+      "Type": 1,
+      "PathId": "RIGHT_WARE_BORDER4",
+      "AccessId": "INFOBAR_RIGHT_WARE_BORDER4",
+      "Relative": [
+        240,
+        0,
+        258,
+        45
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        240.0,
+        0.0,
+        258.0,
+        45.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118909920,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundrightsmall.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489913544,
+      "Parent": 489911204,
+      "Type": 1,
+      "PathId": "WARES_PANEL5",
+      "AccessId": "INFOBAR_WARES_PANEL5",
+      "Relative": [
+        240,
+        0,
+        307,
+        110
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        240.0,
+        0.0,
+        307.0,
+        110.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 541065242,
+      "UsesBackgroundClient": true,
+      "Background": 118906176,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarbeigebrassbackgroundright.bkg",
+      "Children": [
+        489920564,
+        489915884,
+        378867976,
+        489918224
+      ]
+    },
+    {
+      "Address": 489927584,
+      "Parent": 489911204,
+      "Type": 1,
+      "PathId": "WARES_PANEL3",
+      "AccessId": "INFOBAR_WARES_PANEL3",
+      "Relative": [
+        128,
+        0,
+        184,
+        110
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        128.0,
+        0.0,
+        184.0,
+        110.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 541065242,
+      "UsesBackgroundClient": true,
+      "Background": 118908192,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundcenter.bkg",
+      "Children": [
+        489934604,
+        489929924,
+        378870708,
+        489932264
+      ]
+    },
+    {
+      "Address": 489941624,
+      "Parent": 489911204,
+      "Type": 1,
+      "PathId": "WARES_PANEL2",
+      "AccessId": "INFOBAR_WARES_PANEL2",
+      "Relative": [
+        72,
+        0,
+        128,
+        110
+      ],
+      "Absolute": [
+        262,
+        8,
+        318,
+        118
+      ],
+      "ScaledRelative": [
+        72.0,
+        0.0,
+        128.0,
+        110.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": true,
+      "Background": 118905744,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundcenter.bkg",
+      "Children": [
+        489948644,
+        489943964,
+        378873440,
+        489946304
+      ]
+    },
+    {
+      "Address": 489955664,
+      "Parent": 489911204,
+      "Type": 1,
+      "PathId": "WARES_PANEL4",
+      "AccessId": "INFOBAR_WARES_PANEL4",
+      "Relative": [
+        184,
+        0,
+        240,
+        110
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        184.0,
+        0.0,
+        240.0,
+        110.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 541065242,
+      "UsesBackgroundClient": true,
+      "Background": 118907760,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundcenter.bkg",
+      "Children": [
+        489962684,
+        489958004,
+        378876172,
+        489960344
+      ]
+    },
+    {
+      "Address": 489969704,
+      "Parent": 489911204,
+      "Type": 1,
+      "PathId": "WARES_PANEL1",
+      "AccessId": "INFOBAR_WARES_PANEL1",
+      "Relative": [
+        16,
+        0,
+        72,
+        110
+      ],
+      "Absolute": [
+        206,
+        8,
+        262,
+        118
+      ],
+      "ScaledRelative": [
+        16.0,
+        0.0,
+        72.0,
+        110.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": true,
+      "Background": 118908048,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/standardbeigebrassbackgroundcenter.bkg",
+      "Children": [
+        489976724,
+        489974384,
+        378878904,
+        489972044
+      ]
+    },
+    {
+      "Address": 489899504,
+      "Parent": 489897164,
+      "Type": 1,
+      "PathId": "SLOT1",
+      "AccessId": "INFOBAR_CUSTOM_WARE_SLOT1",
+      "Relative": [
+        0,
+        -10,
+        48,
+        38
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 4194330,
+      "UsesBackgroundClient": true,
+      "Background": 118900272,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_buttons/35x35_dnd_placeholder.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489901844,
+      "Parent": 489897164,
+      "Type": 1,
+      "PathId": "SLOT2",
+      "AccessId": "INFOBAR_CUSTOM_WARE_SLOT2",
+      "Relative": [
+        60,
+        -10,
+        108,
+        38
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 4194330,
+      "UsesBackgroundClient": true,
+      "Background": 118907616,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_buttons/35x35_dnd_placeholder.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489904184,
+      "Parent": 489897164,
+      "Type": 1,
+      "PathId": "SLOT3",
+      "AccessId": "INFOBAR_CUSTOM_WARE_SLOT3",
+      "Relative": [
+        120,
+        -10,
+        168,
+        38
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 4194330,
+      "UsesBackgroundClient": true,
+      "Background": 118908624,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_buttons/35x35_dnd_placeholder.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489906524,
+      "Parent": 489897164,
+      "Type": 1,
+      "PathId": "SLOT4",
+      "AccessId": "INFOBAR_CUSTOM_WARE_SLOT4",
+      "Relative": [
+        180,
+        -10,
+        228,
+        38
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 4194330,
+      "UsesBackgroundClient": true,
+      "Background": 118906464,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_buttons/35x35_dnd_placeholder.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489908864,
+      "Parent": 489897164,
+      "Type": 1,
+      "PathId": "SLOT5",
+      "AccessId": "INFOBAR_CUSTOM_WARE_SLOT5",
+      "Relative": [
+        240,
+        -10,
+        288,
+        38
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 4194330,
+      "UsesBackgroundClient": true,
+      "Background": 118905888,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_buttons/35x35_dnd_placeholder.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489890144,
+      "Parent": 489887804,
+      "Type": 1,
+      "PathId": "CONNECTOR",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        77,
+        50
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        77.0,
+        50.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118903728,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerconnector.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489892484,
+      "Parent": 489887804,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "",
+      "Relative": [
+        0,
+        32,
+        77,
+        79
+      ],
+      "Absolute": [
+        33,
+        -22,
+        110,
+        25
+      ],
+      "ScaledRelative": [
+        0.0,
+        32.0,
+        77.0,
+        79.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118899984,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerbuild.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489883124,
+      "Parent": 378865244,
+      "Type": 1,
+      "PathId": "GOLD_COINS_ICON",
+      "AccessId": "INFOBAR_GOLD_COINS_ICON",
+      "Relative": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "Absolute": [
+        24,
+        11,
+        56,
+        43
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        32.0,
+        32.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489869084,
+      "Parent": 378862512,
+      "Type": 1,
+      "PathId": "HONOUR_ICON",
+      "AccessId": "INFOBAR_HONOUR_ICON",
+      "Relative": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "Absolute": [
+        116,
+        11,
+        148,
+        43
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        32.0,
+        32.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 536870938,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489920564,
+      "Parent": 489913544,
+      "Type": 1,
+      "PathId": "BUILDCOSTS_COOP",
+      "AccessId": "INFOBAR_COOP_BUILDCOST_WARE5",
+      "Relative": [
+        0,
+        32,
+        55,
+        116
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489922904,
+        489925244
+      ]
+    },
+    {
+      "Address": 489915884,
+      "Parent": 489913544,
+      "Type": 1,
+      "PathId": "BUILDCOSTS",
+      "AccessId": "INFOBAR_BUILDCOST_WARE5",
+      "Relative": [
+        0,
+        32,
+        55,
+        74
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118907328,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/tooltipbackgroundtiny.bkg",
+      "Children": []
+    },
+    {
+      "Address": 378867976,
+      "Parent": 489913544,
+      "Type": 2,
+      "PathId": "WARE_ICON",
+      "AccessId": "INFOBAR_WARE_ICON5",
+      "Relative": [
+        0,
+        5,
+        28,
+        33
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 524300,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489918224,
+      "Parent": 489913544,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "INFOBAR_WARE_AMOUNT5",
+      "Relative": [
+        30,
+        10,
+        68,
+        29
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489934604,
+      "Parent": 489927584,
+      "Type": 1,
+      "PathId": "BUILDCOSTS_COOP",
+      "AccessId": "INFOBAR_COOP_BUILDCOST_WARE3",
+      "Relative": [
+        0,
+        32,
+        55,
+        116
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489936944,
+        489939284
+      ]
+    },
+    {
+      "Address": 489929924,
+      "Parent": 489927584,
+      "Type": 1,
+      "PathId": "BUILDCOSTS",
+      "AccessId": "INFOBAR_BUILDCOST_WARE3",
+      "Relative": [
+        0,
+        32,
+        55,
+        74
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118906032,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/tooltipbackgroundtiny.bkg",
+      "Children": []
+    },
+    {
+      "Address": 378870708,
+      "Parent": 489927584,
+      "Type": 2,
+      "PathId": "WARE_ICON",
+      "AccessId": "INFOBAR_WARE_ICON3",
+      "Relative": [
+        0,
+        5,
+        28,
+        33
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 524300,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489932264,
+      "Parent": 489927584,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "INFOBAR_WARE_AMOUNT3",
+      "Relative": [
+        30,
+        10,
+        68,
+        29
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489948644,
+      "Parent": 489941624,
+      "Type": 1,
+      "PathId": "BUILDCOSTS_COOP",
+      "AccessId": "INFOBAR_COOP_BUILDCOST_WARE2",
+      "Relative": [
+        0,
+        32,
+        55,
+        116
+      ],
+      "Absolute": [
+        262,
+        -54,
+        317,
+        30
+      ],
+      "ScaledRelative": [
+        0.0,
+        32.0,
+        55.0,
+        116.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489950984,
+        489953324
+      ]
+    },
+    {
+      "Address": 489943964,
+      "Parent": 489941624,
+      "Type": 1,
+      "PathId": "BUILDCOSTS",
+      "AccessId": "INFOBAR_BUILDCOST_WARE2",
+      "Relative": [
+        0,
+        32,
+        55,
+        74
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        32.0,
+        55.0,
+        74.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118908480,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/tooltipbackgroundtiny.bkg",
+      "Children": []
+    },
+    {
+      "Address": 378873440,
+      "Parent": 489941624,
+      "Type": 2,
+      "PathId": "WARE_ICON",
+      "AccessId": "INFOBAR_WARE_ICON2",
+      "Relative": [
+        0,
+        5,
+        28,
+        33
+      ],
+      "Absolute": [
+        262,
+        13,
+        290,
+        41
+      ],
+      "ScaledRelative": [
+        0.0,
+        5.0,
+        28.0,
+        33.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 524300,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489946304,
+      "Parent": 489941624,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "INFOBAR_WARE_AMOUNT2",
+      "Relative": [
+        30,
+        10,
+        63,
+        29
+      ],
+      "Absolute": [
+        292,
+        18,
+        325,
+        37
+      ],
+      "ScaledRelative": [
+        30.0,
+        10.0,
+        63.0,
+        29.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489962684,
+      "Parent": 489955664,
+      "Type": 1,
+      "PathId": "BUILDCOSTS_COOP",
+      "AccessId": "INFOBAR_COOP_BUILDCOST_WARE4",
+      "Relative": [
+        0,
+        32,
+        55,
+        116
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489965024,
+        489967364
+      ]
+    },
+    {
+      "Address": 489958004,
+      "Parent": 489955664,
+      "Type": 1,
+      "PathId": "BUILDCOSTS",
+      "AccessId": "INFOBAR_BUILDCOST_WARE4",
+      "Relative": [
+        0,
+        32,
+        55,
+        74
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118906896,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/tooltipbackgroundtiny.bkg",
+      "Children": []
+    },
+    {
+      "Address": 378876172,
+      "Parent": 489955664,
+      "Type": 2,
+      "PathId": "WARE_ICON",
+      "AccessId": "INFOBAR_WARE_ICON4",
+      "Relative": [
+        0,
+        5,
+        28,
+        33
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 524300,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489960344,
+      "Parent": 489955664,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "INFOBAR_WARE_AMOUNT4",
+      "Relative": [
+        30,
+        10,
+        68,
+        29
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489976724,
+      "Parent": 489969704,
+      "Type": 1,
+      "PathId": "BUILDCOSTS_COOP",
+      "AccessId": "INFOBAR_COOP_BUILDCOST_WARE1",
+      "Relative": [
+        0,
+        32,
+        55,
+        116
+      ],
+      "Absolute": [
+        206,
+        -54,
+        261,
+        30
+      ],
+      "ScaledRelative": [
+        0.0,
+        32.0,
+        55.0,
+        116.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": [
+        489979064,
+        489981404
+      ]
+    },
+    {
+      "Address": 489974384,
+      "Parent": 489969704,
+      "Type": 1,
+      "PathId": "BUILDCOSTS",
+      "AccessId": "INFOBAR_BUILDCOST_WARE1",
+      "Relative": [
+        0,
+        32,
+        55,
+        74
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        32.0,
+        55.0,
+        74.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 0,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118908336,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/general_frames/tooltipbackgroundtiny.bkg",
+      "Children": []
+    },
+    {
+      "Address": 378878904,
+      "Parent": 489969704,
+      "Type": 2,
+      "PathId": "WARE_ICON",
+      "AccessId": "INFOBAR_WARE_ICON1",
+      "Relative": [
+        0,
+        5,
+        28,
+        33
+      ],
+      "Absolute": [
+        206,
+        13,
+        234,
+        41
+      ],
+      "ScaledRelative": [
+        0.0,
+        5.0,
+        28.0,
+        33.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 524300,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489972044,
+      "Parent": 489969704,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "INFOBAR_WARE_AMOUNT1",
+      "Relative": [
+        30,
+        10,
+        63,
+        29
+      ],
+      "Absolute": [
+        236,
+        18,
+        269,
+        37
+      ],
+      "ScaledRelative": [
+        30.0,
+        10.0,
+        63.0,
+        29.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": false,
+      "Background": 0,
+      "BackgroundName": "",
+      "Children": []
+    },
+    {
+      "Address": 489922904,
+      "Parent": 489920564,
+      "Type": 1,
+      "PathId": "CONNECTOR",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        55,
+        50
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118906608,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerconnector.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489925244,
+      "Parent": 489920564,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "",
+      "Relative": [
+        0,
+        32,
+        56,
+        79
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118906752,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerbuild.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489936944,
+      "Parent": 489934604,
+      "Type": 1,
+      "PathId": "CONNECTOR",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        55,
+        50
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118906320,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerconnector.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489939284,
+      "Parent": 489934604,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "",
+      "Relative": [
+        0,
+        32,
+        56,
+        79
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118907472,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerbuild.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489950984,
+      "Parent": 489948644,
+      "Type": 1,
+      "PathId": "CONNECTOR",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        55,
+        50
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        55.0,
+        50.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118905312,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerconnector.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489953324,
+      "Parent": 489948644,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "",
+      "Relative": [
+        0,
+        32,
+        56,
+        79
+      ],
+      "Absolute": [
+        262,
+        -22,
+        318,
+        25
+      ],
+      "ScaledRelative": [
+        0.0,
+        32.0,
+        56.0,
+        79.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118908768,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerbuild.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489965024,
+      "Parent": 489962684,
+      "Type": 1,
+      "PathId": "CONNECTOR",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        55,
+        50
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118904304,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerconnector.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489967364,
+      "Parent": 489962684,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "",
+      "Relative": [
+        0,
+        32,
+        56,
+        79
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118905168,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerbuild.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489979064,
+      "Parent": 489976724,
+      "Type": 1,
+      "PathId": "CONNECTOR",
+      "AccessId": "",
+      "Relative": [
+        0,
+        0,
+        55,
+        50
+      ],
+      "Absolute": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ScaledRelative": [
+        0.0,
+        0.0,
+        55.0,
+        50.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118907040,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerconnector.bkg",
+      "Children": []
+    },
+    {
+      "Address": 489981404,
+      "Parent": 489976724,
+      "Type": 1,
+      "PathId": "VALUE",
+      "AccessId": "",
+      "Relative": [
+        0,
+        32,
+        56,
+        79
+      ],
+      "Absolute": [
+        206,
+        -22,
+        262,
+        25
+      ],
+      "ScaledRelative": [
+        0.0,
+        32.0,
+        56.0,
+        79.0
+      ],
+      "Scroll": [
+        0,
+        0
+      ],
+      "Alpha": 1.0,
+      "FrameAlignment": null,
+      "Visible": 1,
+      "Flags": 26,
+      "UsesBackgroundClient": true,
+      "Background": 118904448,
+      "BackgroundName": "addondata/config/gui/backgrounds/final/infobar/infobarmultiplayerbuild.bkg",
+      "Children": []
+    }
+  ],
+  "scenario": "Current screen; no input sent",
+  "language": null,
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "captured_utc": "2026-10-09T15:49:32.9261454Z",
+  "definition": "menudefinitions/infobar.dlg",
+  "source_sha256": "b2e10f3303478cc3a63754b89dfc3f7dd88201f5114db7f595733f96d202983d",
+  "evidence_scope": "Two stable captures:25 visible source-matched widget rectangles. Captured visibility is a scenario input; no captured extents are layout inputs.51 hidden and1 offscreen source widgets remain outside absolute parity claims. Extra live widgets retained."
+}

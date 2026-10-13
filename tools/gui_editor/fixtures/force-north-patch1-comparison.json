@@ -1,0 +1,20 @@
+{
+  "crop": [
+    104,
+    899,
+    24,
+    24
+  ],
+  "opaque_pixels": 122,
+  "pixels_over_3": 0,
+  "passed": true,
+  "captured_utc": "2026-10-09T19:00:13.4773538Z",
+  "schema": 1,
+  "render_sha256": "7f890a3ab70cc28170cd84393e5f7855ed2c937a1fdedc1b345215c339e08ee8",
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "maximum_rgb_error": 1,
+  "candidate": "patch1",
+  "reference_sha256": "14d8971f446c649a027c496f6dc7bf98e603f96f5f88117649f03be96a572dca",
+  "scope": "Opaque rendered pixels only; underlying artwork excluded. Cached capture crop coordinates still need independent verification. A mismatch must not be corrected by fitting an offset.",
+  "mean_rgb_error": 0.01639344262295082
+}

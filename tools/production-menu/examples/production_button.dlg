@@ -1,0 +1,27 @@
+<!-- Production button mounted under INFOBAR. The negative left offset is intentional
+     for the anchor experiment: only the rightmost part is expected to intrude into
+     the infobar until we choose a final offset. -->
+<BUTTON>
+  <PATHID>ANNORE_PROD5_BUTTON</PATHID>
+  <ACCESSID>ANNORE_PROD5_BUTTON</ACCESSID>
+  <TEMPLATE_REF_ID>INGAME_MENUBUTTONS_TEMPLATE</TEMPLATE_REF_ID>
+  <!-- MONEY_SUMMARY_PANEL ends at x=143; place us 100px to its right. -->
+  <EXTENT><LEFT>10</LEFT><TOP>60</TOP><WIDTH>55</WIDTH><HEIGHT>55</HEIGHT></EXTENT>
+  <ZORDER>1000</ZORDER>
+  <TEXTSETTING><TEXTGUID>140040</TEXTGUID><FONT>Tooltip</FONT></TEXTSETTING>
+  <!-- A BUTTON's own ICONSTRETCH always stretches to the full button client
+       rect; use a child LABEL so the icon gets a genuinely small 28x28 rect. -->
+  <LABEL>
+    <PATHID>ANNORE_PROD5_MARKET_ICON</PATHID>
+    <ACCESSID>ANNORE_PROD5_MARKET_ICON</ACCESSID>
+    <EXTENT><LEFT>0</LEFT><TOP>0</TOP><WIDTH>28</WIDTH><HEIGHT>28</HEIGHT></EXTENT>
+    <ICONGUID>34000</ICONGUID>
+    <ICONSTRETCH>1</ICONSTRETCH>
+    <!-- Do not let the icon label intercept the button's hover/input. -->
+    <TRANSPARENT>1</TRANSPARENT>
+  </LABEL>
+  <EVENTHANDLER>
+    <SETVISIBLE>ANNORE_PROD5_DIALOG; toggle</SETVISIBLE>
+    <EVENT>OnLeftClick</EVENT>
+  </EVENTHANDLER>
+</BUTTON>

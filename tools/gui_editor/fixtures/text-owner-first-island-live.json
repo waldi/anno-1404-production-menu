@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "captured_utc": "2026-10-09T22:09:25.0535123Z",
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "capture_sha256": "333aaa7e530c089926413d8671d12c4c40c8983485a91d980e907d58316ab38a",
+  "gui_screen": {
+    "ReferenceSize": [
+      1280,
+      1024
+    ],
+    "PhysicalSize": [
+      1440,
+      1080
+    ],
+    "GuiSize": [
+      1440,
+      1080
+    ],
+    "Mode": 2,
+    "Scale": [
+      1.0,
+      1.0
+    ],
+    "AlignmentOffsets": [
+      80,
+      160,
+      28,
+      56
+    ]
+  },
+  "widget": {
+    "Address": 524689124,
+    "Parent": 524686784,
+    "Type": 1,
+    "PathId": "ISLAND_NAME",
+    "AccessId": "INFOBAR_ISLAND_INFO_NAME",
+    "Relative": [
+      11,
+      9,
+      101,
+      31
+    ],
+    "Absolute": [
+      726,
+      15,
+      816,
+      37
+    ],
+    "ScaledRelative": [
+      11.0,
+      9.0,
+      101.0,
+      31.0
+    ],
+    "Scroll": [
+      0,
+      0
+    ],
+    "Alpha": 1.0,
+    "FrameAlignment": null,
+    "Visible": 1,
+    "Flags": 536870938,
+    "UsesBackgroundClient": false,
+    "Background": 0,
+    "BackgroundName": "",
+    "Children": []
+  },
+  "scope": "Comparison output only, extracted from the historical full schema2 snapshot. Original GUID198142, original Headline font and explicit First Island scenario are independent inputs. This verifies ISLAND_NAME raw relative rectangle only; runtime ancestor positioning and complete dialog geometry remain unverified."
+}

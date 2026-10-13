@@ -1,0 +1,20 @@
+{
+  "color": 4294105208,
+  "text": "First Island",
+  "font": {
+    "Name": "Headlines",
+    "Face": "Times New Roman",
+    "Width": 0,
+    "Height": 22,
+    "Weight": 500,
+    "Italic": 0,
+    "Quality": 5,
+    "Outline": 0,
+    "Underline": 0,
+    "OutlineColor": 4278190080,
+    "Shadow": 1,
+    "ShadowX": 1,
+    "ShadowY": 1,
+    "ShadowColor": 0
+  }
+}

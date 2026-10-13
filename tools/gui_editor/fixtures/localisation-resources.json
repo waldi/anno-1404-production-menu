@@ -1,0 +1,420 @@
+{
+  "schema": 1,
+  "claim": "Raw English resource extraction hashes only; engine font selection, precedence and rendering unverified",
+  "files": [
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "data/loca/eng/localisation_addon.xml",
+      "bytes": 11948,
+      "sha256": "3882ac072f7bb888aea77104b8a8efe60e85a5cade72d80959987d7cc90da884"
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "data/loca/eng/txt/addon/addon-credits.txt",
+      "bytes": 54072,
+      "sha256": "e156913f63086dd2c369ce141a7ca76f2f41721b333fa6f6ef64f5b60e2ec290"
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "data/loca/eng/txt/addon/addontexte.txt",
+      "bytes": 620600,
+      "sha256": "35aac183ca0b23b87bd85fcb8403082526ef68d2c65010f40dea7268a02818f6"
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "data/loca/eng/txt/addon/worldeditor2.txt",
+      "bytes": 7710,
+      "sha256": "aa3cb5f8fae9714eac97d8da2604dc56bffa85d642d5e03bd0306f69a1cbfcb3"
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "data/loca/eng/txt/addon/addon_tt_disabled.txt",
+      "bytes": 89376,
+      "sha256": "c6bf4396bc290f2d756a379e7373a4f48d768091311f283df8f1e72ac51d49c1"
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "data/loca/eng/txt/addon/addon_tt_normal.txt",
+      "bytes": 172286,
+      "sha256": "91949160359402a6a9cd4c9fec59f7159b8620191c4766b51ada36ea04bd4824"
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "data/loca/eng/txt/addon/addon_tt_pressed.txt",
+      "bytes": 37120,
+      "sha256": "e7d449c54ea4fb0b68a18206ad50789b7100bcdd692cf7a14ada32e14684288b"
+    },
+    {
+      "archive": "addon/eng0.rda",
+      "logical": "addondata/loca/eng/textures/anno_logo_0.dds",
+      "bytes": 65664,
+      "sha256": "da1abb00bb0a6b8b10db8838f1dada5d8e6397994dd2cdaec9466c5aed2ae4be"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/localisation.xml",
+      "bytes": 11228,
+      "sha256": "b22fd9f0b0c2605d0b78f268a7aadee9bf7b160db46825465fe92ce1c55bbf1c"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/allgemein.txt",
+      "bytes": 1468,
+      "sha256": "7579018cc99c8884b38ebb0caec7289ed25de714fa168e377baabde38d14005c"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/antworten.txt",
+      "bytes": 1032,
+      "sha256": "5775bf7af5fab0ec65958b868f7763575577e9edc715b2c352c6eade1d5a62a8"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/campaign.txt",
+      "bytes": 818174,
+      "sha256": "51bd0827a88781e6030f8be13d1700f61a378c42b34ede54b145ccfaa5ee41b6"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/credits.txt",
+      "bytes": 72656,
+      "sha256": "bdfbf57216b8f48747eb2cf53a6a9eb4dcbc3466ef713b2ea4a9a82886277e2a"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/features.txt",
+      "bytes": 2742,
+      "sha256": "fde5e2951b2183d552d7809a353f1eed50b9a303a4359dd3860aed8dc6849ff4"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/islandeditor2.txt",
+      "bytes": 4804,
+      "sha256": "a2197ebbf3770b7e7face0702dcbff2af9b6581e80a782ba723f9de23fd7820f"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/keyboardlayout.txt",
+      "bytes": 13636,
+      "sha256": "5f822f551cd2eedc665f3f88e38cd02cc386b5dc0b08d64a78f27bac15d1ad29"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/playernames.txt",
+      "bytes": 164,
+      "sha256": "eadcf89ce6d4d31f27009f0f51afcbc961718ccd3878548b02bfa0d8be8b94a7"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/scenario.txt",
+      "bytes": 870,
+      "sha256": "51bd264a73a53006045bfeed2f075c536bd8c7f2e5f82eb83830c62c42eeeb02"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/spielwelt.txt",
+      "bytes": 908,
+      "sha256": "c64b4428006cd0ef4c9c88ecc87692665ac299ca5649299999f0b4fd72bf53a5"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/units.txt",
+      "bytes": 688,
+      "sha256": "25fdcc1d4d623a90e1118a2d66adc2f80ad26bb5ad62faebb9ef542dd44e5041"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/worldeditor.txt",
+      "bytes": 43368,
+      "sha256": "77f86c191a8b75f4756c3a4c92555fed5813c9a5281f7d1a340b040250fa7a58"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/cpp.txt",
+      "bytes": 1171632,
+      "sha256": "6c6751dc74d23d0077084d8e8d3bbb1ca420f77140c2e8216ca4d4c24f02095c"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/cpp_01.txt",
+      "bytes": 10626,
+      "sha256": "c3bb128cb6801bd6bcbbf3bcf89a238f7cb4714c6067bb997229ac837acfef90"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/cpp_02.txt",
+      "bytes": 4116,
+      "sha256": "b2d4aeae529578a2090170ef2f622714554bfce26c492d2815e6334a0741199b"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/guids.txt",
+      "bytes": 93430,
+      "sha256": "747c0f97b836c295c0caf4cfffb55fb659fc6addc288ad670bfc789ecf3eec1b"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/interface.txt",
+      "bytes": 251178,
+      "sha256": "403c46287eb2272a070dd34dfe8e9133a6cd7950749f9bb753dc76d51cbc5aa9"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/keyboard.txt",
+      "bytes": 8252,
+      "sha256": "c9f272acb25da06f44aaeefd3a794a782eb0c1ad2f89b94160dbcc101842616c"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/loading.txt",
+      "bytes": 212,
+      "sha256": "dbfa3ec5918ac77877ece374bf2b6fefe1f67c5a78627eb1f499f83ffcfc86e9"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/misc.txt",
+      "bytes": 512,
+      "sha256": "91c7cae371e1a634c0bc31f43b92e1ddf7cfa1c107bc524b6d14ec3cfa055e88"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/names.txt",
+      "bytes": 21298,
+      "sha256": "72a2eae64e147f5bd7923747c1fac0f9893c5356955b9c68bdb21439f62e271e"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/news.txt",
+      "bytes": 78530,
+      "sha256": "6542078d758b9b42c399b51eb1710a4e827b6f1cd0181aadadb6dfc0b342f0a9"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/onscreen.txt",
+      "bytes": 208,
+      "sha256": "864f2ee42ef485cb661462d6c9fc017364d115b7022fdbec8945d0a84cf2370d"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/playerdata.txt",
+      "bytes": 330,
+      "sha256": "86cf37abd349357233e2f8c6d044485423a682a2c5d8e8037d50b78815c12b26"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/questdata.txt",
+      "bytes": 33154,
+      "sha256": "0c9aab6b2ea15bb7c6c053515b1c3c1911f159dc89d282c120753cd2a310541f"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/texte.txt",
+      "bytes": 51072,
+      "sha256": "e4657d9708b8d1f2f331c72b5fbfa02fb3d5fc64cae668784ded9a19976f6c69"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/tooltips.txt",
+      "bytes": 563988,
+      "sha256": "6c0556b8071d330d240527973a93264fcc269203a82963059137c8d5a7881209"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/tt_disabled.txt",
+      "bytes": 225602,
+      "sha256": "0a810b3e9d3b103afbff63b5f057397c4ea364886e0558a45e386dd59f297588"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/tt_extended_disabled.txt",
+      "bytes": 42132,
+      "sha256": "a608b6c6b6ee928efcaa6d61b15b33b4a850abc51944bae30c9d5d17f86a778f"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/tt_extended_normal.txt",
+      "bytes": 84394,
+      "sha256": "94b5631de1df79589ebdf806929ef59bd5b929b92fb12c477c5f19bf2471550c"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/tt_extended_pressed.txt",
+      "bytes": 38598,
+      "sha256": "5b03ecbd3723e034abfa74ad52429d6145f25b56b539ed9863e4b7b9d92aca94"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/tt_normal.txt",
+      "bytes": 662710,
+      "sha256": "d91f66e638d91b9b3219bc29377dddc2766326d1faf8c4071c8b266592e61fe4"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/tt_pressed.txt",
+      "bytes": 175102,
+      "sha256": "4995afd6fed753f2a8f0987c319f40fe2e635f510460e19955caa6e8392c54b6"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/txt/unitsound.txt",
+      "bytes": 208,
+      "sha256": "0e27bc7df1c18bd75d5c7c226aefed0a3ba070be6c1b5a18c6dd058236d58d87"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/fonts/georgia.ttf",
+      "bytes": 155068,
+      "sha256": "a7cd40982d435cfaa9f6871d64b28b0c47961f4a053ba315434b93378cce6981"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/abbot/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/alchemist/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/assassin/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/caravanserai/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/constanza/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/explorer/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/feedback/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/gavin/volume.xml",
+      "bytes": 56,
+      "sha256": "18654a98e0a4ecebb7e91608a1faea0fb4709a8f6d0ea447f10fb36f7e2a4225"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/giovanni/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/guy/volume.xml",
+      "bytes": 56,
+      "sha256": "467bb6e5523f86ced7ed8f127cb05a1f54a7678812a72f93d0367622214c0379"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/hassan/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/helena/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/hildegard/volume.xml",
+      "bytes": 56,
+      "sha256": "e8bf702b51908b0bb14111773750e2ac54fd48ba95972384cffb2ba232db559b"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/leif/volume.xml",
+      "bytes": 70,
+      "sha256": "b3408edb6aabf901353f5a1f3c051953b3396e879249dacb00a616c048267472"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/marie/volume.xml",
+      "bytes": 55,
+      "sha256": "fd89df28e880eab519c461e00c034759cc3794aef295b789ee7bc743555d9ec5"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/oldtree/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/pilgrimage/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/residents/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/scholar/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/willem/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/alzahir/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/lucius/volume.xml",
+      "bytes": 56,
+      "sha256": "f905b5e41b7649c45c57a4d4c301578e9a1d72120fdd8877c63a3cd097133f93"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/speech/northburgh/volume.xml",
+      "bytes": 56,
+      "sha256": "b8dae593e79fad5703fa1e93403641fb073d0ee89511f7c2da8b57d1e98b2b08"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/textures/anno_logo_0.dds",
+      "bytes": 131200,
+      "sha256": "c08b14678bba19a25016afd3dea8040f8388d71a2f88361936e70981cdd3566e"
+    },
+    {
+      "archive": "maindata/eng0.rda",
+      "logical": "data/loca/eng/movies/start_logo_list.txt",
+      "bytes": 107,
+      "sha256": "6f5a10df291f207a68ea3c70af792ab9c3f3ccf56f84f3e5b26970af5a0ded25"
+    }
+  ]
+}

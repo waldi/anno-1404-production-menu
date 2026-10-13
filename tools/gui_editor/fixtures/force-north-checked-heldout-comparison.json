@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "7a1693fb5b46e24d7470bf328e5283ae1b0665284f5ccc4b22bf38b9dfdf4007",
+  "crop": [
+    104,
+    1050,
+    24,
+    24
+  ],
+  "scope": "Excluded later capture: MINIMAP parent Visible=0 during pause menu. Cached rectangle is stale; no pixel fidelity claim.",
+  "captured_utc": "2026-10-09T19:21:26.4387817Z",
+  "reference_sha256": "7d3f8b3336289cf5b96b611c23676dfdc90018bbbfd2c4b9b7fa0feca2ab4589",
+  "schema": 1,
+  "visible_chain": false
+}

@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "checked_utc": "2026-10-09T16:22:39.0542809Z",
+  "scope": "Every explicit extracted background state at1000x500; parser,source bounds and original DDS decode only. No pixel parity implied.",
+  "counts": {
+    "decoded": 1853,
+    "unsupported": 27
+  },
+  "texture_formats": {
+    "DXT5": 40,
+    "uncompressed": 11
+  },
+  "unique_texture_candidates": 56,
+  "remaining": {
+    "backgrounds/final/campaign/campaign_title.bkg:EmptyLayout": "Texture data/graphics/ui/textures/ornament.png: 0 candidates; archive precedence not guessed",
+    "backgrounds/final/mainmenu_frames/mainmenu_anno_logo.bkg:EmptyLayout": "Texture addondata/loca/eng/textures/anno_logo.png: 0 candidates; archive precedence not guessed",
+    "backgrounds/final/mainmenu_frames/mainmenu_progress_bar_wizard.bkg:PB_Background": "Invalid local texture index on drawable tile",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslidergreen.bkg:Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslidergreen.bkg:Thumb_MouseOver": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslidergreen.bkg:Thumb_Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslidergreen.bkg:Thumb_Pressed": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslidergreenyellow.bkg:Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslidergreenyellow.bkg:Thumb_MouseOver": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslidergreenyellow.bkg:Thumb_Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslidergreenyellow.bkg:Thumb_Pressed": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxsliderorange.bkg:Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxsliderorange.bkg:Thumb_MouseOver": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxsliderorange.bkg:Thumb_Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxsliderorange.bkg:Thumb_Pressed": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxsliderred.bkg:Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxsliderred.bkg:Thumb_MouseOver": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxsliderred.bkg:Thumb_Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxsliderred.bkg:Thumb_Pressed": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslideryellow.bkg:Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslideryellow.bkg:Thumb_MouseOver": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslideryellow.bkg:Thumb_Normal": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/housemenu_third/taxslideryellow.bkg:Thumb_Pressed": "Layout flags not yet supported",
+    "backgrounds/final/objectmenu_frames/objectmenubackgroundnotabs_nobottom.bkg:EmptyLayout": "Tile source exceeds texture",
+    "backgrounds/final/temp/temp_template.bkg:EmptyLayout": "Texture data/graphics/ui/textures/temp_template.png: 0 candidates; archive precedence not guessed",
+    "backgrounds/final/temp/temp_template2.bkg:EmptyLayout": "Texture data/graphics/ui/textures/temp_template2.png: 0 candidates; archive precedence not guessed",
+    "backgrounds/final/temp/temp_template3.bkg:EmptyLayout": "Texture data/graphics/ui/textures/temp_template3.png: 0 candidates; archive precedence not guessed"
+  },
+  "extracted_assets": [
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/ingame_gui_map_05.abm",
+      "bytes": 524300,
+      "sha256": "f3557a17ad9deadcb612d742137b8754539013a15fa62cacfa3189003a513a4a"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/beta_0.dds",
+      "bytes": 262272,
+      "sha256": "630d2bea52684b31ee7ce6ea6690ff5912f07187c2f83a3fe0001f8c21c63071"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/ingame_gui_map_05_0.dds",
+      "bytes": 4194432,
+      "sha256": "85a61e244cc71054543fc46d1ca36f9feb423afc9884d1877ff76e6e07e8e126"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/ingame_gui_map_06_0.dds",
+      "bytes": 1048704,
+      "sha256": "7a8c6d3fbaf04b2b29cf141e1234185a174336c0fc6d04db44f364bea8a628bf"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/ingame_gui_map_09_0.dds",
+      "bytes": 1048704,
+      "sha256": "2b75277002d6d055a10a18d44260249496a5247f21acf14548965b6fba13aa94"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_lanbrowser_0.dds",
+      "bytes": 1310848,
+      "sha256": "c376b62a3330553cde0f3f4ad25ae38716629e7cf430f3f4dd49c095066b957d"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_lobby_0.dds",
+      "bytes": 1310848,
+      "sha256": "1498a799d479bffed1aa0838ad7100e35c2f7f2ab0f7ced04d8f6d65225ca0aa"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_netbrowser_0.dds",
+      "bytes": 1310848,
+      "sha256": "57772fa7ebd6533bf8c60dbed7d696f8c7076689017d84bd580170e8bff62cde"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_option_03_0.dds",
+      "bytes": 1310848,
+      "sha256": "8e0d9f033113ca65c88434069d946b3dde9ccd8c47674d2251682adb4d885565"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_preset_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "75c96a54e1fc7f9d1fe995d447a86a11e0655b307d50624dbad8e8ee0c91e47a"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_preset_02_0.dds",
+      "bytes": 1310848,
+      "sha256": "c62b8696065f43f7ab5332f18587d825d2b8df3b69b5aa03c8d8ba0f731e423a"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_preset_03_0.dds",
+      "bytes": 1310848,
+      "sha256": "6a523830a2af5a6ce4096e1472160a32a013b6aac4f26da4cdabd0b1de5dba0e"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_preset_04_0.dds",
+      "bytes": 1310848,
+      "sha256": "4b54245c94f28815fcc410c30316599eef2fc25f2d361322ecdc811b04812755"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_profil_01_0.dds",
+      "bytes": 1310848,
+      "sha256": "1aa8b443f283a7db5311216fb215077abf2da0dcd1548a8d755cf964a4d81cd3"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_wizard_04_0.dds",
+      "bytes": 1310848,
+      "sha256": "76cdd9fc61930b3972aa57e41d2ff29986dc3edd078dbbc79d87d48c6e638332"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_bg_wizard_05_0.dds",
+      "bytes": 1310848,
+      "sha256": "a84ec70fbc0f0cc5d722a16efcb85e678493064642e8b9d07b8f85caadb6719a"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_02_0.dds",
+      "bytes": 4194432,
+      "sha256": "1c021eb59dec00523108c153d498bb919d83145e123c1303db93a36d99dbf272"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_03_0.dds",
+      "bytes": 4194432,
+      "sha256": "15c6878db88fdbcbb5f4fcdc8dccfc6265b18bcdd43e4aa6ef0ab6ef6257b3f0"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_07_0.dds",
+      "bytes": 4194432,
+      "sha256": "55f23ad91f797996db2442165dc04a1e26209dea88892d16f93e944d0fe09ce9"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_08_0.dds",
+      "bytes": 1048704,
+      "sha256": "bdca389b2f4ca354e8460437e7e4073c3d740cba45965cfbd87642ff9c6da3d9"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_11_0.dds",
+      "bytes": 4194432,
+      "sha256": "a9fd2afe710f2881fe57fb6b306f48842758694ff1d889e9a30db2e75ee59ec4"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_12_0.dds",
+      "bytes": 4194432,
+      "sha256": "b9fee933fcd5e9b8e532d00f934de8ff64bcbdf233efc06fe0d8aeffa11fd3e3"
+    },
+    {
+      "archive": "addon/data2.rda",
+      "logical": "addondata/graphics/ui/textures/main_gui_map_14_0.dds",
+      "bytes": 524416,
+      "sha256": "9dfc9a663860cdc3c324172086481407528b18f094c5f80f67131160cd8d8465"
+    }
+  ]
+}

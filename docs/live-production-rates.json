@@ -1,0 +1,583 @@
+[
+  {
+    "name": "AlmondGrove",
+    "good": "Almonds",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "Pigfarm",
+    "good": "AnimalHides",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "BarrelCooperage",
+    "good": "Barrel",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "Beer",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "Apiary",
+    "good": "BeesWax",
+    "cycle_ms": 90000,
+    "amount_kg": 1000,
+    "rate": 0.6666666666666666
+  },
+  {
+    "name": "PrintingHouse",
+    "good": "Book",
+    "cycle_ms": 20000,
+    "amount_kg": 1000,
+    "rate": 3.0
+  },
+  {
+    "name": "CopperSmelter",
+    "good": "Brass",
+    "cycle_ms": 45000,
+    "amount_kg": 1000,
+    "rate": 1.3333333333333333
+  },
+  {
+    "name": "Bakery",
+    "good": "Bread",
+    "cycle_ms": 15000,
+    "amount_kg": 1000,
+    "rate": 4.0
+  },
+  {
+    "name": "SaltMine",
+    "good": "Brine",
+    "cycle_ms": 15000,
+    "amount_kg": 1000,
+    "rate": 4.0
+  },
+  {
+    "name": "SilkWeavingMill",
+    "good": "BrocadeRobe",
+    "cycle_ms": 20000,
+    "amount_kg": 1000,
+    "rate": 3.0
+  },
+  {
+    "name": "Metalworks",
+    "good": "CandleStick",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "Candles",
+    "cycle_ms": 45000,
+    "amount_kg": 1000,
+    "rate": 1.3333333333333333
+  },
+  {
+    "name": "CannonFoundry",
+    "good": "Cannons",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "CarpetWorkshop",
+    "good": "Carpets",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "CiderFarm",
+    "good": "Cider",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "Claypit",
+    "good": "Clay",
+    "cycle_ms": 50000,
+    "amount_kg": 1000,
+    "rate": 1.2
+  },
+  {
+    "name": "CharburnerHut",
+    "good": "Coal",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "CoalMine",
+    "good": "Coal",
+    "cycle_ms": 15000,
+    "amount_kg": 1000,
+    "rate": 4.0
+  },
+  {
+    "name": "RoastHouse",
+    "good": "Coffee",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "CoffeeBeans",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "CopperMine",
+    "good": "CopperOre",
+    "cycle_ms": 45000,
+    "amount_kg": 1000,
+    "rate": 1.3333333333333333
+  },
+  {
+    "name": "DateGrove",
+    "good": "Dates",
+    "cycle_ms": 20000,
+    "amount_kg": 1000,
+    "rate": 3.0
+  },
+  {
+    "name": "Mill",
+    "good": "Flour",
+    "cycle_ms": 15000,
+    "amount_kg": 1000,
+    "rate": 4.0
+  },
+  {
+    "name": "TrapperLodge",
+    "good": "Fur",
+    "cycle_ms": 24000,
+    "amount_kg": 1000,
+    "rate": 2.5
+  },
+  {
+    "name": "FurrierWorkshop",
+    "good": "FurCoat",
+    "cycle_ms": 24000,
+    "amount_kg": 1000,
+    "rate": 2.5
+  },
+  {
+    "name": "GlassSmelter",
+    "good": "Glass",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "Glasses",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "GoldOreSmelter",
+    "good": "Gold",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "GoldMine",
+    "good": "GoldOre",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "Vineyard",
+    "good": "Grapes",
+    "cycle_ms": 90000,
+    "amount_kg": 1000,
+    "rate": 0.6666666666666666
+  },
+  {
+    "name": "HempPlantation",
+    "good": "Hemp",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "MonasteryGarden",
+    "good": "Herbs",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "IndigoFarm",
+    "good": "Indigo",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "OreSmelter",
+    "good": "Iron",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "OreMine",
+    "good": "IronOre",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "Tannery",
+    "good": "LeatherJerkin",
+    "cycle_ms": 15000,
+    "amount_kg": 1000,
+    "rate": 4.0
+  },
+  {
+    "name": "Weaverhut",
+    "good": "LinenHabit",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "Marzipan",
+    "cycle_ms": 15000,
+    "amount_kg": 1000,
+    "rate": 4.0
+  },
+  {
+    "name": "Cattlefarm",
+    "good": "Meat",
+    "cycle_ms": 48000,
+    "amount_kg": 1000,
+    "rate": 1.25
+  },
+  {
+    "name": "Goatfarm",
+    "good": "Milk",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "MosaicWorkshop",
+    "good": "Mosaic",
+    "cycle_ms": 25000,
+    "amount_kg": 1000,
+    "rate": 2.4
+  },
+  {
+    "name": "",
+    "good": "NoProduct",
+    "cycle_ms": 5400000,
+    "amount_kg": 1000,
+    "rate": 0.011111111111111112
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 5400000,
+    "amount_kg": 1000,
+    "rate": 0.011111111111111112
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 20000,
+    "amount_kg": 1000,
+    "rate": 3.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 3600000,
+    "amount_kg": 1000,
+    "rate": 0.016666666666666666
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 1800000,
+    "amount_kg": 1000,
+    "rate": 0.03333333333333333
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 2400000,
+    "amount_kg": 1000,
+    "rate": 0.025
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 3600000,
+    "amount_kg": 1000,
+    "rate": 0.016666666666666666
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 1800000,
+    "amount_kg": 1000,
+    "rate": 0.03333333333333333
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 3000000,
+    "amount_kg": 1000,
+    "rate": 0.02
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "NoProduct",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "AcademyOfWisdom",
+    "good": "NoProduct",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "Old_Tree",
+    "good": "NoProduct",
+    "cycle_ms": 120000,
+    "amount_kg": 1000,
+    "rate": 0.5
+  },
+  {
+    "name": "StorehouseTown",
+    "good": "NoProduct",
+    "cycle_ms": 1800000,
+    "amount_kg": 1000,
+    "rate": 0.03333333333333333
+  },
+  {
+    "name": "SultanMosque",
+    "good": "NoProduct",
+    "cycle_ms": 20000,
+    "amount_kg": 1000,
+    "rate": 3.0
+  },
+  {
+    "name": "Papermill",
+    "good": "Paper",
+    "cycle_ms": 20000,
+    "amount_kg": 1000,
+    "rate": 3.0
+  },
+  {
+    "name": "Pearl wokrshop",
+    "good": "PearlNecklace",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "PearlFisherHut",
+    "good": "Pearls",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "Perfumery",
+    "good": "Perfume",
+    "cycle_ms": 60000,
+    "amount_kg": 1000,
+    "rate": 1.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "Potash",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "QuartzQuarry",
+    "good": "Quartz",
+    "cycle_ms": 45000,
+    "amount_kg": 1000,
+    "rate": 1.3333333333333333
+  },
+  {
+    "name": "Ropeyard",
+    "good": "Ropes",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "RoseNursery",
+    "good": "RoseOil",
+    "cycle_ms": 120000,
+    "amount_kg": 1000,
+    "rate": 0.5
+  },
+  {
+    "name": "SaltWorks",
+    "good": "Salt",
+    "cycle_ms": 15000,
+    "amount_kg": 1000,
+    "rate": 4.0
+  },
+  {
+    "name": "FishermanHut",
+    "good": "SaltFish",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "ButcherShop",
+    "good": "SaltMeat",
+    "cycle_ms": 24000,
+    "amount_kg": 1000,
+    "rate": 2.5
+  },
+  {
+    "name": "SilkPlantation",
+    "good": "Silk",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "SpiceFarm",
+    "good": "Spices",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "StonecuttersHut",
+    "good": "Stone",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "SugarMill",
+    "good": "Sugar",
+    "cycle_ms": 15000,
+    "amount_kg": 1000,
+    "rate": 4.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "SugarCane",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "SupplyPackage",
+    "cycle_ms": 20000,
+    "amount_kg": 10000,
+    "rate": 30.0
+  },
+  {
+    "name": "LargeProvision",
+    "good": "SupplyPackage",
+    "cycle_ms": 20000,
+    "amount_kg": 20000,
+    "rate": 60.0
+  },
+  {
+    "name": "MediumProvision",
+    "good": "SupplyPackage",
+    "cycle_ms": 20000,
+    "amount_kg": 10000,
+    "rate": 30.0
+  },
+  {
+    "name": "SmallProvision",
+    "good": "SupplyPackage",
+    "cycle_ms": 20000,
+    "amount_kg": 5000,
+    "rate": 15.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "Tools",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "(name not decoded)",
+    "good": "WarMaschines",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  },
+  {
+    "name": "Noria",
+    "good": "Water",
+    "cycle_ms": 20000,
+    "amount_kg": 1000,
+    "rate": 3.0
+  },
+  {
+    "name": "SmallNoria",
+    "good": "Water",
+    "cycle_ms": 20000,
+    "amount_kg": 1000,
+    "rate": 3.0
+  },
+  {
+    "name": "WeaponSmithy",
+    "good": "Weapons",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "CropFarm",
+    "good": "Wheat",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "Winepress",
+    "good": "Wine",
+    "cycle_ms": 30000,
+    "amount_kg": 1000,
+    "rate": 2.0
+  },
+  {
+    "name": "LumberHut",
+    "good": "Wood",
+    "cycle_ms": 40000,
+    "amount_kg": 1000,
+    "rate": 1.5
+  }
+]
