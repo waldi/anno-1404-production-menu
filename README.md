@@ -2,6 +2,8 @@
 
 An experimental in-game production overview for Anno 1404 Venice, with a standalone GUI authoring tool and reverse-engineering utilities.
 
+[Visit the website](https://waldi.github.io/anno-1404-production-menu/) for downloads, installation instructions and troubleshooting.
+
 ![Production Menu showing settlement selection, goods filters and production bars in Munich](docs/images/production-menu.png)
 
 ## Install the mod
