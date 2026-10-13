@@ -1414,5 +1414,27 @@
       "Warehouse stock not added to the native calculator",
       "History demand/balance parity unverified"
     ]
+  },
+  "repository_release_pipeline": {
+    "date": "2026-10-13",
+    "confidence": "local builds, deterministic tests, package verification and exported-checkout public Rust tests confirmed; hosted GitHub run pending",
+    "products": {
+      "production-menu": "tools/production-menu",
+      "gui-studio": "tools/gui_editor",
+      "research": "tools/research"
+    },
+    "evidence": [
+      "Both native edition builds and x86/x64 transport/presentation/identity tests passed",
+      "8 frontend tests and 35 public Rust tests passed;31 local/integration checks explicitly ignored",
+      "Public Rust suite passed from git archive export without ignored assets/reference PNGs",
+      "Three ZIPs unpacked and verified; altered payload and unexpected extra-file rejection confirmed",
+      "Dependency notices collected for248 packages; npm audit reports0 vulnerabilities",
+      "Workflow YAML structure and SHA-pinned action references checked"
+    ],
+    "limits": [
+      "No gameplay regression performed during cleanup",
+      "No release tags or published prereleases created",
+      "Hosted CI and branch protection require GitHub confirmation"
+    ]
   }
 }

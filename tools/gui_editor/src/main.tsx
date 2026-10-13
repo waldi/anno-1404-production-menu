@@ -273,4 +273,3 @@ function Studio() {
   return <>{status.ready&&<App key={generation} installation={status} onSetup={()=>setSettings(true)}/ >}{(!status.ready||settings)&&<InstallationSetup initial={status} onClose={status.ready?()=>setSettings(false):undefined} onReady={s=>{setStatus(s);setSettings(false);setGeneration(g=>g+1)}}/>}</>;
 }
 createRoot(document.getElementById('root')!).render(<Studio/>);
-

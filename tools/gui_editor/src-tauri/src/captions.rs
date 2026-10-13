@@ -203,4 +203,3 @@ pub fn preview_runtime(repo:&Path,language:&str,tree:&Widget,layout:&layout::Pre
         assert_eq!(caption.parts.len(),parts.len());for(predicted,actual)in caption.parts.iter().zip(parts){assert_eq!(predicted.text,actual["Text"].as_str().unwrap());assert_eq!(serde_json::json!(predicted.size),actual["Size"]);assert_eq!(serde_json::json!(predicted.offset),actual["Offset"]);assert_eq!(serde_json::json!(predicted.color),actual["Color"]);}
     }
 }
-

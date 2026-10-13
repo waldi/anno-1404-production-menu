@@ -67,4 +67,3 @@ $destination=Join-Path $PSScriptRoot '.tmp/references'
 New-Item -ItemType Directory -Force -Path $destination | Out-Null
 [IO.File]::WriteAllText((Join-Path $destination "$Name-scenario.json"),($record|ConvertTo-Json -Depth 6))
 $record|ConvertTo-Json -Depth 6
-
