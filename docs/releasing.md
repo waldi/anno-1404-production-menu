@@ -43,3 +43,7 @@ Before the first public release, review application icon provenance and bundled 
 Destination: https://github.com/waldi/anno-1404-production-menu (public). Use main as the default branch. Push the reviewed initial import, enable Actions, and run CI. Configure branch protection with Production Menu, GUI Studio and Source audit checks after those checks have appeared successfully. Release jobs use GITHUB_TOKEN; no personal access token is needed in workflow secrets. Signing is not configured.
 
 CI currently runs all three jobs on pushes to main/master and pull requests. This deliberate first-import baseline avoids skipped required checks; add path-based job selection later if CI time warrants it. Dependabot maintains npm, Cargo and SHA-pinned action updates.
+
+## Website
+
+The separate Website workflow stages the static page from site/ and deploys it to GitHub Pages when main receives website changes. Enable **Settings → Pages → Source → GitHub Actions** once. No product version tag is required to update the website. See [website setup](../site/README.md) for preview and deployment details.

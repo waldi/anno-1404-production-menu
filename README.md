@@ -32,6 +32,8 @@ If the menu does not open, check the edition ZIP, executable version, DirectX 9 
 
 ## Repository components
 
+The [website source](site/README.md) provides a small GitHub Pages landing page with downloads and installation instructions. Its deployment workflow is independent of mod release tags.
+
 | Component | Purpose | Source |
 | --- | --- | --- |
 | Production Menu | Native in-game panel; separate GOG x86 and History x64 packages | [tools/production-menu](tools/production-menu/README.md) |

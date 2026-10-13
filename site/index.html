@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An experimental production overview for Anno 1404 Venice. Compare your settlements, explore goods and install the Production Menu mod.">
+  <meta name="theme-color" content="#152a30">
+  <title>Production Menu — Anno 1404</title>
+  <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead wrap">
+    <a class="brand" href="#main" aria-label="Production Menu home">
+      <span class="crest" aria-hidden="true">A</span>
+      <span>Production Menu<small>For Anno 1404 Venice</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#install">Installation</a>
+      <a href="https://github.com/waldi/anno-1404-production-menu">GitHub <span aria-hidden="true">↗</span></a>
+      <a class="nav-download" href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A clearer view of your economy</p>
+        <h1 id="hero-title">Your islands.<br><em>In balance.</em></h1>
+        <p class="intro">Bring your production overview into the game. See your settlements, compare goods, and plan your next production chain without leaving Anno 1404.</p>
+        <div class="hero-actions">
+          <a class="button brass" href="#download">Get Production Menu <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#install">How to install <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="compatibility"><span class="status-dot" aria-hidden="true"></span>Experimental mod · GOG Gold &amp; Ubisoft History</p>
+      </div>
+      <figure class="showcase">
+        <a href="assets/production-menu.png" aria-label="Open the full-size Production Menu screenshot">
+          <img src="assets/production-menu.png" width="2555" height="1592" alt="The in-game Production Menu for Munich, with settlement buttons, goods filters and blue and green production bars" fetchpriority="high">
+        </a>
+        <figcaption><span>In your game’s own interface</span><span>View full size <span aria-hidden="true">↗</span></span></figcaption>
+      </figure>
+    </section>
+
+    <div class="feature-strip wrap" aria-label="Menu features">
+      <p><span class="roman">I</span> Choose your settlement</p>
+      <p><span class="roman">II</span> Ctrl-click to combine islands</p>
+      <p><span class="roman">III</span> Filter and compare goods</p>
+    </div>
+
+    <div class="parchment">
+      <section id="download" class="download-section wrap" aria-labelledby="download-title">
+        <div class="section-heading">
+          <p class="eyebrow">Set sail</p>
+          <h2 id="download-title">Choose your edition.</h2>
+          <p>Two packages, one production overview. Download the ZIP that matches your game from GitHub Releases.</p>
+        </div>
+        <div class="editions">
+          <article class="edition">
+            <div class="edition-top"><span class="edition-label">Original release</span><span class="architecture">32-bit</span></div>
+            <h3>GOG Gold Edition</h3>
+            <p>Anno 1404 Gold Edition, running Venice.</p>
+            <dl><div><dt>Executable</dt><dd><code>Addon.exe</code></dd></div><div><dt>Supported version</dt><dd>2.01.5010</dd></div></dl>
+            <a class="button ink" href="https://github.com/waldi/anno-1404-production-menu/releases">Find the GOG download <span aria-hidden="true">↗</span></a>
+            <p class="filename">Choose <code>Production-Menu-…-gog.zip</code></p>
+          </article>
+          <article class="edition">
+            <div class="edition-top"><span class="edition-label">History release</span><span class="architecture">64-bit</span></div>
+            <h3>Ubisoft History Edition</h3>
+            <p>Anno 1404 History Edition, running Venice.</p>
+            <dl><div><dt>Executable</dt><dd><code>Anno1404Addon.exe</code></dd></div><div><dt>Supported version</dt><dd>4.0.4253.0</dd></div></dl>
+            <a class="button ink" href="https://github.com/waldi/anno-1404-production-menu/releases">Find the History download <span aria-hidden="true">↗</span></a>
+            <p class="filename">Choose <code>Production-Menu-…-history-edition.zip</code></p>
+          </article>
+        </div>
+        <p class="download-note">Look for a <strong>Production Menu</strong> release, including experimental prereleases. “Source code” and “GUI Studio” are not the mod download. Packages check the game’s executable and reject unsupported builds.</p>
+      </section>
+
+      <section id="install" class="installation wrap" aria-labelledby="install-title">
+        <div class="section-heading">
+          <p class="eyebrow">A few files. Then you’re ready.</p>
+          <h2 id="install-title">Install &amp; play.</h2>
+          <p>No compiling. No developer tools. Just your game and the matching ZIP.</p>
+        </div>
+        <ol class="steps">
+          <li><span class="step-number" aria-hidden="true">01</span><div><h3>Close the game &amp; unpack</h3><p>Download your edition’s ZIP and extract it. If the game folder already has a <code>d3d9.dll</code>, back it up first; another mod may use it.</p></div></li>
+          <li><span class="step-number" aria-hidden="true">02</span><div><h3>Copy beside the game executable</h3><p>Find the folder containing <code>Addon.exe</code> or <code>Anno1404Addon.exe</code>. Copy these four files directly into it:</p><ul class="file-list"><li><code>d3d9.dll</code></li><li><code>AnnoRECompanion.exe</code></li><li><code>production_dialog_v5.dlg</code></li><li><code>production_button.dlg</code></li></ul><p class="history-note"><strong>History Edition:</strong> also copy <code>ANNORE_HISTORY_NATIVE.flag</code> into that folder.</p></div></li>
+          <li><span class="step-number" aria-hidden="true">03</span><div><h3>Start Venice in DirectX 9 mode</h3><p>Load your game and press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to open or close Production. The companion starts automatically. Select a settlement, or Ctrl-click several to combine them.</p></div></li>
+        </ol>
+        <aside class="estimate-note"><span class="note-rule" aria-hidden="true"></span><div><h3>Plan with estimates.</h3><p>Current and potential production rates are estimates, not measured deliveries. Full warehouses or missing inputs can prevent actual output. Both edition packages remain experimental.</p></div></aside>
+      </section>
+
+      <section class="questions wrap" aria-labelledby="questions-title">
+        <div><p class="eyebrow">Before you sail</p><h2 id="questions-title">A little help.</h2></div>
+        <div class="faq-list">
+          <details><summary>The menu doesn’t open. What should I check?</summary><p>Check that you downloaded the correct edition, your executable version is supported, and the game is running in DirectX 9 mode. The files should sit beside the executable, not inside an extra extracted folder. History Edition also needs the activation flag. Then load a game and press Ctrl+Q.</p></details>
+          <details><summary>How do I uninstall it?</summary><p>Close the game and remove only the mod files you copied. Restore your previous d3d9.dll if you backed one up. You don’t need to remove your saved games.</p></details>
+          <details><summary>Do I need GUI Studio, Python or Ghidra?</summary><p>No. Those tools are for development and research. Installing the mod only requires your supported game and the matching Production Menu ZIP.</p></details>
+          <details><summary>Where can I report a problem?</summary><p><a href="https://github.com/waldi/anno-1404-production-menu/issues">Open an issue on GitHub</a> with your game edition, executable version and a description of what happened. A screenshot can help.</p></details>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap">
+    <div><span class="footer-title">Production Menu</span><p>An independent community mod for Anno 1404.</p></div>
+    <div class="footer-links"><a href="https://github.com/waldi/anno-1404-production-menu">Source on GitHub</a><a href="https://github.com/waldi/anno-1404-production-menu/blob/main/LICENSE">GPL-3.0</a></div>
+    <p class="credits">Not affiliated with Ubisoft. Anno 1404 and the game artwork in the screenshot belong to their respective owners.</p>
+  </footer>
+</body>
+</html>
