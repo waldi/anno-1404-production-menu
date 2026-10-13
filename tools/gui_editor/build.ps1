@@ -23,6 +23,7 @@ try {
     } elseif ($Dev) {
         npm run tauri -- dev; if ($LASTEXITCODE) { throw 'Development launch failed' }
     } else {
-        npm run tauri -- build --no-bundle -- --locked; if ($LASTEXITCODE) { throw 'Build failed' }
+        # Invoke the CLI directly: npm on Windows can consume the separators needed by Cargo.
+        node node_modules/@tauri-apps/cli/tauri.js build --no-bundle -- --locked; if ($LASTEXITCODE) { throw 'Build failed' }
     }
 } finally { Pop-Location }
