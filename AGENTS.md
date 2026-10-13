@@ -7,6 +7,7 @@ Reverse-engineering Anno 1404 to build an experimental in-game Production Menu, 
 1. Read this file.
 2. Check `docs/findings.json` for known offsets, confidence, evidence, and open questions.
 3. Read task-specific docs only as needed:
+   - `docs/local-research-setup.md` — excluded Ghidra/MCP/game dependencies and public-checkout limitations.
    - `docs/agent-reference.md` — detailed commands, layout, toolchain gotchas, environment invariants.
    - `docs/methodology.md` — static/live correlation workflow.
    - `docs/production.md` — goods, recipes, productivity, warehouses, needs.
