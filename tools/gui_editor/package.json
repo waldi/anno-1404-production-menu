@@ -19,7 +19,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "typescript": "^5",
-    "vite": "^7",
+    "vite": "^8",
     "vitest": "^5.0.4"
   },
   "license": "GPL-3.0-only",
